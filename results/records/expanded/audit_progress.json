@@ -1,0 +1,15 @@
+{
+  "phase": "audit",
+  "state": "complete",
+  "jobs_with_records": 682,
+  "planned_jobs": 682,
+  "attempts": 735,
+  "status_counts": {
+    "completed": 656,
+    "api_error": 26
+  },
+  "cumulative_cost_upper_usd": 186.744541,
+  "inflight_reserved_usd": -0.0,
+  "halted": {},
+  "updated_utc": "2026-11-16T07:25:25.276475+00:00"
+}

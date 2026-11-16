@@ -1,0 +1,5121 @@
+[
+  {
+    "number": 1,
+    "source_id": "IP/2007/page_38.pdf-3",
+    "target_numeric_hint": "294",
+    "scan": {
+      "distinct_numeric_values": 49,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "(question[3:7] - (table/4/4[0:3] + table/4/6[0:5]))"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[85:88] - (pre_text/3[197:200] + table/3/3[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/21[76:77] + table/4/3[0:3]) + pre_text/2[245:247])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/18[218:219] + post_text/4[87:90]) + pre_text/3[197:200])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[85:88] - table/3/3[0:3]) - pre_text/3[197:200])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/4[157:161] - pre_text/22[264:267]) / pre_text/3[197:200])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/5/1[1:6] - pre_text/18[338:340]) - pre_text/4[157:161])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/5/4[1:4] / pre_text/8[40:43]) + pre_text/5[9:10])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/3/5[0:2] + table/4/4[0:3]) - pre_text/5[9:10])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/18[338:340] + table/3/1[0:3]) * pre_text/10[27:30])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "原来的总额可由同列分项相加恢复，另切断一个组成项。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 2,
+    "source_id": "UNP/2014/page_31.pdf-2",
+    "target_numeric_hint": "-561",
+    "scan": {
+      "distinct_numeric_values": 18,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "(pre_text/12[166:168] - (pre_text/12[166:168] * table/3/5[0:2]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[37:38] - table/1/4[0:2]) * pre_text/12[166:168])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/4[0:2] - pre_text/12[166:168]) * post_text/1[134:136])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "同步去掉本年利息及相应同比关系，问题中7%的假设利率保留。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 3,
+    "source_id": "RCL/2013/page_17.pdf-3",
+    "target_numeric_hint": "20.9",
+    "scan": {
+      "distinct_numeric_values": 30,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(pre_text/7[52:54] * table/2/2[0:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[188:190] - table/2/1[0:3]) + pre_text/0[188:190])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[188:190] - (table/2/1[0:3] - pre_text/0[188:190]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/1[0:3] - table/2/2[0:3]) + pre_text/7[52:54])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/7[52:54] - (table/2/2[0:3] - table/1/1[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/10[102:106] / pre_text/17[75:79]) * pre_text/7[52:54])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/7[52:54] / (pre_text/16[45:46] / table/2/2[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/7[52:54] / pre_text/17[75:79]) * pre_text/10[102:106])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/10[102:106] / (pre_text/17[75:79] / pre_text/7[52:54]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/7[52:54] * table/2/2[0:3]) * pre_text/16[45:46])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "改删中间年度2012的客流量，使两个连续增长率都不能确定。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 4,
+    "source_id": "SLG/2010/page_50.pdf-2",
+    "target_numeric_hint": "246615",
+    "scan": {
+      "distinct_numeric_values": 64,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "采用合计表的2×2缺失矩形，同时阻断横向、纵向与总计恢复。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 5,
+    "source_id": "GS/2016/page_186.pdf-1",
+    "target_numeric_hint": "22.1",
+    "scan": {
+      "distinct_numeric_values": 20,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/28[25:29] * pre_text/28[67:69]) + pre_text/26[82:86])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/27[11:13] / pre_text/28[119:120]) * pre_text/26[82:86])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/26[82:86] / (pre_text/28[119:120] / pre_text/27[11:13]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/26[99:103] + pre_text/27[11:13]) + pre_text/26[99:103])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/26[99:103] + pre_text/26[99:103]) + pre_text/27[11:13])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/26[82:86] / pre_text/28[119:120]) * pre_text/27[11:13])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/27[11:13] / (pre_text/28[119:120] / pre_text/26[82:86]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/27[11:13] + pre_text/27[11:13]) * pre_text/28[25:29])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/27[11:13] * pre_text/28[25:29]) * pre_text/28[119:120])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/26[82:86] * pre_text/27[11:13]) / pre_text/28[119:120])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "除总成本外还删除对应回购股数，阻断股数乘平均价格。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 6,
+    "source_id": "UAA/2018/page_40.pdf-4",
+    "target_numeric_hint": "89.1",
+    "scan": {
+      "distinct_numeric_values": 70,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((post_text/19[44:48] + table/2/4[0:3]) + pre_text/0[55:57])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/2[97:102] - post_text/16[59:63]) + pre_text/0[151:154])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/2[68:73] - post_text/16[59:63]) - pre_text/0[151:154])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[151:154] - (post_text/16[59:63] - post_text/2[97:102]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/2[97:102] - post_text/23[80:84]) + post_text/2[46:49])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/2[46:49] - (post_text/23[80:84] - post_text/2[97:102]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/16[89:93] + post_text/17[67:72]) - post_text/2[68:73])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/2[68:73] - (pre_text/0[151:154] + post_text/16[59:63]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[151:154] - post_text/16[59:63]) + post_text/2[97:102])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/2[97:102] - (post_text/16[59:63] - pre_text/0[151:154]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "正文直接披露45.1%的毛利率，并称毛利率与上年相同。除本年毛利、增量及直接比率外，同步删除上年毛利，避免借上年毛利率和“不变”关系恢复答案。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 7,
+    "source_id": "OKE/2008/page_38.pdf-1",
+    "target_numeric_hint": "4742",
+    "scan": {
+      "distinct_numeric_values": 13,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 8,
+    "source_id": "UNP/2017/page_74.pdf-3",
+    "target_numeric_hint": "173",
+    "scan": {
+      "distinct_numeric_values": 35,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(pre_text/0[0:2] + table/2/2[0:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/8/2[1:4] - pre_text/2[65:67]) + pre_text/0[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/15[14:16] + post_text/15[14:16]) - pre_text/0[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[0:2] - (pre_text/2[65:67] - table/8/2[1:4]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/16[203:206] - table/4/2[0:3]) + pre_text/2[65:67])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[0:2] + table/8/2[1:4]) - pre_text/2[65:67])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/2[65:67] - (post_text/15[101:102] - table/5/2[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/4/2[0:3] + table/5/0[0:4]) - pre_text/2[70:74])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/4/0[0:4] + table/4/2[0:3]) - pre_text/2[81:85])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/1[95:98] - pre_text/2[169:173]) + pre_text/2[97:101])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "总租赁付款可由年度付款求和，也可由现值加利息恢复，两个方向均切断。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 9,
+    "source_id": "ADBE/2012/page_113.pdf-1",
+    "target_numeric_hint": "-2225",
+    "scan": {
+      "distinct_numeric_values": 32,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "期末余额可由期初加汇兑及税额滚动恢复，另切断汇兑变动。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 10,
+    "source_id": "INTC/2016/page_33.pdf-1",
+    "target_numeric_hint": "2.5",
+    "scan": {
+      "distinct_numeric_values": 16,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(post_text/6[160:162] / post_text/9[77:78])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/10[5:6] - pre_text/70[0:4]) + question[15:17])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/11[5:6] + pre_text/70[0:4]) - question[15:17])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[15:17] - (pre_text/70[0:4] - post_text/10[5:6]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/11[5:6] / post_text/9[77:78]) + pre_text/11[5:6])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/11[5:6] - (question[15:17] - pre_text/70[0:4]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/6[160:162] / post_text/9[147:148]) * pre_text/11[5:6])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/11[5:6] + post_text/10[5:6]) / pre_text/11[5:6])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/11[5:6] / (post_text/9[147:148] / post_text/6[160:162]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/11[5:6] - question[15:17]) + pre_text/70[0:4])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "面积表存在行列双重合计，使用2×2切断避免四则运算补回。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 11,
+    "source_id": "EW/2013/page_83.pdf-2",
+    "target_numeric_hint": "19.47",
+    "scan": {
+      "distinct_numeric_values": 23,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/8[58:61] * table/3/1[0:2]) - table/5/2[1:6])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 12,
+    "source_id": "IP/2013/page_62.pdf-2",
+    "target_numeric_hint": "6230",
+    "scan": {
+      "distinct_numeric_values": 45,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(pre_text/26[87:89] + table/1/3[1:6])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/3[1:6] - pre_text/27[173:175]) + pre_text/0[173:175])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[173:175] - (pre_text/27[173:175] - table/1/3[1:6]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/27[40:42] + table/1/3[1:6]) - pre_text/0[245:247])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/11[43:44] + table/1/3[1:6]) + pre_text/5[59:61])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/27[173:175] + table/1/1[1:6]) - pre_text/5[59:61])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/16[64:65] + table/1/3[1:6]) + pre_text/5[76:78])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/19[85:88] * pre_text/33[39:41]) - pre_text/5[76:78])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/33[39:41] + table/2/2[0:3]) * pre_text/5[76:78])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/5[59:61] + table/1/3[1:6]) + pre_text/11[43:44])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 13,
+    "source_id": "DG/2008/page_73.pdf-2",
+    "target_numeric_hint": "28.9",
+    "scan": {
+      "distinct_numeric_values": 18,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[123:127] - (pre_text/1[73:74] + pre_text/10[44:47]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[123:127] - pre_text/10[44:47]) - pre_text/1[73:74])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/9[44:48] - (question[95:97] / pre_text/1[155:156]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[123:127] - pre_text/1[73:74]) - pre_text/10[44:47])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 14,
+    "source_id": "JPM/2017/page_145.pdf-3",
+    "target_numeric_hint": "13925",
+    "scan": {
+      "distinct_numeric_values": 21,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "垃圾级占比可由金额除总额或100%减投资级占比恢复，金额与占比路径同时切断。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 15,
+    "source_id": "IPG/2009/page_67.pdf-1",
+    "target_numeric_hint": "14.4",
+    "scan": {
+      "distinct_numeric_values": 46,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/8[5:6] - pre_text/6[84:87]) + pre_text/1[38:42])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[38:42] - (pre_text/2[99:102] - post_text/7[141:144]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/7[110:114] - table/7/1[0:4]) + pre_text/2[99:102])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[38:42] + post_text/7[141:144]) - pre_text/2[99:102])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/2[99:102] - (table/7/1[0:4] - post_text/7[110:114]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/2[9:10] * table/3/2[0:3]) + pre_text/2[128:131])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[38:42] + post_text/6[149:150]) - pre_text/2[128:131])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/3/1[0:4] - table/8/2[0:3]) - pre_text/3[217:219])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/5[179:183] * pre_text/5[179:183]) / pre_text/3[217:219])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/4/3[1:6] * table/7/1[0:4]) - pre_text/5[95:99])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 16,
+    "source_id": "C/2016/page_120.pdf-4",
+    "target_numeric_hint": "389.2",
+    "scan": {
+      "distinct_numeric_values": 12,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "高质量流动资产可由净流出加超额或LCR关系恢复，相关披露一并删除。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 17,
+    "source_id": "PNC/2013/page_205.pdf-2",
+    "target_numeric_hint": "926",
+    "scan": {
+      "distinct_numeric_values": 53,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((table/1/3[0:5] - pre_text/27[6:9]) - pre_text/2[26:30])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/1[0:5] - table/4/3[1:4]) - pre_text/6[150:151])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/17[87:88] * table/3/1[1:4]) - pre_text/25[177:179])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/3[0:5] - pre_text/2[26:30]) - pre_text/27[6:9])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/1/1[0:5] - (pre_text/6[150:151] + table/4/3[1:4]))"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/1/3[0:5] - (pre_text/2[26:30] + pre_text/27[6:9]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/3[113:114] * pre_text/25[145:147]) + table/3/3[1:4])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/1[0:5] - pre_text/6[150:151]) - table/4/3[1:4])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "非归属股份期末数可由期初加授予减归属与没收恢复，另去掉授予量。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 18,
+    "source_id": "UNP/2013/page_35.pdf-3",
+    "target_numeric_hint": "895",
+    "scan": {
+      "distinct_numeric_values": 34,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(table/1/2[0:3] - table/2/3[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/3/1[0:5] - table/1/2[0:3]) - question[64:68])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/14[113:114] + table/1/1[0:3]) + post_text/1[124:126])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/1[0:3] - table/2/2[0:3]) + post_text/2[182:185])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/2[182:185] - (table/2/2[0:3] - table/1/1[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/1[124:126] + table/1/1[0:3]) + post_text/14[113:114])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/2[0:3] - table/2/3[0:2]) * post_text/14[113:114])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/2[0:3] - table/2/3[0:2]) / post_text/14[113:114])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/2[0:3] - table/2/1[0:2]) + post_text/14[162:164])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/14[162:164] - (table/2/1[0:2] - table/1/2[0:3]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 19,
+    "source_id": "AAPL/2007/page_51.pdf-1",
+    "target_numeric_hint": "165",
+    "scan": {
+      "distinct_numeric_values": 39,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(pre_text/20[198:200] * post_text/1[95:98])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/5/3[1:6] - post_text/1[175:178]) - question[52:56])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/20[198:200] - pre_text/20[213:215]) + pre_text/1[0:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[0:3] - (pre_text/20[213:215] - pre_text/20[198:200]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/1[95:98] / post_text/0[134:137]) * pre_text/1[0:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[0:3] / (post_text/0[134:137] / post_text/1[95:98]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/3[59:61] * post_text/6[293:295]) - pre_text/3[59:61])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/15[2:6] - pre_text/3[64:68]) * pre_text/3[59:61])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/5/2[1:6] - pre_text/15[27:29]) - pre_text/3[64:68])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/18[158:162] / post_text/2[176:179]) + pre_text/7[0:3])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 20,
+    "source_id": "RE/2015/page_110.pdf-3",
+    "target_numeric_hint": "22878",
+    "scan": {
+      "distinct_numeric_values": 5,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 21,
+    "source_id": "IP/2014/page_71.pdf-1",
+    "target_numeric_hint": "3266",
+    "scan": {
+      "distinct_numeric_values": 61,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((post_text/4[97:101] + table/1/4[1:6]) + question[142:144])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/4[132:136] - table/4/2[0:3]) + question[147:151])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[147:151] - (table/4/2[0:3] - pre_text/4[132:136]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/2[7:11] - table/4/2[0:3]) + question[159:163])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[159:163] - (table/4/2[0:3] - pre_text/2[7:11]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/0/5[0:4] + table/5/5[1:6]) + pre_text/0[114:117])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[159:163] - table/4/2[0:3]) + pre_text/2[7:11])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/2[7:11] - (table/4/2[0:3] - question[159:163]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[147:151] - table/4/2[0:3]) + pre_text/4[132:136])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/4[132:136] - (table/4/2[0:3] - question[147:151]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 22,
+    "source_id": "KMI/2016/page_17.pdf-1",
+    "target_numeric_hint": "51",
+    "scan": {
+      "distinct_numeric_values": 6,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 23,
+    "source_id": "PNC/2018/page_45.pdf-2",
+    "target_numeric_hint": "119.43",
+    "scan": {
+      "distinct_numeric_values": 36,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((table/1/2[1:7] - pre_text/1[10:12]) + question[91:92])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/2[1:7] - pre_text/8[526:527]) - question[91:92])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[91:92] - (pre_text/1[10:12] - table/1/2[1:7]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[91:92] + table/1/2[1:7]) - pre_text/1[10:12])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/2[1:7] - pre_text/13[8:9]) - pre_text/8[389:390])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/2[1:7] - question[91:92]) - pre_text/8[526:527])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/2[1:7] - post_text/1[5:7]) + pre_text/13[8:9])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/2[1:7] - pre_text/8[389:390]) - pre_text/13[8:9])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/13[8:9] - (post_text/1[5:7] - table/1/2[1:7]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/13[8:9] + table/1/2[1:7]) - post_text/1[5:7])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "季度加权平均回购价可能结合各月股数恢复缺失月价格，因此删去季度均价。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 24,
+    "source_id": "SLB/2009/page_65.pdf-4",
+    "target_numeric_hint": "694",
+    "scan": {
+      "distinct_numeric_values": 28,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((post_text/0[228:231] + post_text/0[228:231]) + pre_text/1[0:1])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[0:1] + post_text/0[228:231]) + post_text/0[228:231])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[42:46] * post_text/2[0:1]) - post_text/7[69:72])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[42:46] * pre_text/1[0:1]) + table/2/1[0:2])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 25,
+    "source_id": "FTV/2017/page_45.pdf-1",
+    "target_numeric_hint": "6178.8",
+    "scan": {
+      "distinct_numeric_values": 17,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "收入可由成本加毛利或毛利率关系恢复，相关结果量和比率均处理。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 26,
+    "source_id": "CE/2005/page_167.pdf-4",
+    "target_numeric_hint": "155",
+    "scan": {
+      "distinct_numeric_values": 26,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((post_text/17[236:240] / question[45:47]) - question[45:47])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/20[40:42] * table/4/1[0:2]) - pre_text/2[202:206])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/0[17:18] + post_text/17[245:246]) * pre_text/3[15:17])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/3[15:17] / (post_text/1[0:2] / post_text/12[48:50]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/22[38:41] + table/5/1[0:2]) - post_text/0[2:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/3[15:17] * post_text/12[48:50]) / post_text/1[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/3[15:17] / post_text/1[0:2]) * post_text/12[48:50])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/12[48:50] / (post_text/1[0:2] / pre_text/3[15:17]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/0[17:18] * table/4/1[0:2]) + post_text/12[65:67])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/3[15:17] * table/4/1[0:2]) / post_text/17[186:187])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 27,
+    "source_id": "LMT/2006/page_39.pdf-1",
+    "target_numeric_hint": "1825",
+    "scan": {
+      "distinct_numeric_values": 80,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((post_text/0[80:82] - pre_text/4[331:334]) + question[56:60])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[56:60] - (pre_text/4[331:334] - post_text/0[80:82]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/4[169:171] - pre_text/2[36:39]) + question[64:68])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[64:68] - (pre_text/2[36:39] - post_text/4[169:171]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/7[224:227] - table/6/5[0:3]) + pre_text/0[193:197])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[193:197] - (pre_text/7[224:227] + post_text/0[80:82]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/2[0:3] + table/3/4[1:6]) + pre_text/0[448:451])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/9[151:155] + post_text/4[169:171]) - pre_text/0[448:451])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/5[123:126] + table/3/3[1:6]) + pre_text/0[464:467])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[464:467] - (table/2/4[0:3] - pre_text/14[62:66]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "净利润可由回报减税后利息或ROIC乘资本恢复，因此切断回报及ROIC。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 28,
+    "source_id": "UNP/2012/page_74.pdf-2",
+    "target_numeric_hint": "90",
+    "scan": {
+      "distinct_numeric_values": 24,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((table/4/2[0:3] - table/7/1[0:2]) / pre_text/19[57:60])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/3/2[0:3] - table/4/2[0:3]) / pre_text/19[82:85])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/1[0:3] - table/4/2[0:3]) - pre_text/19[111:114])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/2[0:3] - table/4/1[0:3]) * pre_text/19[111:114])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/8/1[0:3] - table/2/1[0:3]) / pre_text/19[111:114])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/6/2[0:3] - table/7/1[0:2]) - pre_text/22[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/4/1[0:3] - table/6/2[0:3]) - pre_text/24[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/2/1[0:3] - (pre_text/19[111:114] + table/4/2[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/7/1[0:2] - table/3/1[0:3]) + table/2/2[0:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/2/2[0:3] - (table/3/1[0:3] - table/7/1[0:2]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 29,
+    "source_id": "IP/2012/page_56.pdf-3",
+    "target_numeric_hint": "163",
+    "scan": {
+      "distinct_numeric_values": 42,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(post_text/14[74:77] - pre_text/6[312:313])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/14[74:77] - pre_text/7[169:171]) + pre_text/3[77:78])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/27[33:36] - pre_text/7[169:171]) - pre_text/3[77:78])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/3[77:78] - (pre_text/7[169:171] - post_text/14[74:77]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/1[33:36] - post_text/27[222:225]) + pre_text/4[33:35])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/4[71:73] + post_text/14[74:77]) - pre_text/4[33:35])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/4[33:35] - (post_text/27[222:225] - post_text/1[33:36]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/14[74:77] - pre_text/4[33:35]) + pre_text/4[71:73])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/12[62:64] + post_text/14[74:77]) - pre_text/4[71:73])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/4[71:73] - (pre_text/4[33:35] - post_text/14[74:77]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "巴西纸业2012年经营利润与2011年经营利润之差，不能用全球印刷纸业分部利润代替；缺失该地区该年利润后差额不唯一。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 30,
+    "source_id": "LKQ/2018/page_102.pdf-2",
+    "target_numeric_hint": "247",
+    "scan": {
+      "distinct_numeric_values": 36,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 31,
+    "source_id": "FRT/2010/page_123.pdf-1",
+    "target_numeric_hint": "103698",
+    "scan": {
+      "distinct_numeric_values": 11,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "保留余额差但同时隐藏增加与扣减，两者差固定并不固定两者比率。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 32,
+    "source_id": "IPG/2014/page_37.pdf-4",
+    "target_numeric_hint": "1642.1",
+    "scan": {
+      "distinct_numeric_values": 28,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 33,
+    "source_id": "MSI/2009/page_116.pdf-1",
+    "target_numeric_hint": "116",
+    "scan": {
+      "distinct_numeric_values": 48,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(pre_text/3[122:124] + pre_text/18[40:42])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[406:408] + pre_text/19[132:134]) + pre_text/1[209:211])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[209:211] - (pre_text/15[300:302] - pre_text/10[181:183]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/18[40:42] + pre_text/19[132:134]) + pre_text/1[291:292])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/19[132:134] * table/4/1[0:3]) - pre_text/1[291:292])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/3[122:124] + pre_text/18[40:42]) * pre_text/1[291:292])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/3[122:124] + pre_text/18[40:42]) / pre_text/1[291:292])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[390:391] * pre_text/19[132:134]) - pre_text/1[390:391])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/8[122:123] + pre_text/15[300:302]) * pre_text/1[390:391])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[209:211] + pre_text/19[132:134]) + pre_text/1[406:408])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 34,
+    "source_id": "CE/2006/page_124.pdf-1",
+    "target_numeric_hint": "1590",
+    "scan": {
+      "distinct_numeric_values": 24,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 35,
+    "source_id": "IQV/2018/page_59.pdf-1",
+    "target_numeric_hint": "508",
+    "scan": {
+      "distinct_numeric_values": 41,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((table/3/2[0:3] + table/6/3[0:2]) + pre_text/1[111:113])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/7[146:148] + table/3/2[0:3]) + pre_text/1[212:214])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[212:214] + table/3/2[0:3]) + pre_text/7[146:148])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/3[118:120] + table/3/2[0:3]) - post_text/0[2:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[212:214] + table/2/2[0:3]) * post_text/1[2:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/0/2[0:4] / post_text/4[2:3]) + post_text/2[2:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/4[0:3] + table/3/2[0:3]) - post_text/3[58:60])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/3/2[0:3] - post_text/0[2:3]) + post_text/3[118:120])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/5[175:177] * table/4/2[0:2]) - post_text/3[118:120])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/3[118:120] - (post_text/0[2:3] - table/3/2[0:3]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 36,
+    "source_id": "ALLE/2017/page_29.pdf-2",
+    "target_numeric_hint": "28.9",
+    "scan": {
+      "distinct_numeric_values": 20,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[109:113] + pre_text/1[151:153]) - pre_text/1[90:94])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[151:153] - pre_text/1[90:94]) + pre_text/1[109:113])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[109:113] - (pre_text/1[90:94] - pre_text/1[151:153]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[109:113] - pre_text/1[90:94]) + pre_text/1[151:153])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[151:153] - (pre_text/1[73:77] / table/1/1[0:2]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/12[123:127] - table/1/3[0:2]) + post_text/11[30:34])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/11[30:34] - (table/1/3[0:2] - post_text/12[123:127]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/11[30:34] - table/1/3[0:2]) + post_text/12[123:127])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/12[123:127] - (table/1/3[0:2] - post_text/11[30:34]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/11[30:34] + post_text/12[123:127]) - table/1/3[0:2])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 37,
+    "source_id": "ZBH/2018/page_61.pdf-4",
+    "target_numeric_hint": "-29.7",
+    "scan": {
+      "distinct_numeric_values": 50,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/2[153:156] - pre_text/7[191:196]) - question[36:38])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[41:45] - (pre_text/7[50:55] + pre_text/7[370:374]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/22[10:15] - pre_text/22[28:33]) + pre_text/2[153:156])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/2[153:156] - (question[36:38] + pre_text/7[191:196]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/5/1[2:6] - question[36:38]) - pre_text/2[177:179])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/2[209:212] - (pre_text/21[107:110] + table/5/1[2:6]))"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/6[302:304] - (pre_text/7[238:243] * pre_text/30[9:11]))"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/6[307:311] - (pre_text/7[191:196] + pre_text/7[370:374]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[41:45] - pre_text/7[370:374]) - pre_text/7[50:55])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/7[50:55] - (pre_text/7[50:55] * pre_text/23[0:2]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "AOCI既有横向合计又有期间滚动，缺失矩形保留一个自由度。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 38,
+    "source_id": "MA/2009/page_120.pdf-2",
+    "target_numeric_hint": "41.03",
+    "scan": {
+      "distinct_numeric_values": 22,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 39,
+    "source_id": "VNO/2011/page_85.pdf-1",
+    "target_numeric_hint": "76.36",
+    "scan": {
+      "distinct_numeric_values": 32,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "期权行权支付价值需要支付股数与每股价格；其他季度最高或最低股价不是行权支付价格。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 40,
+    "source_id": "RL/2015/page_9.pdf-1",
+    "target_numeric_hint": "128",
+    "scan": {
+      "distinct_numeric_values": 11,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/12[126:128] + post_text/6[144:146]) + question[59:61])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[59:61] + post_text/6[144:146]) + pre_text/12[126:128])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/6[144:146] + post_text/6[144:146]) + post_text/6[127:129])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[59:61] + pre_text/12[126:128]) + post_text/6[144:146])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 41,
+    "source_id": "UPS/2014/page_61.pdf-3",
+    "target_numeric_hint": "488",
+    "scan": {
+      "distinct_numeric_values": 72,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(pre_text/11[161:164] + table/4/4[0:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/5[0:2] - table/8/4[1:6]) + question[60:64])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[60:64] - (table/8/4[1:6] - table/2/5[0:2]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/11[150:152] - table/8/4[1:6]) + pre_text/2[21:25])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/2[21:25] - (pre_text/6[9:12] + table/3/4[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[60:64] - table/6/2[0:5]) / pre_text/2[93:97])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/12[136:139] + pre_text/12[146:149]) + pre_text/3[81:84])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/11[161:164] + table/4/4[0:3]) * pre_text/3[81:84])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/11[161:164] + table/4/4[0:3]) / pre_text/3[81:84])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/11[150:152] - table/3/3[0:3]) + pre_text/6[9:12])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "跨项目及跨到期期间均有总计，采用2×2切断。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 42,
+    "source_id": "DISCA/2018/page_39.pdf-4",
+    "target_numeric_hint": "135.63",
+    "scan": {
+      "distinct_numeric_values": 40,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 43,
+    "source_id": "UPS/2015/page_108.pdf-3",
+    "target_numeric_hint": "74",
+    "scan": {
+      "distinct_numeric_values": 32,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "(question[70:74] - (post_text/4[206:209] + table/5/2[1:6]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[70:74] - table/5/2[1:6]) - post_text/4[206:209])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/4/1[1:4] - (pre_text/3[112:114] / post_text/11[152:156]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[70:74] - post_text/4[206:209]) - table/5/2[1:6])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 44,
+    "source_id": "AAPL/2012/page_64.pdf-4",
+    "target_numeric_hint": "140",
+    "scan": {
+      "distinct_numeric_values": 42,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(post_text/1[115:118] - post_text/1[133:136])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/15[206:209] + table/2/2[0:2]) - post_text/1[16:18])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/2[125:127] + table/5/3[1:4]) + post_text/1[40:42])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/15[224:227] - post_text/16[5:6]) - post_text/1[40:42])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/1[40:42] - (table/3/3[1:4] - table/2/1[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/2[125:127] * table/4/3[0:3]) / post_text/1[40:42])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/5/2[0:1] - post_text/1[133:136]) + post_text/1[115:118])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/1[115:118] - (post_text/1[133:136] + table/5/2[0:1]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/2[0:2] - post_text/15[224:227]) + post_text/1[133:136])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/1[115:118] + table/5/2[0:1]) - post_text/1[133:136])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 45,
+    "source_id": "CE/2010/page_150.pdf-1",
+    "target_numeric_hint": "-70",
+    "scan": {
+      "distinct_numeric_values": 25,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((post_text/14[257:259] - table/3/1[0:2]) - pre_text/1[31:33])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[31:33] - (post_text/10[140:142] + post_text/11[45:47]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/14[260:262] - post_text/11[45:47]) + post_text/2[81:82])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/11[45:47] - post_text/14[239:242]) - post_text/2[81:82])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/2[81:82] - (post_text/5[12:14] + table/3/1[0:2]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/2[81:82] - table/3/1[0:2]) - post_text/5[12:14])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/5[12:14] - (post_text/14[244:249] * post_text/14[244:249]))"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/8[12:14] - (post_text/14[257:259] * table/3/1[0:2]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[31:33] - post_text/11[45:47]) - post_text/10[140:142])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[31:33] - post_text/10[140:142]) - post_text/11[45:47])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 46,
+    "source_id": "RCL/2008/page_19.pdf-1",
+    "target_numeric_hint": "216000",
+    "scan": {
+      "distinct_numeric_values": 29,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((table/3/2[0:7] - table/3/4[0:7]) * pre_text/1[0:1])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/3/4[0:7] + table/5/4[0:7]) - table/1/2[0:7])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/5/4[0:7] - table/1/2[0:7]) + table/3/4[0:7])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/3/4[0:7] - (table/1/2[0:7] - table/5/4[0:7]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/3/4[0:7] - table/1/2[0:7]) + table/5/4[0:7])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/5/4[0:7] - (table/1/2[0:7] - table/3/4[0:7]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 47,
+    "source_id": "DISCA/2013/page_45.pdf-3",
+    "target_numeric_hint": "253",
+    "scan": {
+      "distinct_numeric_values": 33,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((post_text/14[97:98] + table/1/1[0:3]) - question[14:16])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/14[97:98] * table/5/1[0:2]) + pre_text/0[182:184])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/2[104:107] - post_text/22[126:127]) - pre_text/0[182:184])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[182:184] - (post_text/21[61:63] - table/1/1[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/15[226:228] - table/7/1[0:2]) + post_text/2[104:107])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/2[104:107] - (pre_text/0[182:184] + post_text/22[126:127]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/14[97:98] + table/2/1[0:3]) + post_text/14[65:67])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/14[65:67] + table/2/1[0:3]) + post_text/14[97:98])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/3/3[0:2] * table/3/3[0:2]) - post_text/14[97:98])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/14[97:98] - (question[14:16] - table/1/1[0:3]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "欧元253与美元343是同一交易价的等价披露，均删除；持股比例不能单独确定交易金额。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 48,
+    "source_id": "STT/2001/page_36.pdf-3",
+    "target_numeric_hint": "1624",
+    "scan": {
+      "distinct_numeric_values": 26,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/13[69:71] - table/3/2[0:3]) + question[41:45])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[41:45] - (table/3/2[0:3] - pre_text/13[69:71]))"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[21:25] - (pre_text/6[73:74] + table/3/1[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[21:25] - table/3/1[0:3]) - pre_text/6[73:74])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/10[26:27] * table/4/1[0:3]) - pre_text/11[139:141])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[41:45] - table/3/2[0:3]) + pre_text/13[69:71])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/13[69:71] - (table/3/2[0:3] - question[41:45]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[8:11] + table/3/3[0:3]) * post_text/0[282:283])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[21:25] - pre_text/6[73:74]) - table/3/1[0:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[41:45] + pre_text/13[69:71]) - table/3/2[0:3])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "服务费可由总费用收入减其他组成恢复，且同比百分比亦暴露近似水平，相关关系均处理。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 49,
+    "source_id": "BDX/2009/page_81.pdf-3",
+    "target_numeric_hint": "4356",
+    "scan": {
+      "distinct_numeric_values": 20,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 50,
+    "source_id": "MKTX/2009/page_79.pdf-3",
+    "target_numeric_hint": "1429",
+    "scan": {
+      "distinct_numeric_values": 27,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 51,
+    "source_id": "PKG/2006/page_27.pdf-2",
+    "target_numeric_hint": "1993.7",
+    "scan": {
+      "distinct_numeric_values": 44,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(question[49:53] - post_text/13[48:52])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/10[240:244] - post_text/2[111:115]) + question[49:53])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[49:53] - (post_text/2[111:115] - post_text/10[240:244]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[49:53] + post_text/10[240:244]) - post_text/2[111:115])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[49:53] - post_text/2[111:115]) + post_text/10[240:244])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/10[240:244] - (post_text/2[111:115] - question[49:53]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[49:53] + table/4/3[1:4]) - post_text/12[57:61])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[49:53] - post_text/12[57:61]) + table/4/3[1:4])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/4/3[1:4] - (post_text/12[57:61] - question[49:53]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "2005收入可由2006收入减增量恢复，增长率9.7%也被直接披露，一并删除。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 52,
+    "source_id": "BLL/2007/page_75.pdf-3",
+    "target_numeric_hint": "450",
+    "scan": {
+      "distinct_numeric_values": 43,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[284:289] + table/6/1[1:6]) - pre_text/1[140:143])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[174:179] - (pre_text/16[87:91] + table/1/1[1:6]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/6/1[1:6] - pre_text/1[140:143]) + pre_text/1[284:289])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[284:289] - (pre_text/1[140:143] - table/6/1[1:6]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/10[97:100] - table/1/3[1:6]) + pre_text/3[87:91])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/3[87:91] - (table/1/3[1:6] - pre_text/10[97:100]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/3[87:91] - table/1/3[1:6]) + pre_text/10[97:100])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/10[97:100] - (table/1/3[1:6] - pre_text/3[87:91]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[174:179] - table/1/1[1:6]) - pre_text/16[87:91])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[174:179] - pre_text/16[87:91]) - table/1/1[1:6])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "票息在问题中已给定，缺失的是本金；不能从其他债券利息费用代替该期本金。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 53,
+    "source_id": "VTR/2007/page_48.pdf-1",
+    "target_numeric_hint": "206",
+    "scan": {
+      "distinct_numeric_values": 33,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((table/1/5[1:4] - table/2/3[1:4]) - pre_text/1[25:28])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/2[1:4] - table/3/4[1:4]) + table/1/3[1:4])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/4[1:4] + table/5/3[1:4]) - table/1/3[1:4])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/1/3[1:4] - (table/3/4[1:4] - table/2/2[1:4]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/4/2[1:4] - table/4/6[1:4]) + table/1/4[1:4])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/1/4[1:4] - (table/1/3[1:4] - table/5/3[1:4]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/6[1:4] + table/2/3[1:4]) - table/1/5[1:4])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/1/5[1:4] - (pre_text/1[25:28] + table/2/3[1:4]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/3[1:4] - table/1/5[1:4]) + table/1/6[1:4])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/1/6[1:4] - (table/1/5[1:4] - table/2/3[1:4]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 54,
+    "source_id": "HFC/2017/page_103.pdf-1",
+    "target_numeric_hint": "857454",
+    "scan": {
+      "distinct_numeric_values": 20,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 55,
+    "source_id": "ADI/2007/page_82.pdf-1",
+    "target_numeric_hint": "43",
+    "scan": {
+      "distinct_numeric_values": 32,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(pre_text/1[118:120] + post_text/0[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/5[107:109] - table/2/0[0:4]) + question[68:72])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[123:127] + pre_text/5[107:109]) - question[68:72])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[68:72] - (table/1/0[0:4] - pre_text/5[139:141]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/3[156:160] - table/3/0[0:4]) + pre_text/1[118:120])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/5[139:141] + post_text/11[115:117]) - pre_text/1[118:120])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[118:120] - (pre_text/6[116:117] - post_text/2[12:14]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/5[107:109] - question[68:72]) + pre_text/1[123:127])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/5[139:141] + post_text/1[129:133]) - pre_text/1[123:127])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[123:127] - (question[68:72] - pre_text/5[107:109]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 56,
+    "source_id": "DISCA/2016/page_11.pdf-1",
+    "target_numeric_hint": "133",
+    "scan": {
+      "distinct_numeric_values": 31,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(pre_text/22[42:45] + table/9/2[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/22[42:45] + table/10/2[0:2]) + question[79:80])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/12[142:144] + pre_text/16[168:171]) * question[79:80])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[79:80] * pre_text/12[142:144]) + pre_text/0[70:73])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[106:109] - (pre_text/12[142:144] * post_text/1[68:70]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/12[175:176] + table/1/2[0:2]) + pre_text/0[150:152])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/4[64:67] - pre_text/9[193:196]) - pre_text/0[150:152])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[150:152] - (pre_text/0[167:169] - pre_text/22[42:45]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/20[59:62] - post_text/1[44:45]) + pre_text/0[167:169])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[125:129] / table/9/2[0:2]) - pre_text/0[167:169])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 57,
+    "source_id": "RSG/2005/page_55.pdf-1",
+    "target_numeric_hint": "10.1",
+    "scan": {
+      "distinct_numeric_values": 20,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(post_text/14[51:52] + table/3/3[0:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/3/3[0:3] - pre_text/2[69:73]) + question[91:95])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[99:103] + table/3/3[0:3]) - question[91:95])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[91:95] - (pre_text/2[69:73] - table/3/3[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/3/3[0:3] - question[91:95]) + question[99:103])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/0[190:194] + table/3/3[0:3]) - question[99:103])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[99:103] - (question[91:95] - table/3/3[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[91:95] + table/3/3[0:3]) - pre_text/2[69:73])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/3/3[0:3] - question[99:103]) + post_text/0[190:194])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/0[190:194] - (question[99:103] - table/3/3[0:3]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "自由现金流定义直接提供出售资产收益的替代方程，需切断该结果量。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 58,
+    "source_id": "RL/2010/page_11.pdf-1",
+    "target_numeric_hint": "4421",
+    "scan": {
+      "distinct_numeric_values": 14,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 59,
+    "source_id": "APD/2013/page_44.pdf-2",
+    "target_numeric_hint": "300.8",
+    "scan": {
+      "distinct_numeric_values": 35,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((table/1/1[1:6] + table/1/3[1:6]) + pre_text/4[14:16])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/11[128:134] - (post_text/6[64:67] * post_text/7[39:41]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/13[14:16] * post_text/3[19:23]) - pre_text/13[14:16])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/4[14:16] + table/1/3[1:6]) + table/1/1[1:6])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/4[14:16] + table/1/1[1:6]) + table/1/3[1:6])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 60,
+    "source_id": "BKR/2018/page_52.pdf-2",
+    "target_numeric_hint": "1082",
+    "scan": {
+      "distinct_numeric_values": 22,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((post_text/4[25:27] * post_text/10[95:96]) + table/2/3[0:3])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "北美数量可由全球减国际恢复；正文还披露2017全球2030及跨年增幅，需同步切断相关水平和增长率。2030在这里是钻机数量，不是年份。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 61,
+    "source_id": "HII/2011/page_100.pdf-2",
+    "target_numeric_hint": "128",
+    "scan": {
+      "distinct_numeric_values": 28,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(pre_text/9[165:168] - table/1/1[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/0[0:2] + post_text/0[0:2]) + pre_text/2[58:61])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/9[165:168] + table/1/1[0:2]) - pre_text/2[58:61])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/13[133:137] + table/4/1[0:3]) - pre_text/5[114:118])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/4/1[0:3] / post_text/2[50:53]) * pre_text/9[66:69])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/9[66:69] / (post_text/2[50:53] / table/4/1[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/0/1[1:3] - table/2/1[0:2]) + pre_text/9[165:168])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/9[165:168] - (pre_text/2[58:61] - table/1/1[0:2]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/0/1[1:3] + table/2/1[0:2]) + pre_text/10[9:11])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/0/0[0:4] - pre_text/13[133:137]) - pre_text/10[9:11])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 62,
+    "source_id": "IPG/2013/page_46.pdf-3",
+    "target_numeric_hint": "24.7",
+    "scan": {
+      "distinct_numeric_values": 17,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 63,
+    "source_id": "APD/2015/page_105.pdf-1",
+    "target_numeric_hint": "117",
+    "scan": {
+      "distinct_numeric_values": 20,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(table/2/1[0:2] + table/4/1[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/4[6:8] * post_text/0[16:19]) / pre_text/3[60:63])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/0[16:19] / pre_text/3[60:63]) * pre_text/4[6:8])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/4[6:8] / (pre_text/3[60:63] / post_text/0[16:19]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/4[6:8] / pre_text/3[60:63]) * post_text/0[16:19])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/0[16:19] / (pre_text/3[60:63] / pre_text/4[6:8]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 64,
+    "source_id": "RCL/2006/page_37.pdf-4",
+    "target_numeric_hint": "104520",
+    "scan": {
+      "distinct_numeric_values": 36,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 65,
+    "source_id": "LMT/2013/page_81.pdf-2",
+    "target_numeric_hint": "150",
+    "scan": {
+      "distinct_numeric_values": 56,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(post_text/1[82:85] / post_text/9[75:78])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/12[217:220] - post_text/9[136:140]) + question[77:81])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/5[45:49] + pre_text/12[217:220]) - question[77:81])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[77:81] - (post_text/9[136:140] - pre_text/12[217:220]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/13[85:88] - post_text/2[32:35]) + pre_text/0[15:17])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/7[83:86] - pre_text/10[187:189]) - pre_text/0[15:17])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[15:17] - (post_text/2[32:35] - pre_text/13[85:88]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/12[217:220] - question[77:81]) + pre_text/5[45:49])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/10[160:162] * post_text/8[22:24]) - pre_text/5[45:49])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/5[45:49] - (question[77:81] - pre_text/12[217:220]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "净长期债务由总额减折价及即期到期项得到，即期到期项在两行重复披露，均处理。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 66,
+    "source_id": "IPG/2018/page_78.pdf-2",
+    "target_numeric_hint": "2.9",
+    "scan": {
+      "distinct_numeric_values": 38,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(table/2/4[0:3] - table/2/2[0:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/0[0:4] + table/4/0[0:4]) - pre_text/0[140:141])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[140:141] - (table/2/2[0:3] + table/4/2[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/2[104:107] * post_text/4[309:310]) / pre_text/0[140:141])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/4/0[0:4] - table/1/0[0:4]) + pre_text/0[253:254])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/4/4[0:3] - table/3/2[0:3]) - pre_text/0[253:254])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[253:254] - (table/1/0[0:4] - table/4/0[0:4]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/4[0:3] - table/2/2[0:3]) * pre_text/0[253:254])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/4[0:3] - table/2/2[0:3]) / pre_text/0[253:254])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/3[0:5] + table/2/4[0:3]) - pre_text/1[227:232])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "发行费有分项求和及发行净价减净收入两类等价计算路径，均需切断。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 67,
+    "source_id": "ADBE/2013/page_84.pdf-1",
+    "target_numeric_hint": "-55851",
+    "scan": {
+      "distinct_numeric_values": 29,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 68,
+    "source_id": "C/2010/page_229.pdf-3",
+    "target_numeric_hint": "35066",
+    "scan": {
+      "distinct_numeric_values": 64,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/12[1055:1059] * pre_text/12[1478:1480]) - table/3/4[0:6])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 69,
+    "source_id": "NTAP/2014/page_33.pdf-2",
+    "target_numeric_hint": "197.58",
+    "scan": {
+      "distinct_numeric_values": 33,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 70,
+    "source_id": "EOG/2017/page_85.pdf-1",
+    "target_numeric_hint": "252030",
+    "scan": {
+      "distinct_numeric_values": 21,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 71,
+    "source_id": "MMM/2012/page_45.pdf-1",
+    "target_numeric_hint": "5902",
+    "scan": {
+      "distinct_numeric_values": 55,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((post_text/10[213:216] * table/5/4[0:1]) - pre_text/3[140:142])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/10[272:274] + table/7/4[1:4]) * pre_text/5[63:65])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/4/1[0:3] * table/5/4[0:1]) + table/5/2[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/3[1:6] * table/5/6[0:1]) - table/5/2[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[31:33] * post_text/0[154:156]) - table/6/3[0:3])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "债务分期、项目合计和总义务同时约束目标，采用2×2缺失矩形。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 72,
+    "source_id": "FITB/2008/page_96.pdf-2",
+    "target_numeric_hint": "40",
+    "scan": {
+      "distinct_numeric_values": 10,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[22:24] * pre_text/0[64:65]) - pre_text/0[22:24])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 73,
+    "source_id": "LMT/2010/page_37.pdf-4",
+    "target_numeric_hint": "12803",
+    "scan": {
+      "distinct_numeric_values": 27,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "利润/利润率可近似反推收入，且正文给出销售增长率；相关路径不能遗漏。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 74,
+    "source_id": "VRTX/2005/page_112.pdf-3",
+    "target_numeric_hint": "270",
+    "scan": {
+      "distinct_numeric_values": 7,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 75,
+    "source_id": "REGN/2010/page_64.pdf-2",
+    "target_numeric_hint": "18.4",
+    "scan": {
+      "distinct_numeric_values": 31,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(pre_text/6[360:364] - pre_text/5[35:38])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/6[135:140] - post_text/7[29:34]) + pre_text/1[110:112])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[110:112] - (pre_text/5[35:38] + post_text/1[48:52]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/6[347:351] - post_text/6[284:288]) + pre_text/1[247:251])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[247:251] - (pre_text/1[110:112] / post_text/1[186:187]))"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[322:324] - (pre_text/5[53:56] + table/4/1[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[110:112] - post_text/1[48:52]) - pre_text/5[35:38])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/5[35:38] + table/4/1[0:3]) * pre_text/5[35:38])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[322:324] - table/4/1[0:3]) - pre_text/5[53:56])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[247:251] - post_text/6[284:288]) + pre_text/6[347:351])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 76,
+    "source_id": "DRE/2010/page_59.pdf-2",
+    "target_numeric_hint": "166.7",
+    "scan": {
+      "distinct_numeric_values": 22,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "对价=净现金支出+取得现金，必须同步切断；公允价值净资产不是交易估值的合法替代。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 77,
+    "source_id": "VNO/2010/page_88.pdf-1",
+    "target_numeric_hint": "151",
+    "scan": {
+      "distinct_numeric_values": 22,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((table/2/3[0:3] - table/3/4[0:2]) + pre_text/1[25:28])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/2[0:3] + table/3/2[0:3]) - pre_text/1[25:28])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[25:28] - (table/3/4[0:2] - table/2/3[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/3/5[0:2] + table/3/5[0:2]) - pre_text/1[54:56])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/3/2[0:3] - table/2/5[0:2]) + table/1/3[0:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/1/3[0:3] - (table/2/5[0:2] - table/3/2[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/2[0:3] + table/2/2[0:3]) - table/1/4[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/6[0:3] - table/2/5[0:2]) + table/1/6[0:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/1/6[0:3] - (table/2/5[0:2] - table/1/6[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/2[0:3] - table/1/4[0:2]) + table/2/2[0:3])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 78,
+    "source_id": "ADBE/2011/page_116.pdf-4",
+    "target_numeric_hint": "19681",
+    "scan": {
+      "distinct_numeric_values": 39,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "总债务既可由票据加租赁义务，也可由非流动部分加流动部分恢复，两个方向均切断。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 79,
+    "source_id": "KMI/2010/page_164.pdf-4",
+    "target_numeric_hint": "10007.5",
+    "scan": {
+      "distinct_numeric_values": 50,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((post_text/1[122:126] - post_text/9[101:105]) * post_text/12[233:234])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "可见表为债务明细的局部，不得把局部行之和假设为全部债务。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 80,
+    "source_id": "IPG/2012/page_89.pdf-4",
+    "target_numeric_hint": "-0.8",
+    "scan": {
+      "distinct_numeric_values": 41,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[105:109] + table/2/5[0:3]) - question[105:109])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/5[0:3] - table/0/4[0:4]) + pre_text/0[43:47])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[43:47] - (table/0/4[0:4] - table/2/5[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[67:72] - (pre_text/1[79:84] + table/1/1[1:5]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[67:72] - table/1/1[1:5]) - pre_text/1[79:84])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/3[1:4] + table/2/1[0:4]) - pre_text/1[100:102])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/5[0:3] - question[105:109]) + pre_text/1[105:109])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[105:109] - (question[105:109] - table/2/5[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/5[0:3] - post_text/2[149:153]) + pre_text/1[114:118])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[114:118] - (post_text/2[149:153] - table/2/5[0:3]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "跨期间合计与补偿费用扣除共同约束净现金义务，采用缺失矩形。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 81,
+    "source_id": "AMAT/2015/page_31.pdf-3",
+    "target_numeric_hint": "556",
+    "scan": {
+      "distinct_numeric_values": 9,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[5:6] * post_text/8[43:46]) * pre_text/0[5:6])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[5:6] + pre_text/0[5:6]) * post_text/8[43:46])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "租赁面积与地区、总面积双重合计，使用2×2切断。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 82,
+    "source_id": "AAP/2006/page_85.pdf-3",
+    "target_numeric_hint": "11212",
+    "scan": {
+      "distinct_numeric_values": 24,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 83,
+    "source_id": "MAA/2017/page_18.pdf-4",
+    "target_numeric_hint": "279",
+    "scan": {
+      "distinct_numeric_values": 15,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/8[164:166] * table/2/3[9:11]) - pre_text/0[112:113])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/14[79:81] / pre_text/8[164:166]) * pre_text/5[54:56])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/5[54:56] / (pre_text/8[164:166] / pre_text/14[79:81]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/2[0:3] - pre_text/14[79:81]) - pre_text/8[164:166])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/5[54:56] * pre_text/14[79:81]) / pre_text/8[164:166])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/8[164:166] * pre_text/14[79:81]) - pre_text/14[79:81])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/5[54:56] / pre_text/8[164:166]) * pre_text/14[79:81])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/14[79:81] / (pre_text/8[164:166] / pre_text/5[54:56]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/3[6:8] * table/1/3[6:8]) + post_text/5[151:153])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/2/2[0:3] - (pre_text/8[164:166] + pre_text/14[79:81]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 84,
+    "source_id": "CDNS/2016/page_32.pdf-4",
+    "target_numeric_hint": "200.10",
+    "scan": {
+      "distinct_numeric_values": 34,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 85,
+    "source_id": "FRT/2004/page_53.pdf-1",
+    "target_numeric_hint": "-11333",
+    "scan": {
+      "distinct_numeric_values": 15,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "期初现金由期末现金减净现金流恢复；净现金流还可由三类现金流相加恢复，需连续切断。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 86,
+    "source_id": "AAPL/2013/page_27.pdf-4",
+    "target_numeric_hint": "431",
+    "scan": {
+      "distinct_numeric_values": 30,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((table/4/4[1:4] - table/3/6[1:4]) + pre_text/0[204:207])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[204:207] - (table/3/6[1:4] - table/4/4[1:4]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/5[1:4] - table/4/4[1:4]) - pre_text/3[65:67])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/5[1:4] - table/4/5[1:4]) + pre_text/11[24:26])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/4[1:4] + table/2/4[1:4]) - pre_text/11[24:26])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/11[24:26] - (table/4/5[1:4] - table/1/5[1:4]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/2[2:4] + table/4/6[1:4]) + table/1/2[1:4])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/4[1:4] - pre_text/11[24:26]) + table/1/4[1:4])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/1/4[1:4] - (pre_text/11[24:26] - table/2/4[1:4]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/11[24:26] - table/4/5[1:4]) + table/1/5[1:4])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 87,
+    "source_id": "PPG/2005/page_20.pdf-1",
+    "target_numeric_hint": "5566",
+    "scan": {
+      "distinct_numeric_values": 42,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(table/2/2[1:6] + table/4/4[0:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/4[71:74] * post_text/7[24:26]) - pre_text/1[118:120])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/2[1:6] + table/4/4[0:3]) * post_text/1[98:99])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/2[1:6] + table/4/4[0:3]) / post_text/1[98:99])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/2[1:6] + table/4/3[0:3]) - post_text/29[29:32])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/1[98:99] * table/4/4[0:3]) + table/2/2[1:6])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/2/2[1:6] - (post_text/29[29:32] - table/4/3[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/34[198:200] * table/2/4[1:4]) - table/3/2[0:5])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/2[1:6] - post_text/29[29:32]) + table/4/3[0:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/4/3[0:3] - (post_text/29[29:32] - table/2/2[1:6]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "正文另披露涂料销售增量291，处理该增量；5%的四舍五入增幅不足以确定精确销售额。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 88,
+    "source_id": "HII/2012/page_127.pdf-4",
+    "target_numeric_hint": "3608527",
+    "scan": {
+      "distinct_numeric_values": 19,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "计划批准行、总计行和正文重复披露相同数量；全部等价位置处理后，待发行数量与剩余可发行数量之比不能确定。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 89,
+    "source_id": "NKE/2014/page_36.pdf-2",
+    "target_numeric_hint": "1050",
+    "scan": {
+      "distinct_numeric_values": 52,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((table/8/3[1:6] - table/4/2[0:3]) - pre_text/0[20:21])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[24:28] - (pre_text/1[207:209] * pre_text/1[207:209]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/5/4[0:3] - table/4/6[0:5]) + pre_text/1[212:216])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[212:216] - (table/4/6[0:5] - table/5/4[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/1[1:4] - table/7/4[0:1]) * pre_text/15[118:121])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/5/7[0:5] / post_text/13[2:3]) - pre_text/21[159:162])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/2[2:3] * table/5/4[0:3]) + post_text/2[2:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[20:21] + table/5/4[0:3]) * post_text/2[2:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/9[2:3] * table/5/5[0:3]) + post_text/9[2:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/9[2:3] - (table/2/1[1:4] - table/8/2[1:6]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "租约表有项目和年度双重合计，采用2×2切断。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 90,
+    "source_id": "JKHY/2016/page_61.pdf-4",
+    "target_numeric_hint": "4175",
+    "scan": {
+      "distinct_numeric_values": 32,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 91,
+    "source_id": "MAA/2015/page_57.pdf-4",
+    "target_numeric_hint": "252029",
+    "scan": {
+      "distinct_numeric_values": 31,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "同时删除两类当年收入和各自增量/比率；剩余组合收入只约束两者之和，不能确定比值。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 92,
+    "source_id": "CAT/2017/page_136.pdf-2",
+    "target_numeric_hint": "1354",
+    "scan": {
+      "distinct_numeric_values": 27,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/10[84:86] + pre_text/11[130:134]) - pre_text/0[0:4])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/11[130:134] - pre_text/11[111:115]) + pre_text/0[135:139])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[135:139] - (pre_text/11[111:115] - pre_text/11[130:134]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/11[130:134] - pre_text/0[0:4]) + pre_text/10[84:86])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/10[84:86] - (pre_text/0[0:4] - pre_text/11[130:134]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[135:139] + pre_text/11[130:134]) - pre_text/11[111:115])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[135:139] - pre_text/11[111:115]) + pre_text/11[130:134])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/11[130:134] - (pre_text/0[0:4] - pre_text/10[84:86]))"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/4/1[1:6] - (post_text/13[15:19] / pre_text/10[84:86]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 93,
+    "source_id": "MA/2008/page_116.pdf-2",
+    "target_numeric_hint": "56172",
+    "scan": {
+      "distinct_numeric_values": 56,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((post_text/5[207:211] * post_text/10[87:89]) + post_text/10[92:96])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/22[65:67] * table/4/0[0:4]) - table/5/3[0:5])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 94,
+    "source_id": "RCL/2011/page_16.pdf-1",
+    "target_numeric_hint": "155000",
+    "scan": {
+      "distinct_numeric_values": 48,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((table/3/2[0:7] / pre_text/6[400:401]) + pre_text/1[51:56])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[51:56] - (pre_text/5[51:56] - table/5/6[0:7]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/4/4[0:7] - table/1/6[0:7]) + pre_text/5[51:56])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[51:56] + table/5/6[0:7]) - pre_text/5[51:56])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/5[51:56] - (table/1/6[0:7] - table/4/4[0:7]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/4[0:7] - table/4/2[0:7]) + table/1/2[0:7])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/1/2[0:7] - (table/4/2[0:7] - table/2/4[0:7]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/4[67:73] / pre_text/6[305:306]) + table/1/6[0:7])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/5[51:56] + table/4/4[0:7]) - table/1/6[0:7])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/2[0:7] - table/4/2[0:7]) + table/2/4[0:7])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 95,
+    "source_id": "SWKS/2012/page_116.pdf-4",
+    "target_numeric_hint": "32136",
+    "scan": {
+      "distinct_numeric_values": 26,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "正文百万美元与表格千美元是同一余额的不同精度披露，均应切断；另去掉一个滚动项。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 96,
+    "source_id": "EMR/2018/page_28.pdf-2",
+    "target_numeric_hint": "476",
+    "scan": {
+      "distinct_numeric_values": 75,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((table/1/1[1:6] - pre_text/3[58:59]) - question[63:67])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/1[1:6] - pre_text/1[114:115]) - question[72:76])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[114:115] + post_text/9[107:110]) + pre_text/0[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/4[40:42] * pre_text/4[76:78]) - pre_text/0[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/1[1:6] - pre_text/5[90:91]) - pre_text/1[0:4])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/15[85:87] / pre_text/17[47:49]) * pre_text/1[0:4])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[0:4] / (pre_text/17[47:49] / pre_text/15[85:87]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/2[0:5] - post_text/14[76:79]) - pre_text/1[5:9])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/14[76:79] - pre_text/15[115:117]) + pre_text/1[97:100])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[97:100] - (pre_text/15[115:117] - post_text/14[76:79]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "资本支出可由经营现金流减自由现金流恢复，正文还有22亿美元的近似披露，需要同步处理。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 97,
+    "source_id": "SLG/2012/page_87.pdf-2",
+    "target_numeric_hint": "245.7",
+    "scan": {
+      "distinct_numeric_values": 107,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/11[137:140] - post_text/12[132:136]) + pre_text/1[35:37])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[35:37] - (post_text/12[132:136] - pre_text/11[137:140]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/12[132:136] - pre_text/1[163:167]) * pre_text/1[163:167])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/5[60:65] - (pre_text/4[42:47] / pre_text/11[76:77]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/12[374:378] - pre_text/1[163:167]) * pre_text/8[108:111])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[35:37] - post_text/12[132:136]) + pre_text/11[137:140])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/11[137:140] - (post_text/12[132:136] - pre_text/1[35:37]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/5/4[0:6] - post_text/0[386:389]) / pre_text/13[192:195])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/8[82:85] - (post_text/12[48:50] + post_text/12[132:136]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/8[82:85] - post_text/12[132:136]) - post_text/12[48:50])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "购买价格分摊金额与题目指定的交易估值不同，不能用前者替代后者。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 98,
+    "source_id": "ABMD/2018/page_112.pdf-1",
+    "target_numeric_hint": "2078",
+    "scan": {
+      "distinct_numeric_values": 29,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/5[70:72] + post_text/5[13:17]) + pre_text/5[70:72])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/5[70:72] + pre_text/5[70:72]) + post_text/5[13:17])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/5/1[0:3] / pre_text/4[78:82]) + post_text/5[130:134])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/4[78:82] / post_text/6[59:62]) + table/5/0[0:4])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 99,
+    "source_id": "RE/2006/page_31.pdf-2",
+    "target_numeric_hint": "-199.1",
+    "scan": {
+      "distinct_numeric_values": 38,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "净准备金=毛准备金-再保险应收，另切断应收项。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 100,
+    "source_id": "RE/2012/page_123.pdf-2",
+    "target_numeric_hint": "138449",
+    "scan": {
+      "distinct_numeric_values": 28,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "保留总准备金不能固定两个被删类别的分配，类别比率仍欠确定。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 101,
+    "source_id": "TXN/2017/page_55.pdf-3",
+    "target_numeric_hint": "236",
+    "scan": {
+      "distinct_numeric_values": 33,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((post_text/23[36:39] - post_text/19[14:15]) - post_text/7[98:101])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/7[98:101] - (post_text/10[109:110] + post_text/11[0:2]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/7[98:101] - post_text/11[0:2]) - post_text/10[109:110])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/17[59:62] - post_text/16[85:88]) + post_text/11[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/7[98:101] - post_text/10[109:110]) - post_text/11[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/11[0:2] - (post_text/16[85:88] - post_text/17[59:62]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/23[36:39] - post_text/10[109:110]) - post_text/16[28:31])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/16[28:31] - (post_text/11[0:2] + post_text/19[14:15]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/11[0:2] + post_text/17[59:62]) - post_text/16[85:88])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/11[0:2] - post_text/16[85:88]) + post_text/17[59:62])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 102,
+    "source_id": "UNP/2008/page_83.pdf-2",
+    "target_numeric_hint": "747",
+    "scan": {
+      "distinct_numeric_values": 36,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(pre_text/2[118:121] - table/4/2[0:3])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/14[14:16] + table/8/2[0:3]) + pre_text/2[64:66])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/5/1[0:3] + table/5/1[0:3]) - pre_text/2[64:66])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/1[135:138] + table/3/0[0:4]) - pre_text/2[154:158])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/14[100:102] - table/5/2[0:3]) + pre_text/2[178:181])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/2[178:181] - (table/5/2[0:3] - post_text/14[100:102]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/3/0[0:4] - pre_text/2[154:158]) + post_text/1[135:138])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/0[0:4] - table/4/1[0:3]) - post_text/1[135:138])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/1[135:138] - (pre_text/2[154:158] - table/3/0[0:4]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/3/1[0:3] + table/5/2[0:3]) + post_text/4[0:2])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 103,
+    "source_id": "RE/2010/page_120.pdf-1",
+    "target_numeric_hint": "-8346",
+    "scan": {
+      "distinct_numeric_values": 6,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "税额可由税前和税后调整额相减恢复，另切断税后金额。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 104,
+    "source_id": "LLY/2018/page_99.pdf-1",
+    "target_numeric_hint": "128.90",
+    "scan": {
+      "distinct_numeric_values": 28,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "(table/4/3[1:7] - (table/3/0[4:6] / pre_text/1[69:72]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 105,
+    "source_id": "CME/2012/page_107.pdf-3",
+    "target_numeric_hint": "63",
+    "scan": {
+      "distinct_numeric_values": 42,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[105:107] + pre_text/1[79:81]) + pre_text/0[98:100])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[105:107] * pre_text/3[91:92]) - pre_text/0[98:100])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[98:100] - (pre_text/3[91:92] - table/2/2[0:2]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[98:100] + pre_text/1[79:81]) + pre_text/0[105:107])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[105:107] - (pre_text/0[98:100] - pre_text/23[10:12]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[98:100] + pre_text/0[105:107]) + pre_text/1[79:81])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/3[91:92] + post_text/16[70:72]) - pre_text/1[79:81])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[87:91] - pre_text/23[10:12]) / pre_text/1[79:81])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[98:100] + pre_text/3[86:87]) * pre_text/1[130:133])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/3[91:92] + pre_text/23[10:12]) + pre_text/3[86:87])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "改删取消股份对应的平均授予日公允价值，并切断期末加权均价；股数本身仍可追溯。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 106,
+    "source_id": "FRT/2007/page_137.pdf-2",
+    "target_numeric_hint": "89564",
+    "scan": {
+      "distinct_numeric_values": 11,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 107,
+    "source_id": "IP/2018/page_50.pdf-3",
+    "target_numeric_hint": "1061",
+    "scan": {
+      "distinct_numeric_values": 51,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((table/3/1[0:3] - table/4/2[0:5]) + question[73:77])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[73:77] - (table/4/2[0:5] - table/3/1[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/19[337:339] + table/6/2[1:6]) - pre_text/0[75:78])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[180:184] / pre_text/23[23:26]) - pre_text/0[165:168])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/6/3[1:6] - pre_text/23[139:141]) - pre_text/1[93:95])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/10[114:116] * pre_text/13[91:95]) - pre_text/10[64:67])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[75:78] * pre_text/18[114:117]) + pre_text/10[88:91])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/6/2[1:6] - pre_text/0[75:78]) + pre_text/19[337:339])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/19[337:339] - (pre_text/0[75:78] - table/6/2[1:6]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/6/2[1:6] - pre_text/25[193:196]) - pre_text/21[261:264])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "工业包装资本支出可由小计减其他分部恢复，另切断一个同年分部。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 108,
+    "source_id": "AON/2011/page_38.pdf-1",
+    "target_numeric_hint": "364000",
+    "scan": {
+      "distinct_numeric_values": 26,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((question[58:62] - pre_text/16[42:45]) * pre_text/16[42:45])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 109,
+    "source_id": "MRO/2009/page_32.pdf-5",
+    "target_numeric_hint": "106",
+    "scan": {
+      "distinct_numeric_values": 12,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 110,
+    "source_id": "VLO/2011/page_127.pdf-2",
+    "target_numeric_hint": "38201",
+    "scan": {
+      "distinct_numeric_values": 5,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "期货净多头恰等于实物空头并不是普遍恒等式；同时切断分子分母以避免依赖该巧合。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 111,
+    "source_id": "EW/2016/page_36.pdf-1",
+    "target_numeric_hint": "265.06",
+    "scan": {
+      "distinct_numeric_values": 29,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 112,
+    "source_id": "IP/2015/page_46.pdf-1",
+    "target_numeric_hint": "2940",
+    "scan": {
+      "distinct_numeric_values": 41,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((post_text/18[107:110] * post_text/40[238:239]) - post_text/1[135:138])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/18[53:56] - table/2/1[1:3]) * post_text/6[42:44])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/1[135:138] - pre_text/0[29:30]) * post_text/28[82:84])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 113,
+    "source_id": "CE/2007/page_125.pdf-1",
+    "target_numeric_hint": "193",
+    "scan": {
+      "distinct_numeric_values": 35,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(pre_text/1[106:109] - post_text/3[52:54])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/0[47:50] - post_text/8[95:99]) + question[81:85])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/0[47:50] + post_text/6[136:140]) - question[81:85])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[81:85] - (post_text/8[95:99] - post_text/0[47:50]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/3[16:19] + pre_text/14[91:93]) + pre_text/0[136:138])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[106:109] + post_text/8[214:216]) - pre_text/0[136:138])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/11[63:64] - pre_text/14[91:93]) + pre_text/1[106:109])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/1[106:109] - (pre_text/0[136:138] - post_text/8[214:216]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/3[16:19] - post_text/3[52:54]) + pre_text/2[19:21])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/0[47:50] + post_text/4[113:115]) - pre_text/2[19:21])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 114,
+    "source_id": "PPG/2013/page_54.pdf-4",
+    "target_numeric_hint": "12",
+    "scan": {
+      "distinct_numeric_values": 34,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 0,
+          "expression": "table/4/2[1:3]",
+          "reason": "same_numeric_value_remains"
+        },
+        {
+          "steps": 1,
+          "expression": "(pre_text/0[35:37] + post_text/4[25:26])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[35:37] - pre_text/7[51:55]) + question[69:73])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[69:73] + table/4/2[1:3]) - question[69:73])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[69:73] - (question[69:73] - table/4/2[1:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/4/2[1:3] / question[69:73]) * question[69:73])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[69:73] * table/4/2[1:3]) / question[69:73])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[69:73] / (question[69:73] / table/4/2[1:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[35:37] - pre_text/9[30:34]) + question[77:81])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[69:73] + post_text/6[0:2]) - question[77:81])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 115,
+    "source_id": "MRO/2012/page_18.pdf-1",
+    "target_numeric_hint": "858",
+    "scan": {
+      "distinct_numeric_values": 26,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(question[38:42] - table/8/3[0:5])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[38:42] - (post_text/14[28:29] * table/8/3[0:5]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/14[28:29] - table/8/3[0:5]) + post_text/7[20:24])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/7[20:24] - (table/8/3[0:5] - post_text/14[28:29]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/7[20:24] - table/8/3[0:5]) + post_text/14[28:29])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/22[123:127] - table/8/3[0:5]) - post_text/14[28:29])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/14[28:29] - (table/8/3[0:5] - post_text/7[20:24]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[38:42] - table/8/3[0:5]) * post_text/14[28:29])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[38:42] - table/8/3[0:5]) / post_text/14[28:29])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/22[123:127] - (post_text/14[28:29] + table/8/3[0:5]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 116,
+    "source_id": "AES/2011/page_131.pdf-3",
+    "target_numeric_hint": "670",
+    "scan": {
+      "distinct_numeric_values": 22,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(post_text/33[21:25] / post_text/0[11:12])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/0[11:12] * table/3/3[0:3]) + pre_text/2[176:177])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/33[21:25] / post_text/0[11:12]) * pre_text/2[176:177])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/33[21:25] / post_text/0[11:12]) / pre_text/2[176:177])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/2[176:177] / (post_text/0[11:12] / post_text/33[21:25]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/25[14:16] * post_text/24[17:19]) + pre_text/25[17:19])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[121:125] - pre_text/2[176:177]) / post_text/0[11:12])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/5/3[0:2] - pre_text/2[31:33]) * post_text/24[17:19])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/2[176:177] / post_text/0[11:12]) * post_text/33[21:25])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/33[21:25] / (pre_text/2[176:177] * post_text/0[11:12]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 117,
+    "source_id": "AAP/2016/page_65.pdf-3",
+    "target_numeric_hint": "359829",
+    "scan": {
+      "distinct_numeric_values": 17,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 118,
+    "source_id": "EW/2014/page_35.pdf-2",
+    "target_numeric_hint": "293.33",
+    "scan": {
+      "distinct_numeric_values": 26,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "删除初始100会与收益指数的常见基期口径混淆，改删最终Edwards价值。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 119,
+    "source_id": "AWK/2015/page_117.pdf-1",
+    "target_numeric_hint": "40.13",
+    "scan": {
+      "distinct_numeric_values": 26,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 120,
+    "source_id": "RE/2014/page_125.pdf-1",
+    "target_numeric_hint": "20454",
+    "scan": {
+      "distinct_numeric_values": 21,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 121,
+    "source_id": "JKHY/2011/page_34.pdf-2",
+    "target_numeric_hint": "82508",
+    "scan": {
+      "distinct_numeric_values": 20,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 122,
+    "source_id": "SLG/2017/page_110.pdf-1",
+    "target_numeric_hint": "-3130",
+    "scan": {
+      "distinct_numeric_values": 50,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((table/1/2[2:4] - table/3/2[0:5]) - pre_text/2[49:53])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/8/1[1:6] - table/8/4[1:6]) - pre_text/9[184:188])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/8/3[1:6] + table/10/2[1:6]) - table/1/1[2:7])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/1/2[2:4] - (pre_text/2[49:53] + table/3/2[0:5]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/4/2[1:4] - pre_text/2[49:53]) - table/2/2[1:6])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/2[2:4] - pre_text/2[49:53]) - table/3/2[0:5])"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/4/2[1:4] - (pre_text/2[49:53] + table/2/2[1:6]))"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/8/1[1:6] - (pre_text/9[184:188] + table/8/4[1:6]))"
+        },
+        {
+          "steps": 2,
+          "expression": "(table/8/2[0:3] - (pre_text/9[184:188] + table/8/3[1:6]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/10/2[1:6] - table/1/1[2:7]) + table/8/3[1:6])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "AOCI存在横向与期间双重约束，切断重分类和期末两行的相应两列。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 123,
+    "source_id": "ORLY/2017/page_30.pdf-1",
+    "target_numeric_hint": "157",
+    "scan": {
+      "distinct_numeric_values": 21,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((table/3/3[0:3] - table/1/4[0:4]) + question[48:52])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/2[0:4] + table/3/3[0:3]) - question[48:52])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[48:52] - (table/1/4[0:4] - table/3/3[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/3/3[0:3] - table/1/6[0:4]) + question[56:60])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/4[0:4] + table/3/3[0:3]) - question[56:60])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[56:60] - (table/1/6[0:4] - table/3/3[0:3]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/3[1:4] - table/3/3[0:3]) + pre_text/0[117:120])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[117:120] - (table/3/3[0:3] - table/2/3[1:4]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/2/6[1:4] - table/4/4[1:4]) + pre_text/0[135:137])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[135:137] - (table/4/4[1:4] - table/2/6[1:4]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 124,
+    "source_id": "AAPL/2010/page_42.pdf-2",
+    "target_numeric_hint": "-81",
+    "scan": {
+      "distinct_numeric_values": 26,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/12[26:29] - pre_text/6[22:24]) - pre_text/0[106:109])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/9[131:133] - pre_text/19[66:68]) - pre_text/2[124:126])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/19[66:68] - pre_text/2[124:126]) - pre_text/3[37:39])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/12[26:29] - pre_text/0[106:109]) - pre_text/6[22:24])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/12[26:29] - question[61:65]) / pre_text/6[22:24])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/9[131:133] - (pre_text/2[124:126] + pre_text/19[66:68]))"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/12[26:29] - (pre_text/0[106:109] + pre_text/6[22:24]))"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/12[41:43] - (pre_text/2[124:126] + pre_text/6[22:24]))"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/14[86:88] - (pre_text/2[124:126] + pre_text/20[101:103]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/9[131:133] - pre_text/2[124:126]) - pre_text/19[66:68])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "除分项相加外，下一年披露的下降171及52%也指向目标年，均需处理。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 125,
+    "source_id": "BKNG/2017/page_35.pdf-1",
+    "target_numeric_hint": "280.10",
+    "scan": {
+      "distinct_numeric_values": 35,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((post_text/0[166:171] - post_text/3[76:80]) + question[82:86])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[82:86] - (post_text/3[76:80] - post_text/0[166:171]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[82:86] - post_text/3[76:80]) + post_text/0[166:171])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/0[166:171] - (post_text/3[76:80] - question[82:86]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[82:86] + post_text/0[166:171]) - post_text/3[76:80])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "基期投资价值100已知，期末Booking Holdings价值缺失；其他公司和指数的回报不能替代该公司回报。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 126,
+    "source_id": "C/2017/page_119.pdf-2",
+    "target_numeric_hint": "403.7",
+    "scan": {
+      "distinct_numeric_values": 12,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "超额=HQLA-净流出，LCR亦提供同组关系，一并切断。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 127,
+    "source_id": "BLK/2016/page_79.pdf-1",
+    "target_numeric_hint": "6091",
+    "scan": {
+      "distinct_numeric_values": 32,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "除了现金与授信相加，正文55的变动也可恢复目标总额，必须同步处理。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 128,
+    "source_id": "UPS/2013/page_34.pdf-1",
+    "target_numeric_hint": "221.91",
+    "scan": {
+      "distinct_numeric_values": 27,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 129,
+    "source_id": "GPN/2009/page_85.pdf-1",
+    "target_numeric_hint": "43",
+    "scan": {
+      "distinct_numeric_values": 40,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(question[55:57] + post_text/10[5:7])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/5[55:57] - post_text/8[114:115]) + question[55:57])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/2[1:3] + table/1/2[1:3]) - question[55:57])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[55:57] - (post_text/8[114:115] - post_text/5[55:57]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/8/2[0:2] - post_text/0[104:108]) + question[60:64])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[43:47] + post_text/0[115:117]) - question[60:64])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[60:64] - (post_text/0[104:108] - table/8/2[0:2]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/0[115:117] - question[60:64]) + pre_text/0[43:47])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/0[43:47] - (question[60:64] - post_text/0[115:117]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[43:47] + table/1/2[1:3]) - post_text/0[95:99])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "未归属股份平均授予日价值是所问估值的必要输入，不以其他年度均价代替。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 130,
+    "source_id": "EXPD/2018/page_27.pdf-2",
+    "target_numeric_hint": "140.25",
+    "scan": {
+      "distinct_numeric_values": 27,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 131,
+    "source_id": "RSG/2008/page_131.pdf-2",
+    "target_numeric_hint": "582.9",
+    "scan": {
+      "distinct_numeric_values": 36,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((post_text/1[5:8] + post_text/6[71:76]) - post_text/0[95:98])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/6[71:76] - post_text/0[95:98]) + post_text/1[5:8])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/1[5:8] - (post_text/0[95:98] - post_text/6[71:76]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/1[5:8] - post_text/0[95:98]) + post_text/6[71:76])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/6[71:76] - (post_text/0[95:98] - post_text/1[5:8]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/6[71:76] + table/6/2[1:5]) + post_text/21[127:130])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/6[71:76] + post_text/21[127:130]) + table/6/2[1:5])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "年末总额由年初及期间变动可恢复，删去收购增加额及总额后，比例仍有自由度。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 132,
+    "source_id": "CDNS/2012/page_41.pdf-2",
+    "target_numeric_hint": "23",
+    "scan": {
+      "distinct_numeric_values": 15,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 0,
+          "expression": "table/3/3[0:2]",
+          "reason": "same_numeric_value_remains"
+        },
+        {
+          "steps": 1,
+          "expression": "(table/1/1[0:2] - table/5/2[0:1])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/3[0:2] - pre_text/0[7:11]) + question[137:141])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[137:141] + table/3/3[0:2]) - question[137:141])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[137:141] - (question[137:141] - table/3/3[0:2]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/3/3[0:2] / question[137:141]) * question[137:141])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[137:141] * table/3/3[0:2]) / question[137:141])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[137:141] / (question[137:141] / table/3/3[0:2]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/3[0:2] - pre_text/3[87:91]) + question[149:153])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[149:153] + table/3/3[0:2]) - question[149:153])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "单个产品占比可由100%减其余类别恢复，因此同年另去掉一个类别。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 133,
+    "source_id": "VNO/2003/page_97.pdf-2",
+    "target_numeric_hint": "551539",
+    "scan": {
+      "distinct_numeric_values": 44,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 134,
+    "source_id": "ADI/2015/page_78.pdf-2",
+    "target_numeric_hint": "5263",
+    "scan": {
+      "distinct_numeric_values": 25,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 135,
+    "source_id": "WRK/2019/page_38.pdf-3",
+    "target_numeric_hint": "18289.0",
+    "scan": {
+      "distinct_numeric_values": 13,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 136,
+    "source_id": "NCLH/2016/page_84.pdf-1",
+    "target_numeric_hint": "32.5",
+    "scan": {
+      "distinct_numeric_values": 44,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "(question[65:69] / (pre_text/16[51:53] + pre_text/16[51:53]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/11[91:93] / pre_text/0[158:159]) + pre_text/6[105:107])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/6[105:107] - (post_text/0[72:76] - pre_text/17[98:102]))"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/6[110:114] / (pre_text/16[98:102] + pre_text/16[162:166]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/8[33:38] / pre_text/2[225:227]) + pre_text/11[91:93])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[158:159] * pre_text/9[191:195]) + pre_text/11[236:237])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/13[348:350] / pre_text/2[225:227]) + pre_text/16[51:53])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[73:77] / pre_text/6[105:107]) - pre_text/16[98:102])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/6[105:107] - post_text/0[72:76]) + pre_text/17[98:102])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/17[98:102] - (post_text/0[72:76] - pre_text/6[105:107]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 137,
+    "source_id": "OKE/2007/page_51.pdf-1",
+    "target_numeric_hint": "431418",
+    "scan": {
+      "distinct_numeric_values": 20,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 138,
+    "source_id": "GPN/2017/page_76.pdf-1",
+    "target_numeric_hint": "66809",
+    "scan": {
+      "distinct_numeric_values": 21,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "购买总对价可由净资产、商誉及非控股权益恢复，需切断商誉。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 139,
+    "source_id": "RSG/2017/page_14.pdf-2",
+    "target_numeric_hint": "19",
+    "scan": {
+      "distinct_numeric_values": 14,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((table/1/1[0:5] - pre_text/7[121:124]) / pre_text/7[121:124])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/19[15:17] - (pre_text/7[121:124] / pre_text/16[14:16]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "改删天然气车辆比例19%，保留车辆分项与总数，避免总数可由分项直接恢复。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 140,
+    "source_id": "AOS/2016/page_19.pdf-1",
+    "target_numeric_hint": "204.1",
+    "scan": {
+      "distinct_numeric_values": 30,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 141,
+    "source_id": "MRO/2015/page_22.pdf-1",
+    "target_numeric_hint": "1415",
+    "scan": {
+      "distinct_numeric_values": 27,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((post_text/0[168:169] - pre_text/11[66:69]) + question[50:54])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[50:54] - (pre_text/11[66:69] - post_text/0[168:169]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[50:54] + post_text/0[168:169]) - pre_text/11[66:69])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[50:54] - pre_text/11[66:69]) + post_text/0[168:169])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/0[168:169] - (pre_text/11[66:69] - question[50:54]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/9[49:53] - table/0/1[0:3]) + post_text/1[11:14])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/1[11:14] - (table/0/1[0:3] - post_text/9[49:53]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/9[49:53] - pre_text/11[66:69]) + post_text/4[101:103])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/4[101:103] - (pre_text/11[66:69] - post_text/9[49:53]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/1[11:14] - table/0/1[0:3]) + post_text/9[49:53])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 142,
+    "source_id": "HUM/2012/page_109.pdf-2",
+    "target_numeric_hint": "28",
+    "scan": {
+      "distinct_numeric_values": 14,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(post_text/2[11:13] - table/7/1[0:1])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/4[0:1] + table/9/1[1:3]) + pre_text/4[0:1])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/5[25:27] / pre_text/4[0:1]) + pre_text/5[25:27])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/5[25:27] - (table/9/1[1:3] - post_text/2[11:13]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/6[168:171] - table/6/1[0:3]) / pre_text/5[25:27])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/5[25:27] - table/9/1[1:3]) + post_text/2[11:13])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/2[11:13] - (pre_text/1[43:47] / pre_text/1[43:47]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/2[11:13] * table/7/1[0:1]) - table/7/1[0:1])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/2[11:13] - table/7/1[0:1]) * table/7/1[0:1])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/2[11:13] - table/7/1[0:1]) / table/7/1[0:1])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "应收账款可由资产合计减其余资产恢复，另切断商誉；剩余等式不能唯一分配两者。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 143,
+    "source_id": "ADBE/2003/page_126.pdf-3",
+    "target_numeric_hint": "20746",
+    "scan": {
+      "distinct_numeric_values": 29,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "(table/6/1[0:6] - (pre_text/10[86:90] / pre_text/6[76:78]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "该年租赁付款可由全部年份合计减其他年份恢复，需去掉总额。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 144,
+    "source_id": "JPM/2004/page_31.pdf-1",
+    "target_numeric_hint": "2948",
+    "scan": {
+      "distinct_numeric_values": 36,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/9[111:114] + pre_text/15[14:16]) * table/9/3[0:2])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "两分部收益受总额与同比披露约束，同步处理相关分项和增长率。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 145,
+    "source_id": "EW/2004/page_94.pdf-2",
+    "target_numeric_hint": "9.2",
+    "scan": {
+      "distinct_numeric_values": 19,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((pre_text/5[0:2] - pre_text/1[493:496]) - pre_text/0[219:222])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/10[35:36] * pre_text/10[99:102]) - pre_text/1[369:373])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/0[154:158] / pre_text/18[13:14]) - pre_text/1[461:465])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/5[0:2] - pre_text/0[219:222]) - pre_text/1[493:496])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/5[0:2] - (pre_text/0[219:222] + pre_text/1[493:496]))"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/14[10:12] - (pre_text/1[493:496] + pre_text/18[13:14]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/24[83:87] - pre_text/1[493:496]) - pre_text/14[15:19])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/14[10:12] - pre_text/1[493:496]) - pre_text/18[13:14])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/24[83:87] - (pre_text/1[493:496] + pre_text/14[15:19]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "期限不确定的税惠可由合计减另一项恢复，另去掉另一税惠金额；正文表格重复均处理。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 146,
+    "source_id": "MAS/2018/page_73.pdf-2",
+    "target_numeric_hint": "34",
+    "scan": {
+      "distinct_numeric_values": 9,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 1,
+          "expression": "(post_text/2[65:67] + post_text/9[113:114])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/2[65:67] - table/2/2[0:2]) + post_text/2[65:67])"
+        },
+        {
+          "steps": 2,
+          "expression": "(post_text/2[65:67] - (table/2/2[0:2] - post_text/2[65:67]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/2[65:67] * post_text/17[36:37]) + post_text/9[113:114])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/2[65:67] + post_text/9[113:114]) * post_text/17[36:37])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/2[65:67] + post_text/9[113:114]) / post_text/17[36:37])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/4/1[0:3] - table/3/2[0:2]) - table/2/1[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/9[113:114] + post_text/9[113:114]) + table/2/2[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/2[65:67] + post_text/2[65:67]) - table/2/2[0:2])"
+        },
+        {
+          "steps": 2,
+          "expression": "((post_text/17[36:37] * table/3/2[0:2]) + table/3/2[0:2])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "资产配置权益占比可由100%减债券及其他恢复，另去掉其他占比；这里不是企业负债权益比。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 147,
+    "source_id": "AMT/2004/page_76.pdf-2",
+    "target_numeric_hint": "825000",
+    "scan": {
+      "distinct_numeric_values": 40,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": []
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 148,
+    "source_id": "TROW/2011/page_13.pdf-3",
+    "target_numeric_hint": "160",
+    "scan": {
+      "distinct_numeric_values": 22,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "((question[82:84] * pre_text/5[95:96]) + question[82:84])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/1[1:4] - pre_text/5[95:96]) - question[82:84])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[52:53] * post_text/15[21:22]) * question[82:84])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[82:84] * post_text/15[21:22]) * pre_text/1[52:53])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/1[1:4] - table/1/5[1:3]) + pre_text/5[95:96])"
+        },
+        {
+          "steps": 2,
+          "expression": "((table/1/1[1:4] - question[82:84]) - pre_text/5[95:96])"
+        },
+        {
+          "steps": 2,
+          "expression": "(pre_text/5[95:96] - (table/1/5[1:3] - table/1/1[1:4]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/1[291:293] * post_text/15[21:22]) + post_text/15[21:22])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[82:84] + question[82:84]) * post_text/15[21:22])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/5[95:96] - table/1/5[1:3]) + table/1/1[1:4])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "采购承诺受期间和项目双重合计约束，采用2×2切断。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 149,
+    "source_id": "HWM/2016/page_79.pdf-2",
+    "target_numeric_hint": "1801",
+    "scan": {
+      "distinct_numeric_values": 14,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 2,
+          "expression": "(post_text/15[149:153] - (table/1/2[0:2] * table/3/2[0:2]))"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  },
+  {
+    "number": 150,
+    "source_id": "MSI/2013/page_87.pdf-1",
+    "target_numeric_hint": "24.0",
+    "scan": {
+      "distinct_numeric_values": 44,
+      "max_arithmetic_operators": 2,
+      "unit_and_semantic_validation": "required_human_review",
+      "warning": "Numeric coincidences are not evidence-supported financial formulas; absence of a hit is not proof of unanswerability",
+      "witnesses": [
+        {
+          "steps": 0,
+          "expression": "pre_text/18[315:317]",
+          "reason": "same_numeric_value_remains"
+        },
+        {
+          "steps": 1,
+          "expression": "(pre_text/4[124:125] * pre_text/18[315:317])"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/18[315:317] - question[46:50]) + question[46:50])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[46:50] + pre_text/18[315:317]) - question[46:50])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[46:50] - (question[46:50] - pre_text/18[315:317]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/18[315:317] / question[46:50]) * question[46:50])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[46:50] * pre_text/18[315:317]) / question[46:50])"
+        },
+        {
+          "steps": 2,
+          "expression": "(question[46:50] / (question[46:50] / pre_text/18[315:317]))"
+        },
+        {
+          "steps": 2,
+          "expression": "((pre_text/18[315:317] - question[54:58]) + question[54:58])"
+        },
+        {
+          "steps": 2,
+          "expression": "((question[54:58] + pre_text/18[315:317]) - question[54:58])"
+        }
+      ]
+    },
+    "semantic_assessment_zh": "缺失的目标输入在其他指标、其他期间或估值参数中没有合法的唯一替代；不能用近邻值或外部数据补设。",
+    "caveat": "Matching values or arithmetic combinations are not accepted relations without metric/entity/period/unit support."
+  }
+]

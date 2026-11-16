@@ -1,0 +1,27 @@
+{
+  "old_directory": "english150-20261116",
+  "old_outputs_sha256": "d7e4dd76713602c0c70ed4ce43b178fabcac2fd7e234864bc41db73cc6358b35",
+  "carried_forward_unchanged_ids": [
+    "53da56a2b720f94503b57897acf66e4733cfa69218ec468f69baf880ca651318",
+    "c1b1e099040f261f6c26d7228c1d1e17311a262a60f99fb7895586672565f869",
+    "21c90b1d9a14d8cf0b0445005661ca1bbb566d049b6de6638a639fd677c005ce",
+    "129db752a25985234333972427f2e3ea36b0547ae7c3b243445bb305b07282cd",
+    "da8bf8b7ea46dbbd770926d53bb304914c56e9636c3b76bf46fbb7e272202aa3",
+    "0bd94d9aad7b4f07bde58ee760ecd5f6e2a4b5a4cfb08d567bcb9dc571036ae4",
+    "79518003d513c4c4a20368551b17441683db112a9de4cdad9ed0e36bafac8cd7",
+    "d8d420c1dca72430816d4ee070737364f250f6e439c1ed2ece90b0c8fad8d2dd",
+    "fb2ee165245ccdf676c05f113c5fccfd8e8593b8966e48e65176bc09c867682c",
+    "caa925c549d7707c7be57c97871556f007b428414b6b4d10d638f474a2517b03",
+    "fc259f0896f01b626e330569046c4d68e79805b279dcafa864ce04648d030a5a",
+    "a2359b5dc8cf00315fbfa52acd1a6cf1e5d538cd46459ceb63a40ebb13cc55a4"
+  ],
+  "excluded_calibration_ids": [
+    "2ec0e34e937637fed63611ba46705ab7197908ec446c7ee0eb786299fbb545f8",
+    "555a98eb5659f69d1bd33befcb685d6a5cdbb5ffa77a9eea5608d003da1214dc",
+    "ea70b49cb9bc8a6d54305c6f4409074d62bd336b2686f784adba6f3a579a314f",
+    "b8c0626e7861e8ac0e15c12f98cfea542c5b2d32c9722c48cc7881c83aa96c24",
+    "358af9b535358d3b2f5b78dddf44251b6cfaa784018ca21dfd926cf36d39c021",
+    "73b07f1b37a59936f9baac5ff86d0a33ba23cb11946cbfffbf2a2f45e82ee77f"
+  ],
+  "reason": "Qwen max_tokens excluded thinking; corrected total cap using max_completion_tokens, verified at 64 tokens. All calibration costs included in budget. No repeated calls for OpenAI or DeepSeek, including truncated output."
+}

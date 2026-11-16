@@ -1,0 +1,20 @@
+{
+  "round": 2,
+  "status": "passed",
+  "scope": "Exact Git-index export re-read independently, including gzip records and PDF text",
+  "scanned_index_files": 155,
+  "gzip_files_decoded": 28,
+  "approved_pdfs_text_checked": 3,
+  "gitleaks_version": "8.30.1",
+  "gitleaks_findings": 0,
+  "custom_content_findings": 0,
+  "fresh_export_offline_recompute": "all published statistics identical",
+  "fresh_export_tests_passed": 25,
+  "published_pdf_sha256": "90f326b3072660273e7082bd8eb6e5f5e407ebb7b3e6390b2e9f28fe1964164c",
+  "frozen_generation_rows": 2700,
+  "frozen_machine_annotation_rows": 2700,
+  "source_questions": 150,
+  "no_ignored_working_files_in_git": true,
+  "history_policy": "New repository; one clean initial commit. No parent workspace or upstream Git history imported.",
+  "sensitive_values_in_report": false
+}

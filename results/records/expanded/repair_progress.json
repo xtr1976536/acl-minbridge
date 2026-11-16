@@ -1,0 +1,16 @@
+{
+  "phase": "repair",
+  "state": "complete",
+  "jobs_with_records": 190,
+  "planned_jobs": 190,
+  "attempts": 190,
+  "status_counts": {
+    "execution_failed": 56,
+    "completed": 126,
+    "truncated": 8
+  },
+  "cumulative_cost_upper_usd": 42.804528,
+  "inflight_reserved_usd": 0.0,
+  "halted": {},
+  "updated_utc": "2026-11-16T06:34:15.437999+00:00"
+}

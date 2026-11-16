@@ -1,0 +1,31 @@
+{
+  "previous_generation_cost_upper_usd": 35.535844,
+  "phases": {
+    "judge_attempts": {
+      "attempts": 2704,
+      "cost_upper_usd": 98.704445
+    },
+    "answerability_attempts": {
+      "attempts": 150,
+      "cost_upper_usd": 3.41596
+    },
+    "source_review_attempts": {
+      "attempts": 22,
+      "cost_upper_usd": 0.73884
+    },
+    "audit_attempts": {
+      "attempts": 735,
+      "cost_upper_usd": 40.45506
+    },
+    "repair_attempts": {
+      "attempts": 190,
+      "cost_upper_usd": 7.26868394
+    },
+    "repair64_attempts": {
+      "attempts": 8,
+      "cost_upper_usd": 0.62570816
+    }
+  },
+  "cumulative_cost_upper_usd": 186.74454110000002,
+  "budget_policy": "User removed cumulative budget limit. Estimates are conservative undiscounted usage accounting, not provider invoices."
+}

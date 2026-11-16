@@ -1,0 +1,15 @@
+{
+  "phase": "judge",
+  "state": "complete",
+  "jobs_with_records": 2700,
+  "planned_jobs": 2700,
+  "attempts": 2704,
+  "status_counts": {
+    "completed": 2698,
+    "transport_error": 2
+  },
+  "cumulative_cost_upper_usd": 141.844464,
+  "inflight_reserved_usd": 0.0,
+  "halted": {},
+  "updated_utc": "2026-11-16T07:06:22.593304+00:00"
+}

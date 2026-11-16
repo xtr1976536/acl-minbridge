@@ -1,0 +1,5 @@
+{
+  "mechanical_flags_changed": 920,
+  "annotation_labels_changed": 0,
+  "reason": "Evidence supplied to the judge is serialized JSON. Verbatim complete JSON rows must be accepted alongside decoded cell/text quotations. Raw annotations preserved."
+}

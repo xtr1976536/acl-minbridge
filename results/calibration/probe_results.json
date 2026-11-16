@@ -1,0 +1,178 @@
+[
+  {
+    "provider": "openai",
+    "model_requested": "gpt-5.6-sol",
+    "base_url": "https://api.openai.com/v1",
+    "test_only_not_benchmark": true,
+    "checks": [
+      {
+        "label": "model_access",
+        "http_status": 200,
+        "model_list_count": 96,
+        "requested_model_listed": true,
+        "seconds": 1.22
+      },
+      {
+        "label": "low",
+        "http_status": 200,
+        "returned_model": "gpt-5.6-sol",
+        "finish_reason": "stop",
+        "content": "2",
+        "reasoning_characters": 0,
+        "usage": {
+          "prompt_tokens": 20,
+          "completion_tokens": 4,
+          "total_tokens": 24,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "seconds": 3.14
+      },
+      {
+        "label": "high",
+        "http_status": 200,
+        "returned_model": "gpt-5.6-sol",
+        "finish_reason": "stop",
+        "content": "2",
+        "reasoning_characters": 0,
+        "usage": {
+          "prompt_tokens": 20,
+          "completion_tokens": 4,
+          "total_tokens": 24,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "seconds": 2.48
+      }
+    ]
+  },
+  {
+    "provider": "deepseek",
+    "model_requested": "deepseek-v4-pro",
+    "base_url": "https://api.deepseek.com",
+    "test_only_not_benchmark": true,
+    "checks": [
+      {
+        "label": "model_access",
+        "http_status": 200,
+        "model_list_count": 2,
+        "requested_model_listed": true,
+        "seconds": 0.2
+      },
+      {
+        "label": "low",
+        "http_status": 200,
+        "returned_model": "deepseek-v4-pro",
+        "finish_reason": "stop",
+        "content": "2",
+        "reasoning_characters": 0,
+        "usage": {
+          "prompt_tokens": 18,
+          "completion_tokens": 1,
+          "total_tokens": 19,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 18
+        },
+        "seconds": 0.99
+      },
+      {
+        "label": "high",
+        "http_status": 200,
+        "returned_model": "deepseek-v4-pro",
+        "finish_reason": "stop",
+        "content": "2",
+        "reasoning_characters": 125,
+        "usage": {
+          "prompt_tokens": 97,
+          "completion_tokens": 36,
+          "total_tokens": 133,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 34
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 97
+        },
+        "seconds": 1.26
+      }
+    ]
+  },
+  {
+    "provider": "qwen",
+    "model_requested": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "test_only_not_benchmark": true,
+    "checks": [
+      {
+        "label": "model_access",
+        "http_status": 200,
+        "model_list_count": 182,
+        "requested_model_listed": true,
+        "seconds": 0.29
+      },
+      {
+        "label": "low",
+        "http_status": 200,
+        "returned_model": "qwen3.8-27b",
+        "finish_reason": "stop",
+        "content": "2",
+        "reasoning_characters": 0,
+        "usage": {
+          "completion_tokens": 2,
+          "completion_tokens_details": {},
+          "prompt_tokens": 26,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 26
+          },
+          "total_tokens": 28
+        },
+        "seconds": 0.61
+      },
+      {
+        "label": "high",
+        "http_status": 200,
+        "returned_model": "qwen3.8-27b",
+        "finish_reason": "stop",
+        "content": "2",
+        "reasoning_characters": 133,
+        "usage": {
+          "completion_tokens": 37,
+          "completion_tokens_details": {
+            "reasoning_tokens": 33
+          },
+          "prompt_tokens": 62,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 62
+          },
+          "total_tokens": 99
+        },
+        "seconds": 1.17
+      }
+    ]
+  }
+]

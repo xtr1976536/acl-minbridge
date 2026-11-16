@@ -1,0 +1,34 @@
+{
+  "test_only_not_benchmark": true,
+  "request": {
+    "model": "qwen3.8-27b",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give a detailed derivation of 1 + 1 under Peano arithmetic. Explain every axiom and each step."
+      }
+    ],
+    "enable_thinking": true,
+    "max_completion_tokens": 64,
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    }
+  },
+  "content": "",
+  "reasoning_content": "We need answer user: detailed derivation of 1+1 under Peano arithmetic, explain every axiom and each step. Need likely formal in first-order PA? Need define 1, +. Need explain axioms: zero, successor, no zero is successor, injective successor, induction maybe not needed for 1",
+  "http_status": 200,
+  "usage": {
+    "completion_tokens": 64,
+    "completion_tokens_details": {
+      "reasoning_tokens": 64
+    },
+    "prompt_tokens": 70,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 70
+    },
+    "total_tokens": 134
+  },
+  "finish_reason": "length"
+}

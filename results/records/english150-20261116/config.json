@@ -1,0 +1,60 @@
+{
+  "providers": {
+    "openai": {
+      "base": "https://api.openai.com/v1",
+      "model": "gpt-5.6-sol",
+      "rates": [
+        5.0,
+        20.0
+      ]
+    },
+    "deepseek": {
+      "base": "https://api.deepseek.com",
+      "model": "deepseek-v4-pro",
+      "rates": [
+        1.32,
+        3.96
+      ]
+    },
+    "qwen": {
+      "base": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "model": "qwen3.8-27b",
+      "rates": [
+        0.5,
+        3.0
+      ]
+    }
+  },
+  "output_token_limit": 8192,
+  "budget_upper_bound_usd": 100.0,
+  "initial_probe_allowance_usd": 0.01,
+  "requests_per_design_cell": 1,
+  "modes": {
+    "openai": {
+      "low": "reasoning_effort=low",
+      "high": "reasoning_effort=high"
+    },
+    "deepseek": {
+      "low": "thinking disabled",
+      "high": "thinking enabled; reasoning_effort=high"
+    },
+    "qwen": {
+      "low": "enable_thinking=false",
+      "high": "enable_thinking=true"
+    }
+  },
+  "budget_accounting": "Conservative undiscounted usage estimates; upper reservation before dispatch; no exchange rate required. OpenAI input includes 25% cache-write reserve. Qwen rates exceed Beijing list rates. No retries.",
+  "notes": [
+    "No cross-question history, tools, retrieval, original evidence, gold answers or review explanations are sent.",
+    "Q2 fact-count correction is recorded separately in v3_cn/data_count_errata.json; unchanged English inputs and original severity labels retained.",
+    "Provider-exposed reasoning_content is saved when available. OpenAI hidden reasoning is not exposed; requested visible explanations/code remain available.",
+    "Model aliases are user-specified, not claimed to be immutable weight snapshots."
+  ],
+  "documentation": [
+    "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+    "https://api-docs.deepseek.com/guides/thinking_mode/",
+    "https://api-docs.deepseek.com/quick_start/pricing/",
+    "https://www.alibabacloud.com/help/en/model-studio/deep-thinking",
+    "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+  ]
+}

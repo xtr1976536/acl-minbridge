@@ -1,0 +1,19 @@
+{
+  "scope": "Observed metadata correction; original dataset and deletion text unchanged in this formatting task",
+  "case": 2,
+  "issue": "Interest-expense year-on-year growth and depreciation year-on-year growth are separate facts even though both equal 7%.",
+  "original_fact_id": "F009",
+  "locations": [
+    "table/2/4",
+    "pre_text/5"
+  ],
+  "old_counts": {
+    "N": 21,
+    "D": 4
+  },
+  "counts_after_this_split_only": {
+    "N": 22,
+    "D": 5
+  },
+  "action": "Keep distinct in the Chinese deletion summary; record for statistical metadata revision before formal runs."
+}

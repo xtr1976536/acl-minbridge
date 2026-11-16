@@ -1,0 +1,21 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "packages": {
+    "sympy": "1.14.0",
+    "numpy": "2.3.5",
+    "cvxpy": "1.9.2",
+    "func_timeout": "4.3.5"
+  },
+  "repository_commit": "396f78466010882f552046fa03245d3c056525b9",
+  "files": {
+    "reproductions/relational-pilot/run_api_20261116_v2.py": "3a735e8d40143e69dbfef66c29c6784b54f8dbc98cf0a0107e09dbbb454d9c58",
+    "reproductions/relational-pilot/run.py": "4dd6d611a658ddf105a509ee53d42f2679a284d571a1e33e4d41dad12809dace",
+    "reproductions/relational-pilot/prepare.py": "b409e59147aa83b8eb88f101c83c9aea2c09f44755bedc6d006a5cfd3b6baa45",
+    "reproductions/relational-pilot/prompts.py": "bbfcd7def15b53e459a44b4f155950e1540084968652163963a6489f704ca588",
+    "reproductions/pot/scripts/execute_worker.py": "954d46afb958246ba631f172dba31a1b3f2c684731603e73a835f848aca6e090",
+    "reproductions/pot/scripts/protocol.py": "e0d09453cf7c870f497afa049690eb0555f461e2ba2338f4a914068a39733729",
+    "reproductions/pot/vendor/tool.py": "d28396411618c82a5e8fe849ded7abc590574f8796b7bef71325fba6673e577e",
+    "reproductions/verifin/upstream/src/verifiqa/answerers/cot.py": "fb0c1c571c2a5d1ce584e6ecb4c8007c5ee18b742c20f387e78775408c903ef0"
+  },
+  "api_credentials_stored": false
+}

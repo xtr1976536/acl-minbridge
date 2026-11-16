@@ -1,0 +1,15 @@
+title = "acl-minbridge: default rules with exact SHA-256 provenance exceptions"
+[extend]
+useDefault = true
+
+# Default generic-api-key matches three immutable file hashes because their
+# adjacent filename contains "api". These exact values are publicly checkable
+# SHA-256 source/task hashes, not credentials. No directories/rules are disabled.
+[allowlist]
+description = "Three exact SHA-256 provenance values, independently verified"
+regexTarget = "secret"
+regexes = [
+  '''^222e13f3104739b1080d01fb6ef4ec8107ccdbaa440474a523cda9643a391310$''',
+  '''^3a735e8d40143e69dbfef66c29c6784b54f8dbc98cf0a0107e09dbbb454d9c58$''',
+  '''^3a735e8d40143e69dbfef66c29c6784b54f8dbc98cf0a0107e09dbbb454d9c58$'''
+]

@@ -1,0 +1,22 @@
+{
+  "conditions": 2700,
+  "selected_for_repair": 190,
+  "selected_with_attempts": 190,
+  "status_counts": {
+    "completed": 2315,
+    "execution_failed": 377,
+    "truncated": 8
+  },
+  "still_unfinished": [
+    "4addb9ee5ecce7a15ba7d704daef1a080a57bc3f06daa6e0ee0cf441cd25ae16",
+    "31f27a1116a105a3149a881155ae6530303d8f9694006855df2629a414d18fdc",
+    "9c4f7ff953f9b285b94cad95c42aa5369977dda1f36cd0333fce25d36f121b92",
+    "32fcce2462da0f925a11c2e25ccc049700ef3a7ccd07d8e14d3443eeb25a952d",
+    "fb225bf2b6ce9352672fee30cc91778efffb18af231de2e87fcd6dbe202f53c7",
+    "0e6e5dae72a5df664d99812e061ff9f66d4f9ec61713bbe72986ea8a8473b5ae",
+    "ca260b6d63aeda5610474671092a5f7a045b81e38074022b9a98812e375208c9",
+    "e1697cab9e2a69e6f32b9bdf25f570561e3b4a246fcbc0712a69cbec6d2d4017"
+  ],
+  "generation_budget_policy": "Only originally truncated cells receive 24576; the other original cells remain at 8192. Results are adaptive-budget exploratory outputs.",
+  "updated_outputs_sha256": "29961d2bf058f42cd75fe8a8283ef80e1b457444131977fa3bec85fc5049e972"
+}

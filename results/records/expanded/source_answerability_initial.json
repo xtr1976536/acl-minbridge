@@ -1,0 +1,3818 @@
+{
+  "items": [
+    {
+      "source_id": "IP/2007/page_38.pdf-3",
+      "case_number": 1,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若以 P 表示2009年购买义务（百万美元），则所求百分比 = 100 × 1,300 ÷ (1,300 + 116 + P)；等价地，为 100 × 1,300 ÷ 2009年总合同义务。",
+        "missing_inputs_or_ambiguities": [
+          "2009年的“Purchase obligations (c)”未披露，因此无法确定2009年“Total (d)”这一分母。现有披露也未提供可用于推导该缺失金额的分项或合计。"
+        ],
+        "evidence_quotes": [
+          "contractual obligations for future payments under existing debt and lease commitments and purchase obligations at december 31 , 2007 , were as follows :",
+          "Maturities of long-term debt (a)",
+          "$1,300",
+          "Lease obligations",
+          "116",
+          "Purchase obligations (c)",
+          "[not disclosed]",
+          "Total (d)"
+        ],
+        "rationale": "表中可确定2009年长期债务到期额为1,300百万美元、租赁义务为116百万美元，但购买义务和总合同义务均未披露。由于所求比例的分母无法确定，既不能得到精确值，也没有足够信息支持合理的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "4373bfdd815db51567a836af03b8ca1983b43f87b22de8169e75bd51a40b12ca"
+    },
+    {
+      "source_id": "UNP/2014/page_31.pdf-2",
+      "case_number": 2,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "2014 implied composite debt level (millions) = 2014 interest expense (millions) / 0.07",
+        "missing_inputs_or_ambiguities": [
+          "The 2014 interest expense is not determined: the corresponding table entry is explicitly \"[not disclosed]\". Other income and income taxes cannot be used to derive interest expense, and no 2014 interest-expense change or other debt-related amount is supplied."
+        ],
+        "evidence_quotes": [
+          "Interest expense",
+          "[not disclosed]",
+          "assuming an average interest rate of 7% ( 7 % ) , what is the implied composite debt level for 2014 , in millions?"
+        ],
+        "rationale": "按7%的平均利率，隐含债务应以2014年利息费用除以0.07计算。但证据未披露2014年利息费用，也没有可用于反推该数值的其他数据，因此无法得到精确值或有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "99728455a2deb26ba87d4256fa912560bc5a0f2f95a6b15a49aef77c9adee2bc"
+    },
+    {
+      "source_id": "RCL/2013/page_17.pdf-3",
+      "case_number": 3,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "令 x 表示2012年全球邮轮旅客数（百万），则2011至2012年的增幅为 ((x - 20.2) / 20.2) × 100%，2012至2013年的增幅为 ((21.3 - x) / x) × 100%。",
+        "missing_inputs_or_ambiguities": [
+          "2012年全球邮轮旅客数未披露，因此两个相邻年度的百分比增幅均无法计算。",
+          "表中的北美和欧洲市场渗透率不是全球邮轮旅客数；且缺少相应人口及其他地区数据，不能据此恢复2012年全球数值。"
+        ],
+        "evidence_quotes": [
+          "we estimate that the global cruise industry carried 21.3 million cruise guests in 2013 compared to [not disclosed] million cruise guests carried in 2012 and 20.2 million cruise guests carried in 2011 .",
+          "the following table details market penetration rates for north america and europe computed based on the number of annual cruise guests as a percentage of the total population : america ( 1 ) europe ( 2 ) ."
+        ],
+        "rationale": "已知2011年为20.2百万、2013年为21.3百万，但两项所问增幅都依赖未披露的2012年全球旅客数。区域渗透率无法替代该全球总量，因此既不能确定精确值，也没有足够依据给出合理近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "848bc1dd7bc0a6988e1c4830320f8dfdf8f2b568aab94977f04ae0e3e76ca23d"
+    },
+    {
+      "source_id": "SLG/2010/page_50.pdf-2",
+      "case_number": 4,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "设2011年Property Mortgages为x（千美元），则所求百分比 = x / (x + 588,287) × 100%，其中588,287 = 84,823 + 1,555 + 28,929 + 265,242 + 207,738。",
+        "missing_inputs_or_ambiguities": [
+          "2011年Property Mortgages金额未披露。",
+          "2011年Total contractual obligations也未披露；其他年份的列合计无法确定2011年的缺失金额。",
+          "没有披露Property Mortgages行总计或全部合同义务总计，因此无法通过行、列恒等关系反推出x。"
+        ],
+        "evidence_quotes": [
+          "Property Mortgages",
+          "[not disclosed]",
+          "Senior Unsecured Notes",
+          "84,823",
+          "Capital lease",
+          "1,555",
+          "Ground leases",
+          "28,929",
+          "Estimated interest expense",
+          "265,242",
+          "Joint venture debt",
+          "207,738",
+          "Total"
+        ],
+        "rationale": "2011年除物业抵押贷款外的合同义务合计为588,287千美元，但物业抵押贷款及该年总额均为未披露。故只能给出含未知数x的比例表达式，不能得到精确值或有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "bb587657a2001bd4150c5c4cfac9f476198eb5bc9a804dc137c51fc73363f26a"
+    },
+    {
+      "source_id": "GS/2016/page_186.pdf-1",
+      "case_number": 5,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Total cost of common share repurchases (2016) − Total cost of common share repurchases (2015), in millions",
+        "missing_inputs_or_ambiguities": [
+          "The 2016 and 2015 total costs of common share repurchases are both marked \"[not disclosed]\".",
+          "The numbers of common shares repurchased in 2016 and 2015 are also \"[not disclosed]\", so the disclosed average costs per share cannot be used to derive either total cost.",
+          "“Difference” could mean a signed change or an absolute difference, but neither can be calculated from the supplied values."
+        ],
+        "evidence_quotes": [
+          "Common share repurchases",
+          "Average cost per share",
+          "$165.88",
+          "$189.41",
+          "Total cost of common share repurchases",
+          "[not disclosed]"
+        ],
+        "rationale": "证据未披露2016年和2015年的回购总成本，也未披露两年的回购股数。仅有每股平均成本不足以推导总成本，因此无法计算两年之间的精确差额或有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "6f7536c36d358a52ae2b157806eb4e31196f961c2aa8ae42d843f73d32cded3f"
+    },
+    {
+      "source_id": "UAA/2018/page_40.pdf-4",
+      "case_number": 6,
+      "annotation": {
+        "answerability": "sufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": true,
+        "supported_target_expression": "2018 gross margin ≈ (2018 SG&A + 2018 restructuring and impairment charges + 2018 operating income) / 2018 net revenues × 100% = (2182.3 + 183.1 - 25.0) / 5193.185 × 100% ≈ 45.07%，四舍五入约为45.1%。",
+        "missing_inputs_or_ambiguities": [
+          "毛利润及相关损益项目仅按百万美元保留一位小数披露，因此无法识别未经四舍五入的精确毛利率。"
+        ],
+        "evidence_quotes": [
+          "$5,193,185",
+          "selling , general and administrative expenses increased $ 82.8 million to $ 2182.3 million in 2018 from $ 2099.5 million in 2017 .",
+          "restructuring and impairment charges increased $ 59.1 million to $ 183.1 million from $ 124.0 million in 2017 .",
+          "income ( loss ) from operations decreased $ 52.8 million , or 189.9% ( 189.9 % ) , to a loss of $ 25.0 million in 2018 from income of $ 27.8 million in 2017 .",
+          "gross profit as a percentage of net revenues , or gross margin , was unchanged at [not disclosed]% in 2018 compared to 2017 ."
+        ],
+        "rationale": "依据营业利润恒等式，毛利润约等于营业亏损加销售、一般及行政费用以及重组和减值费用，即约2340.4百万美元；除以净收入5193.185百万美元，得到约45.07%，可支持回答2018年毛利率约为45.1%。由于费用和亏损数据经过取整，不能认定为精确值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "bb9029707d96ab117f3d3e1acab641a44bfe6b100d679f89ce434b2feeae990b"
+    },
+    {
+      "source_id": "OKE/2008/page_38.pdf-1",
+      "case_number": 7,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "(739 ÷ total employees employed at January 31, 2009) × 100%",
+        "missing_inputs_or_ambiguities": [
+          "The total number of employees employed at January 31, 2009 is explicitly marked \"[not disclosed]\". Without this denominator, the requested percentage cannot be calculated.",
+          "The missing United Steelworkers employee count can potentially be recovered as 739 − 13 − 312 = 414, but this only allocates the disclosed 739 collectively bargained employees and does not recover the total workforce."
+        ],
+        "evidence_quotes": [
+          "employees we employed [not disclosed] people at january 31 , 2009 , including 739 people employed by kansas gas service , who were subject to collective bargaining contracts .",
+          "International Union of Operating Engineers",
+          "13",
+          "International Brotherhood of Electrical Workers",
+          "312"
+        ],
+        "rationale": "证据披露了受集体谈判合同约束的员工数为739，但总员工人数被明确隐去。表格可用于拆分739人的构成，却无法提供计算百分比所需的总员工人数，因此既不能确定精确值，也没有足够信息支持近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "46f7cc7f45d9236d2f550209b27e499cc6fa0beac46359db2d381a4d149d96fa"
+    },
+    {
+      "source_id": "UNP/2017/page_74.pdf-3",
+      "case_number": 8,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "令 O2018 和 C2018 分别为未披露的2018年经营租赁与资本租赁最低付款额（百万美元）。已披露经营租赁小计为 359+297+259+221+1,115=2,251，资本租赁小计为 156+164+168+147+271=906。因此目标百分比为 100×(2,251+O2018)/(3,157+O2018+C2018)。",
+        "missing_inputs_or_ambiguities": [
+          "2018年经营租赁最低付款额未披露。",
+          "2018年资本租赁最低付款额未披露。",
+          "两类租赁的“Total minimum lease payments”均未披露，且其他叙述没有提供可用于恢复这些总额的关系或近似值。"
+        ],
+        "evidence_quotes": [
+          "future minimum lease payments for operating and capital leases with initial or remaining non-cancelable lease terms in excess of one year as of december 31 , 2017 , were as follows : millions operating leases capital leases .",
+          "2018",
+          "[not disclosed]",
+          "Total minimum lease payments"
+        ],
+        "rationale": "已披露年份只能算出经营租赁2,251百万美元和资本租赁906百万美元的部分小计。由于2018年两项付款额及最终总额均缺失，经营租赁占全部最低租赁付款的比例无法精确确定，也没有叙述性数据支持可靠的四舍五入近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "11299a9caa0c9e13e0ae6f4c19f1a5813b3d71d504123746030dbd1ebe9cc971"
+    },
+    {
+      "source_id": "ADBE/2012/page_113.pdf-1",
+      "case_number": 9,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "2012年余额变动（千美元）= 2012年期末余额 − 10,580 = 2012年外币折算调整额 + 1,314。",
+        "missing_inputs_or_ambiguities": [
+          "2012年期末余额未披露。",
+          "2012年“Foreign currency translation adjustments”金额也未披露；因此滚存关系中存在两个未知数，其他年度数据不能确定2012年的实际金额。",
+          "问题中的“change in balance”可能指期末余额减期初余额，也可能指表内“Foreign currency translation adjustments”项目；两种口径所需的2012年关键金额均缺失。"
+        ],
+        "evidence_quotes": [
+          "the following table sets forth the components of foreign currency translation adjustments for fiscal 2012 , 2011 and 2010 ( in thousands ) : .",
+          "Beginning balance",
+          "$10,580",
+          "Foreign currency translation adjustments",
+          "[not disclosed]",
+          "Income tax effect relating to translation adjustments forundistributed foreign earnings",
+          "1,314",
+          "Ending balance"
+        ],
+        "rationale": "表中仅给出2012年期初余额10,580和所得税影响1,314，但2012年外币折算调整额及期末余额均未披露。依据滚存关系只能列出表达式，无法求出实际变动额，也没有足够信息支持近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "5b9340a95ecd880133a91cc2a740e8fd070e75d2a3f5dba9673461cb8f40b5d9"
+    },
+    {
+      "source_id": "INTC/2016/page_33.pdf-1",
+      "case_number": 10,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "已拥有面积占比 = 50.7 / (50.7 + 7.1 + 美国租赁设施面积) × 100%",
+        "missing_inputs_or_ambiguities": [
+          "美国租赁设施的平方英尺数未披露，因此租赁设施总面积和主要设施总面积均无法确定。",
+          "没有披露可用于估算美国租赁设施面积的范围或近似值，故也不支持数值近似。"
+        ],
+        "evidence_quotes": [
+          "properties as of december 31 , 2016 , our major facilities consisted of : ( square feet in millions )",
+          "Owned facilities1",
+          "31.5",
+          "19.2",
+          "50.7",
+          "Leased facilities2",
+          "[not disclosed]",
+          "7.1",
+          "Total facilities",
+          "26.3"
+        ],
+        "rationale": "表中可确定自有设施总面积为50.7百万平方英尺，其他国家租赁面积为7.1百万平方英尺；但美国租赁面积未披露。其他国家总面积26.3仅验证19.2+7.1=26.3，不能补出美国租赁面积。因此，自有面积占全部主要设施面积的百分比无法从现有证据计算。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "46f3daf68a6eb64c07c4bcba693e40da4be600a9e0be791c6c1158bc2cb9c0be"
+    },
+    {
+      "source_id": "EW/2013/page_83.pdf-2",
+      "case_number": 11,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若按2012年至2013年的变化计算：((2013年每股公允价值 - $23.93) / $23.93) × 100%。",
+        "missing_inputs_or_ambiguities": [
+          "2013年每股公允价值为“[not disclosed]”，因此缺少计算百分比变化所必需的期末值。",
+          "所列无风险利率、波动率、预期寿命和股息率不足以反推出2013年每股公允价值；Black-Scholes计算还需要股价、行权价等未披露输入。"
+        ],
+        "evidence_quotes": [
+          "Fair value, per share",
+          "[not disclosed]",
+          "$23.93",
+          "the fair value of each option award and employee stock purchase subscription is estimated on the date of grant using the black-scholes option valuation model that uses the assumptions noted in the following tables ."
+        ],
+        "rationale": "表中仅给出2012年每股公允价值$23.93，2013年数值未披露。现有假设也不能唯一确定该缺失值，所以既无法得到精确百分比，也没有足够信息形成合理的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "024271c12abeb08824a105b7d21fe96f868b3509117f13b91fa1056d120da627"
+    },
+    {
+      "source_id": "IP/2013/page_62.pdf-2",
+      "case_number": 12,
+      "annotation": {
+        "answerability": "sufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": true,
+        "supported_target_expression": "($2.7 billion ÷ approximately $6.2 billion) × 100 ≈ 43.5%, or about 44%",
+        "missing_inputs_or_ambiguities": [
+          "The exact 2012 total Printing Papers sales figure is not disclosed. The statement that 2013 sales were \"about flat\" with 2012 supports an approximation but does not establish exact equality."
+        ],
+        "evidence_quotes": [
+          "north american printing papers net sales were $ 2.6 billion in 2013 , $ 2.7 billion in 2012 and $ 2.8 billion in 2011. .",
+          "printing papers net sales for 2013 were about flat with both 2012 and 2011 .",
+          "$6,205",
+          "[not disclosed]"
+        ],
+        "rationale": "2012年北美印刷纸净销售额为27亿美元；2013年印刷纸总销售额为62.05亿美元，且披露称其与2012年“基本持平”，因此可用约62亿美元作为2012年总额，得到约43.5%（约44%）。但因2012年总销售额未精确披露，无法识别精确百分比。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "c93ab4316cff4dc9cbf5c357ade091c83eeea004292db1fa104adf359f03fc55"
+    },
+    {
+      "source_id": "DG/2008/page_73.pdf-2",
+      "case_number": 13,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若“difference”指成本减公允价值，则差额（百万美元）= 31.4 − 公允价值；若指绝对差额，则为 |31.4 − 公允价值|。",
+        "missing_inputs_or_ambiguities": [
+          "截至2009年1月30日持有至到期证券的公允价值未披露，因此无法计算数值差额。",
+          "“difference”未明确要求有符号差额还是绝对差额；但无论采用哪种口径，都需要公允价值。"
+        ],
+        "evidence_quotes": [
+          "the contractual maturities of held-to-maturity securities as of january 30 , 2009 were in excess of three years and were $ 31.4 million at cost and $ [not disclosed] million at fair value , respectively ."
+        ],
+        "rationale": "证据仅给出成本为31.4百万美元，并明确将公允价值标为未披露。其他内容与该证券公允价值无关，无法替代缺失输入，故既不能得到精确值，也不支持近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "c003584a0b7f3720eb1a169cbedf8c31d32793c10ff9063647df63ba829ee8bf"
+    },
+    {
+      "source_id": "JPM/2017/page_145.pdf-3",
+      "case_number": 14,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若“junk”指非投资级（BB+/Ba1及以下），则2017年占比 = BB+/Ba1 to B-/B3占比 + 2%；等价地，按披露金额计算为 (BB档衍生品应收款金额 + 645) / 40,415 × 100%。",
+        "missing_inputs_or_ambiguities": [
+          "2017年“BB+/Ba1 to B-/B3”档的金额和占比均为“[not disclosed]”。",
+          "已知占比只能推出BBB档与BB档合计为52%（100%-29%-17%-2%），无法将BB档单独分离，因此不能确定junk占比。",
+          "“junk”的口径未明示；通常指BB+/Ba1及以下。即使采用该通常定义，仍缺少BB档数据。"
+        ],
+        "evidence_quotes": [
+          "the following table summarizes the ratings profile by derivative counterparty of the firm's derivative receivables , including credit derivatives , net of all collateral , at the dates indicated .",
+          "BB+/Ba1 to B-/B3",
+          "[not disclosed]",
+          "CCC+/Caa1 and below",
+          "645",
+          "2",
+          "$40,415",
+          "100%"
+        ],
+        "rationale": "通常口径下，junk应合并BB档和CCC及以下档。证据仅披露CCC及以下为2%，而BB档未披露；缺失的BBB档也使其无法通过总计残差单独反推。因此既不能识别精确值，也没有足够信息支持可靠近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "f27fac358e5306e5bf38c47b253861d84e3f0863d33474ba7bc3db770f2328a4"
+    },
+    {
+      "source_id": "IPG/2009/page_67.pdf-1",
+      "case_number": 15,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "(19.3 + 2008年其他无形资产摊销费用 + 8.5) / 3（百万美元）",
+        "missing_inputs_or_ambiguities": [
+          "2008年其他无形资产摊销费用未披露，且其数值无法从所给商誉表或其他文字中推导。"
+        ],
+        "evidence_quotes": [
+          "amortization expense for other intangible assets for the years ended december 31 , 2009 , 2008 and 2007 was $ 19.3 , $ [not disclosed] and $ 8.5 , respectively ."
+        ],
+        "rationale": "证据仅确定2009年为19.3百万美元、2007年为8.5百万美元；计算三年平均值还需要2008年的摊销费用。该项明确标为未披露，现有其他数据也不能补足，因此无法得到精确值或有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "b8a7543f40c6b581d6e1081b06ee43cc1229975eb2cde99a8f058e154bc05edf"
+    },
+    {
+      "source_id": "C/2016/page_120.pdf-4",
+      "case_number": 16,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "将“hqa”解释为 HQLA：2016年 HQLA = 332.5 + 71.3 = 403.8（十亿美元）；所求变化 = 403.8 − 2015年HQLA。等价地，若 E_2015 表示2015年“HQLA in excess of net outflows”，则变化 = (332.5 + 71.3) − (344.4 + E_2015) = 59.4 − E_2015（十亿美元）。",
+        "missing_inputs_or_ambiguities": [
+          "2015年12月31日的HQLA未披露。",
+          "2015年“HQLA in excess of net outflows”未披露，因此不能结合已披露的2015年净流出344.4计算HQLA。",
+          "2015年LCR也未披露，无法通过 LCR × net outflows 的替代关系恢复2015年HQLA。",
+          "问题中的“hqa”未定义；结合上下文可合理解释为“HQLA”，但若其指其他指标，则目标指标本身存在歧义。",
+          "叙述仅说明HQLA同比增加，未给出可支持十亿美元金额或近似金额的幅度。"
+        ],
+        "evidence_quotes": [
+          "HQLA",
+          "[not disclosed]",
+          "332.5",
+          "344.4",
+          "$71.3",
+          "the increase year-over-year was driven by both an increase in hqla and a reduction in net outflows ."
+        ],
+        "rationale": "可由2016年净流出与超额HQLA算得2016年HQLA为403.8十亿美元，但2015年HQLA及其可替代计算所需的超额HQLA或LCR均未披露。文本只能确定HQLA有所增加，不能确定变化金额或有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "aa25e7f118b306d15779324ef37922691f66ba135fdbeab3cf7739a51ca0e380"
+    },
+    {
+      "source_id": "PNC/2013/page_205.pdf-2",
+      "case_number": 17,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": true,
+        "supported_target_expression": "Let G be 2013 grants and E be the December 31, 2013 ending balance, both in thousands. E = 1,119 + G − 326 − 72 = G + 721, so the net change is Δ = E − 1,119 = G − 398. Treating the displayed two-decimal weighted-average fair values as exact gives G ≈ 941.2 and Δ ≈ 543.2 thousand shares; only a rough estimate of about 0.5 million shares is robustly supported.",
+        "missing_inputs_or_ambiguities": [
+          "Both the 2013 granted-share count G and the December 31, 2013 ending-share count E are marked as not disclosed; either one would determine the exact net change.",
+          "The weighted-average fair values are rounded to cents. Because the relevant fair values are close together, their rounding prevents recovery of a unique share count at the requested thousand-share precision.",
+          "The question does not specify an approximation tolerance; therefore the algebraic estimate of about 543 thousand cannot be treated as an exact answer."
+        ],
+        "evidence_quotes": [
+          "Shares in thousands",
+          "Nonvested Incentive/ Performance Unit Shares",
+          "December 31, 2012",
+          "1,119",
+          "Granted",
+          "[not disclosed]",
+          "64.36",
+          "Vested/Released",
+          "(326)",
+          "Forfeited",
+          "(72)",
+          "December 31, 2013",
+          "$63.49",
+          "the weighted-average grant date fair value of incentive/ performance unit share awards and restricted stock/unit awards granted in 2013 , 2012 and 2011 was $ 64.77 , $ 60.68 and $ 63.25 per share , respectively ."
+        ],
+        "rationale": "净变动应为期末减期初，也等于授予数减去已归属/释放及没收数，即 Δ=E−1,119=G−398（千股）。但 G 和 E 均未披露。利用表内已舍入至美分的加权平均公允价值只能得到约543千股的中心估计，无法唯一确定精确到千股的答案。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "7f7da04095fc940bebcb327b59a22c3aa8411470a6152512ad75468468b663d6"
+    },
+    {
+      "source_id": "UNP/2013/page_35.pdf-3",
+      "case_number": 18,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "令 x 为2011年更换的铁路轨道英里数，则2012年与2011年的差额为 964 − x 轨道英里；若“difference”指绝对差，则为 |964 − x|。",
+        "missing_inputs_or_ambiguities": [
+          "2011年的“Track miles of rail replaced”明确标为未披露，因此无法由已知的2012年数值964计算差额。",
+          "其他行对应不同指标，后文也未提供2011年更换轨道英里数，不能替代该缺失输入。"
+        ],
+        "evidence_quotes": [
+          "Track miles of rail replaced",
+          "964",
+          "[not disclosed]"
+        ],
+        "rationale": "表中仅披露2012年更换轨道964英里，而2011年数值未披露。由于差额必须同时知道两年的同一指标，现有证据既不能确定精确值，也不支持有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "c6a85e99e85cda06c565162c04f2707fb9017f27a47c10d7b23a3132fba3d14d"
+    },
+    {
+      "source_id": "AAPL/2007/page_51.pdf-1",
+      "case_number": 19,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若以2005年为基期，百分比变化 = ($270 million − 2005年库存) / 2005年库存 × 100%。",
+        "missing_inputs_or_ambiguities": [
+          "2005年库存金额未披露；表中的营运资本、应收账款及现金等数据不足以单独推导库存，因为缺少其他流动资产和流动负债明细。"
+        ],
+        "evidence_quotes": [
+          "Inventory",
+          "$270",
+          "[not disclosed]",
+          "September 30, 2006",
+          "September 24, 2005"
+        ],
+        "rationale": "表格仅确定2006年库存为2.70亿美元，而2005年库存明确标为未披露。由于百分比变化需要2005年库存作为分母，现有证据既不能确定精确结果，也不支持合理的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "a224b50de7eb1cf5222314104cf1d0c342eb4d2b20692f97a2dc7b302fb6275d"
+    },
+    {
+      "source_id": "RE/2015/page_110.pdf-3",
+      "case_number": 20,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "((2015年余额 - 29,497) / 29,497) × 100%（金额单位：千美元）",
+        "missing_inputs_or_ambiguities": [
+          "2015年“Reinsurance receivables and premium receivables”的余额未披露；现有文本也未提供可用于推导该余额的变化额、变化率或其他等价数据。"
+        ],
+        "evidence_quotes": [
+          "(Dollars in thousands)",
+          "Reinsurance receivables and premium receivables",
+          "[not disclosed]",
+          "$29,497"
+        ],
+        "rationale": "表格仅给出2014年余额29,497千美元，而2015年数值明确为未披露。缺少公式所需的2015年余额，因此既无法确定精确百分比，也不支持合理的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "249763a9d7c687fc785b9e407a0f6b84eca6e13963e716d244e6e4e91998778a"
+    },
+    {
+      "source_id": "IP/2014/page_71.pdf-1",
+      "case_number": 21,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "令 P 为2015年购买义务（百万美元），则所求百分比 = P / ($742 + $142 + P) × 100% = P / ($884 + P) × 100%。",
+        "missing_inputs_or_ambiguities": [
+          "2015年的购买义务金额未披露，因此无法确定分子，也无法据此计算2015年合同义务总额。",
+          "脚注所述“$ 2.3 billion”仅是特定纤维供应协议相关金额，未说明其在2015年到期的部分，不能替代P。"
+        ],
+        "evidence_quotes": [
+          "Maturities of long-term debt (a)",
+          "$742",
+          "Lease obligations",
+          "142",
+          "Purchase obligations (c)",
+          "[not disclosed]",
+          "includes $ 2.3 billion relating to fiber supply agreements entered into at the time of the 2006 transformation plan forestland sales and in conjunction with the 2008 acquisition of weyerhaeuser company's containerboard , packaging and recycling business ."
+        ],
+        "rationale": "表中可确定2015年长期债务到期额为742百万美元、租赁义务为142百万美元，抵销债务项为“—”；但2015年购买义务及总额均未披露。其他年度数据和未按年度分配的23亿美元说明均不能恢复该缺失金额，故既不能得到精确值，也没有受支持的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "ee37587e9f78c695809532d7214eb9391bc1fe6614a5604d4d419ad66c9bdd25"
+    },
+    {
+      "source_id": "KMI/2016/page_17.pdf-1",
+      "case_number": 22,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Average capacity per liquids terminal = liquids terminals Capacity(MMBbl) / liquids terminals Number",
+        "missing_inputs_or_ambiguities": [
+          "The number of liquids terminals is not disclosed.",
+          "The total capacity of liquids terminals in MMBbl is not disclosed.",
+          "The figures for bulk terminals and Jones Act tankers apply to different asset categories and cannot determine the liquids-terminals average."
+        ],
+        "evidence_quotes": [
+          "the following summarizes our terminals segment assets , as of december 31 , 2016 : number capacity ( mmbbl ) .",
+          "Liquids terminals",
+          "[not disclosed]",
+          "Jones Act tankers",
+          "4.0"
+        ],
+        "rationale": "平均容量需要以液体码头总容量除以液体码头数量，但这两个必要输入均未披露。Jones Act油轮的4.0 MMBbl属于不同资产类别，不能用于推算液体码头的平均容量，因此精确值和合理近似值都无法识别。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "c42d53d4bbddbf2dd89325e17fb851fe23a6b129097a6876413e20b35ef451d5"
+    },
+    {
+      "source_id": "PNC/2018/page_45.pdf-2",
+      "case_number": 23,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "每股降幅 = $133.79 − 12月平均回购价；但12月平均回购价未被确定。",
+        "missing_inputs_or_ambiguities": [
+          "“December 1 – 31”的平均每股回购价明确标为未披露。",
+          "第四季度总回购价仅披露为“$ .8 billion”，精度过低；从该舍入金额扣除10月和11月的估算回购额，无法可靠确定12月价格，甚至无法确定其是否低于11月。",
+          "表中股数以千股列示且月度平均价格仅精确到美分，也进一步排除精确反推。",
+          "若无依据地把$0.8 billion视为精确的$800 million，可条件性算得约$4.85/股的降幅，但该处理超出了披露精度，因此不是受证据支持的实际答案。"
+        ],
+        "evidence_quotes": [
+          "November 1 – 30",
+          "$133.79",
+          "December 1 – 31",
+          "[not disclosed]",
+          "3,458",
+          "the aggregate repurchase price of shares repurchased during the fourth quarter of 2018 was $ .8 billion ."
+        ],
+        "rationale": "11月价格已知，但12月价格缺失。季度总额只有十亿美元一位小数的粗略披露，残差误差相对于12月回购额过大，不能可靠识别所问降幅。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "778e27521804f09ec293f5df68ea66eacb0333ffe7e1c0494c45a588cd2f54ba"
+    },
+    {
+      "source_id": "SLB/2009/page_65.pdf-4",
+      "case_number": 24,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Vessels under construction ÷ Total purchase price × 100%",
+        "missing_inputs_or_ambiguities": [
+          "“Vessels under construction”金额未披露。",
+          "“Total purchase price”金额未披露。",
+          "即使利用表内其他项目，也只能得到 Total purchase price = Cash and short-term investments + Vessels under construction - 122（百万美元）；由于现金金额同样未披露，无法确定所求比例。"
+        ],
+        "evidence_quotes": [
+          "Vessels under construction",
+          "[not disclosed]",
+          "Total purchase price",
+          "Cash and short-term investments",
+          "Other current assets",
+          "23",
+          "Fixed income investments, held to maturity",
+          "54",
+          "Accounts payable and accrued liabilities",
+          "(17)",
+          "Long-term debt",
+          "(182)"
+        ],
+        "rationale": "所求比例需要在建船舶金额和总购买价。两者均未披露，且现金及短期投资也缺失，因此现有项目无法通过购买价分配恒等式恢复该比率；材料亦未提供可支持近似值的叙述。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "4bb6b474894045d294b1017a883389a4c694efc306270946056e291c72e8d5e6"
+    },
+    {
+      "source_id": "FTV/2017/page_45.pdf-1",
+      "case_number": 25,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "2016 sales = 3,191.5 + 3,032.8 = 6,224.3 million; percentage change = ((6,224.3 - 2015 sales) / 2015 sales) × 100%.",
+        "missing_inputs_or_ambiguities": [
+          "2015 sales is not disclosed and cannot be derived because neither 2015 gross profit nor 2015 gross profit margin is provided.",
+          "The 0.3% price contribution is only one component of sales growth from existing businesses, not the total change in sales.",
+          "The qualitative growth rates for individual segment businesses do not provide the sales weights needed to calculate an overall rate."
+        ],
+        "evidence_quotes": [
+          "Sales",
+          "[not disclosed]",
+          "(3,191.5)",
+          "3,032.8",
+          "year-over-year price increases in the segment contributed 0.3% ( 0.3 % ) to sales growth during 2016 as compared to 2015 and are reflected as a component of the change in sales from existing businesses ."
+        ],
+        "rationale": "可由2016年销售成本与毛利润算出2016年销售额为6,224.3百万美元，但2015年销售额及可用于推导它的毛利润或毛利率均未披露。0.3%仅是价格因素对现有业务销售增长的贡献，不能代表总销售额变动，因此无法得到精确值或有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "991b2e0c83126f2489f643aff7d974902d8f2e6a19ded15f36862c295c4c1016"
+    },
+    {
+      "source_id": "CE/2005/page_167.pdf-4",
+      "case_number": 26,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "2006年到期债务 ÷ 债务总额 × 100%",
+        "missing_inputs_or_ambiguities": [
+          "2006年到期的债务金额未披露，因此分子无法确定。",
+          "债务总额未披露；且2007年和2008年的到期金额也未披露，无法通过对各年度到期额求和恢复总额。"
+        ],
+        "evidence_quotes": [
+          "the maturation of the company's debt , including short term borrowings , is as follows : ( in $ millions ) .",
+          "2006",
+          "[not disclosed]",
+          "Total",
+          "2009",
+          "40",
+          "2010",
+          "28",
+          "Thereafter(1)",
+          "3,163"
+        ],
+        "rationale": "截至2005年12月31日，未来12个月对应2006年，因此所求比例应为2006年到期债务占总债务的比例。但表中2006年金额和总额均未披露，2007年及2008年金额也缺失，现有披露既不能确定精确值，也不足以形成有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "a1ad5355df3d197473c5e3c20c5759083c2e16ec29861a8e5cf7b99f6ca4b4fe"
+    },
+    {
+      "source_id": "LMT/2006/page_39.pdf-1",
+      "case_number": 27,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "((2,529 - Net earnings in 2005) / Net earnings in 2005) × 100%",
+        "missing_inputs_or_ambiguities": [
+          "The 2005 net earnings value is not disclosed. The related 2005 Return and Return on invested capital values are also not disclosed, so neither identity (Return = net earnings + after-tax interest expense) nor ROIC can recover it."
+        ],
+        "evidence_quotes": [
+          "Net earnings",
+          "$2,529",
+          "[not disclosed]",
+          "Interest expense (multiplied by 65%)1",
+          "Return",
+          "Return on invested capital"
+        ],
+        "rationale": "已知2006年净收益为2,529百万美元，但2005年净收益缺失。虽然2005年税后利息费用为241百万美元，计算净收益还需要同年Return；该值及ROIC均未披露，因此无法得到精确值或有依据的近似百分比。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "5bdeb8c38d2add364d3641da448ad84f7e6898413c7c10f8c5834215b54d82a0"
+    },
+    {
+      "source_id": "UNP/2012/page_74.pdf-2",
+      "case_number": 28,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "设 E 为2011年 equipment rents payable（百万美元），则2011年至2012年的百分比变化为 (95-E)/E×100%。",
+        "missing_inputs_or_ambiguities": [
+          "2011年 equipment rents payable 的金额未披露。",
+          "2011年总计同样未披露，因此无法用总额减去其他已知项目反推出该金额。"
+        ],
+        "evidence_quotes": [
+          "Equipment rents payable",
+          "95",
+          "[not disclosed]",
+          "Total accounts payable and othercurrent liabilities"
+        ],
+        "rationale": "表中仅给出2012年设备租金应付款为95百万美元，2011年对应值缺失；且2011年负债总计也缺失，无法通过表内恒等关系补足。因此既不能确定精确百分比，也没有足够信息支持四舍五入近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "d037c66fcfc6b4016f41172c4fce02c0ba3566ac3b37e364a3861acfbfc381db"
+    },
+    {
+      "source_id": "IP/2012/page_56.pdf-3",
+      "case_number": 29,
+      "annotation": {
+        "answerability": "sufficient",
+        "exact_value_identifiable": true,
+        "approximation_supported": true,
+        "supported_target_expression": "2012年营业利润 − 2011年营业利润 = 599 − 872 = -273（百万美元），即营业利润减少273百万美元。",
+        "missing_inputs_or_ambiguities": [
+          "“change”可按带符号变动表述为-273百万美元，也可按下降幅度表述为273百万美元；两者数值含义一致。"
+        ],
+        "evidence_quotes": [
+          "In millions",
+          "Operating Profit",
+          "599",
+          "872",
+          "operat- ing profits in 2012 were 31% ( 31 % ) lower than in 2011 , but 25% ( 25 % ) higher than in 2010 ."
+        ],
+        "rationale": "表格以百万美元列示2012年和2011年营业利润分别为599和872，因此可直接计算同比变动为-273百万美元；叙述中的下降31%也与该方向和数量级一致。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "12b32178a2a63ef1f5dfc0fd67ca5bfad9c3aa03ff35945bf03d91f9b476b334"
+    },
+    {
+      "source_id": "LKQ/2018/page_102.pdf-2",
+      "case_number": 30,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Percentage change = (($300 million − 2017 rental expense) / 2017 rental expense) × 100%, with $300 million itself disclosed only approximately.",
+        "missing_inputs_or_ambiguities": [
+          "The 2017 rental expense is explicitly not disclosed, so the denominator and the 2017-to-2018 difference cannot be determined.",
+          "The future minimum lease payments are commitments by future year, not disclosed rental expenses for 2017, and therefore cannot recover the missing value.",
+          "The 2018 rental expense is stated only as approximately $300 million, so even if the 2017 value were available, an exact percentage would not be identifiable from this evidence."
+        ],
+        "evidence_quotes": [
+          "rental expense for operating leases was approximately $ 300 million , $ [not disclosed] million , and $ 212 million during the years ended december 31 , 2018 , 2017 and 2016 , respectively .",
+          "the future minimum lease commitments under these leases at december 31 , 2018 are as follows ( in thousands ) : years ending december 31: ."
+        ],
+        "rationale": "证据仅给出2018年租赁费用约为3亿美元，并明确缺失2017年金额。未来最低租赁付款属于后续年度承诺，不能替代2017年实际租赁费用，因此无法计算该百分比变化。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "30ca9a0a3cef9fd7b7be36aea8f932e608f57f200af9fa59fa1d953fc31a28aa"
+    },
+    {
+      "source_id": "FRT/2010/page_123.pdf-1",
+      "case_number": 31,
+      "annotation": {
+        "answerability": "sufficient",
+        "exact_value_identifiable": true,
+        "approximation_supported": true,
+        "supported_target_expression": "$108,261 thousand − $11,144 thousand = $97,117 thousand (i.e., additions were $97.117 million greater than deductions).",
+        "missing_inputs_or_ambiguities": [],
+        "evidence_quotes": [
+          "Additions during period—depreciation and amortization expense",
+          "108,261",
+          "Deductions during period—disposition and retirements of property",
+          "(11,144)"
+        ],
+        "rationale": "表中直接披露了2009年增加额和扣减额。括号表示扣减，按其金额绝对值比较，增加额比扣减额大97,117千美元，即97.117百万美元；该结果也与期初、期末余额的调节关系一致。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "e4d797b56b4272cc8e89c6cd8f2f0cabad12a24b715378b28d7551c5854fffcc"
+    },
+    {
+      "source_id": "IPG/2014/page_37.pdf-4",
+      "case_number": 32,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "2014年净变动（百万美元）= 2014年末余额 − 2013年末余额 = 1,667.2 − 2013年末现金、现金等价物及有价证券余额",
+        "missing_inputs_or_ambiguities": [
+          "2013年末“Cash, cash equivalents and marketable securities”余额未披露，因此无法计算2014年的净变动。",
+          "披露的101.0百万美元减少仅是汇率变化对现金及现金等价物的影响，并非现金、现金等价物及有价证券的全年总净变动，不能替代缺失的期初余额。"
+        ],
+        "evidence_quotes": [
+          "Cash, cash equivalents and marketable securities",
+          "$1,667.2",
+          "[not disclosed]",
+          "the effect of foreign exchange rate changes on cash and cash equivalents included in the consolidated statements of cash flows resulted in a decrease of $ 101.0 in 2014 ."
+        ],
+        "rationale": "净变动需要2014年末与2013年末的可比余额。证据仅给出2014年末余额1,667.2百万美元，而2013年余额明确未披露；汇率影响也只是部分变动且口径不含有价证券，故既无法确定精确值，也无依据给出近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "f13af13a6ecc98c96c95c9fd3fb774d2ca36231afa4a19551d5140b11e776f37"
+    },
+    {
+      "source_id": "MSI/2009/page_116.pdf-1",
+      "case_number": 33,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "(8 + 95 + 2007年费用) / 3 百万美元",
+        "missing_inputs_or_ambiguities": [
+          "2007年所有固定缴款计划的公司费用未披露；现有材料仅提供2009年的800万美元和2008年的9500万美元，无法据此确定三年平均值。",
+          "其余披露涉及人寿保险成本、负债、股票购买或期权估值，指标不同，不能用于恢复2007年该项费用。"
+        ],
+        "evidence_quotes": [
+          "the company's expenses , primarily relating to the employer match , for all defined contribution plans , for the years ended december 31 , 2009 , 2008 and 2007 were $ 8 million , $ 95 million and $ [not disclosed] million , respectively ."
+        ],
+        "rationale": "三年平均费用需要2007、2008和2009年三个同口径数值。证据明确给出2009年为800万美元、2008年为9500万美元，但2007年数值未披露，因此既不能精确计算，也没有足够信息形成合理的四舍五入近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "ec2da932383a43602cfa02437893832fb8d1bd78363a03de362494fc235a6db8"
+    },
+    {
+      "source_id": "CE/2006/page_124.pdf-1",
+      "case_number": 34,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "（2011年之后的本金付款额 ÷ 本金付款总额）× 100% =（Thereafter ÷ Total）× 100%",
+        "missing_inputs_or_ambiguities": [
+          "“Thereafter(1)”对应的本金付款额未披露。",
+          "“Total”对应的本金付款总额未披露。",
+          "脚注仅说明此后金额包含200万美元的购买会计调整，不能据此确定此后金额或总额；且2007年金额也未披露，无法通过已列年度金额重建总额。"
+        ],
+        "evidence_quotes": [
+          "principal payments scheduled to be made on the company's debt , including short term borrowings , is as follows : ( in $ millions ) .",
+          "Thereafter(1)",
+          "Total",
+          "[not disclosed]",
+          "( 1 ) includes $ 2 million purchase accounting adjustment to assumed debt ."
+        ],
+        "rationale": "所求比例应以“Thereafter(1)”金额除以“Total”。两项关键数值均未披露，脚注中的200万美元只是已包含的调整额，并非此后付款总额；同时2007年金额缺失，因此既无法精确计算，也没有足够信息支持合理的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "99367276c44c1a8492f6818610ac6e964a64c46028c6ce026881a5fd2e691b6e"
+    },
+    {
+      "source_id": "IQV/2018/page_59.pdf-1",
+      "case_number": 35,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若分母是长期债务（含利息）的总额：2019年占比 = 2019年长期债务（含利息）÷长期债务（含利息）总额×100%。若分母是2019年全部付款承诺：占比 = 2019年长期债务（含利息）÷2019年全部付款承诺×100%。",
+        "missing_inputs_or_ambiguities": [
+          "“Long-term debt, including interest(1)”行的2019年金额和Total金额均未披露。",
+          "Total行的2019年金额及总体Total也未披露，因此也无法计算长期债务占2019年全部付款承诺的比例。",
+          "问题措辞不完整，无法确定分母是长期债务（含利息）总额，还是2019年全部付款承诺。",
+          "已披露的2020-2021、2022-2023及Thereafter列合计只能推导这些期间的长期债务金额，不能恢复2019年金额。"
+        ],
+        "evidence_quotes": [
+          "below is a summary of our future payment commitments by year under contractual obligations as of december 31 , 2018: .",
+          "Long-term debt, including interest(1)",
+          "[not disclosed]",
+          "$2,047",
+          "$3,595",
+          "$8,379"
+        ],
+        "rationale": "关键的2019年长期债务金额以及相关分母均未披露。其他期间的列合计虽可扣除已知项目以推导相应期间债务，但没有约束可确定2019年实际值，故既不能得到精确比例，也没有依据给出近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "621ed2eb26bd007e700c29618ebb6f3ec959a963a68b50938de7dd89d790a17c"
+    },
+    {
+      "source_id": "ALLE/2017/page_29.pdf-2",
+      "case_number": 36,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "(2017年环境事项准备金 + 30.6) / 2 百万美元",
+        "missing_inputs_or_ambiguities": [
+          "2017年环境事项准备金金额未披露。2017年的8.9百万美元仅是与已处置场地修复相关的准备金子项，不能确定准备金总额。",
+          "各年度环境修复费用不等同于年末环境事项准备金，无法据此补足2017年准备金。"
+        ],
+        "evidence_quotes": [
+          "as of december 31 , 2017 and 2016 , we have recorded reserves for environmental matters of $ [not disclosed] million and $ 30.6 million .",
+          "of these amounts $ 8.9 million and $ 9.6 million , respectively , relate to remediation of sites previously disposed by us .",
+          "we incurred $ 3.2 million , $ 23.3 million , and $ 4.4 million of expenses during the years ended december 31 , 2017 , 2016 , and 2015 , respectively , for environmental remediation at sites presently or formerly owned or leased by us ."
+        ],
+        "rationale": "2016年准备金为30.6百万美元，但2017年总额明确缺失。8.9百万美元只是2017年总准备金中的特定子项，环境修复费用也不能替代准备金余额，因此两年平均值既无法精确确定，也没有足够信息支持近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "5e6d6d431b90cfe1c1b8f592dd585c291a6549323b229e01da8ea0af598afd23"
+    },
+    {
+      "source_id": "ZBH/2018/page_61.pdf-4",
+      "case_number": 37,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "设D为2018年12月31日Defined Benefit Plan Items余额（百万美元），则所求百分比 = 100 × D / [(-31.3) + 20.9 + D] = 100 × D / (D - 10.4)。若X为该项目2018年“AOCI before reclassifications”，则D = -138.2 + X - 21.1 + 12.0 = X - 147.3。",
+        "missing_inputs_or_ambiguities": [
+          "Defined Benefit Plan Items在2018年12月31日的余额未披露。",
+          "该项目的“AOCI before reclassifications”金额未披露，因此无法由期初余额及重分类变动推导期末余额。",
+          "2018年12月31日Total AOCI也未披露；虽然可表示为D-10.4，但仍取决于未知的D。"
+        ],
+        "evidence_quotes": [
+          "our aoci is comprised of foreign currency translation adjustments , including unrealized gains and losses on net investment hedges , unrealized gains and losses on cash flow hedges , and amortization of prior service costs and unrecognized gains and losses in actuarial assumptions on our defined benefit plans .",
+          "Balance December 31, 2017",
+          "$(138.2)",
+          "AOCI before reclassifications",
+          "[not disclosed]",
+          "Reclassifications to retained earnings (Note 2)",
+          "(21.1)",
+          "Reclassifications",
+          "12.0",
+          "Balance December 31, 2018",
+          "$(31.3)",
+          "$20.9"
+        ],
+        "rationale": "期末AOCI由外币折算、现金流套期和设定受益计划三部分组成。已知前两项合计为-10.4百万美元，但设定受益计划期末余额及其当年重分类前变动均缺失，所以分子D和分母D-10.4均无法数值确定，也没有足够信息支持近似百分比。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "ef8baf1033af6282ca9afc218b564922f43ac3abb10048ec8533dd50989e4419"
+    },
+    {
+      "source_id": "MA/2009/page_120.pdf-2",
+      "case_number": 38,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "(($78.54 − 2007 weighted-average fair value per option granted) / 2007 weighted-average fair value per option granted) × 100%",
+        "missing_inputs_or_ambiguities": [
+          "The 2007 weighted-average fair value per option granted is explicitly listed as \"[not disclosed]\". The valuation assumptions shown do not determine that value because other Black-Scholes inputs are absent."
+        ],
+        "evidence_quotes": [
+          "Weighted-average fair value per option granted",
+          "$78.54",
+          "[not disclosed]",
+          "the fair value of each option is estimated on the date of grant using a black-scholes option pricing model ."
+        ],
+        "rationale": "2008年的加权平均每份期权公允价值为$78.54，但2007年数值未披露。现有风险利率、期限、波动率和股息率不足以单独还原Black-Scholes估值，因此无法计算精确值或有依据的近似增幅。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "b80b2d21e14546eb9726d0535421d9f717271e0216abf67a6cbdaa8676193c9f"
+    },
+    {
+      "source_id": "VNO/2011/page_85.pdf-1",
+      "case_number": 39,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "410,783 × P，其中 P 为2011年12月用于支付员工期权行权的Vornado普通股平均每股价格",
+        "missing_inputs_or_ambiguities": [
+          "平均每股价格被标为“[not disclosed]”，因此无法计算总美元价值。季度最高价和最低价不能确定该特定交易的平均价格。"
+        ],
+        "evidence_quotes": [
+          "recent purchases of equity securities in december 2011 , we received 410783 vornado common shares at an average price of $ [not disclosed] per share as payment for the exercise of certain employee options. .",
+          "4th",
+          "84.30",
+          "68.39"
+        ],
+        "rationale": "已披露收到410,783股，但计算总价值所需的交易平均每股价格未披露。第四季度高低价仅为市场价格区间，不能替代该交易的实际平均价格，因此既无法精确识别，也没有受证据支持的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "ceb5b1c2b73db3087d1a088e5939fe97bc58f8526ce2615c32d6e264fd6c6932"
+    },
+    {
+      "source_id": "RL/2015/page_9.pdf-1",
+      "case_number": 40,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "亚洲批发渠道门店数 ÷ 全球批发渠道门店总数 × 100%",
+        "missing_inputs_or_ambiguities": [
+          "Asia(c) 的门店数为“[not disclosed]”，因此缺少计算比例所必需的分子。",
+          "Total 的精确门店数也为“[not disclosed]”；正文仅披露全球约 13000 个门店。即使使用该近似总数，仍因亚洲门店数缺失而无法得到近似比例。"
+        ],
+        "evidence_quotes": [
+          "as of the end of fiscal 2015 , our wholesale products were sold through approximately 13000 doors worldwide and we invested $ 48 million of capital in related shop-within-shops during fiscal 2015 , primarily in domestic and international department and specialty stores .",
+          "Asia(c)",
+          "Total",
+          "[not disclosed]"
+        ],
+        "rationale": "所求比例需要亚洲门店数和全球门店总数。证据仅给出全球约 13000 个门店，而亚洲门店数未披露，因此既不能精确计算，也不能形成有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "3057f104958122f87026de888cf8466e4ffd6b6a69ef14f9328b59cc02294897"
+    },
+    {
+      "source_id": "UPS/2014/page_61.pdf-3",
+      "case_number": 41,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若“portion”指占全部期间合同义务总额的百分比，则为 2,911 ÷ (21,790 + P) × 100%，其中 P 为 2019 年之后的养老金缴款（单位：百万美元）。若“portion”仅指 2015 年到期金额，则为 2,911 百万美元。",
+        "missing_inputs_or_ambiguities": [
+          "2019 年之后的 Pension Fundings 未披露，因此合同义务总额也未披露；不能假设该金额为零。",
+          "“portion”可能指占比，也可能仅指到期金额；若要求占比，缺少可确定的分母。"
+        ],
+        "evidence_quotes": [
+          "the following table summarizes the expected cash outflow to satisfy our contractual obligations and commitments as of december 31 , 2014 ( in millions ) : .",
+          "$2,911",
+          "[not disclosed]"
+        ],
+        "rationale": "表中可直接确定 2015 年合同义务为 2,911 百万美元。除 2019 年后养老金缴款外，所有期间合计为 21,790 百万美元，因此完整总额是 21,790 + P。由于 P 未披露，无法得到确切或有依据的近似百分比。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "0a53ce77236f67c2e5fd5970e1d8b7da1380191d457bb18b75e382758428dda1"
+    },
+    {
+      "source_id": "DISCA/2018/page_39.pdf-4",
+      "case_number": 42,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "DISCK五年累计总回报 = $55.04 / $100.00 - 1 = -44.96%；是否跑赢取决于 $55.04 是否高于S&P 500在2018年12月31日的期末值。",
+        "missing_inputs_or_ambiguities": [
+          "S&P 500在December 31,2018的累计价值为“[not disclosed]”，因此无法与DISCK的$55.04进行五年期末比较。",
+          "表中未直接写明“k series”，但最合理的对应项是“DISCK”；即使采用该对应关系，仍缺少S&P 500的2018年期末值。"
+        ],
+        "evidence_quotes": [
+          "the graph assumes $ 100 originally invested on december 31 , 2013 in each of our series a common stock , series b common stock and series c common stock , the s&p 500 index , and the stock of our peer group companies , including reinvestment of dividends , for the years ended december 31 , 2014 , 2015 , 2016 , 2017 and 2018 .",
+          "DISCK",
+          "$55.04",
+          "S&P 500",
+          "[not disclosed]"
+        ],
+        "rationale": "DISCK从$100.00降至$55.04，可确定其五年累计回报为-44.96%。但S&P 500的2018年期末值未披露；2017年的$144.65不能替代五年期终值，因此不能判断是否跑赢。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "e0bf95b5ec412aafeda76241cfe360a8d31f94e6b278a2812efb55bd4f5014e0"
+    },
+    {
+      "source_id": "UPS/2015/page_108.pdf-3",
+      "case_number": 43,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "(2015年Vehicles金额 - 86) / 86 × 100%；其中金额单位为百万美元。",
+        "missing_inputs_or_ambiguities": [
+          "2015年Vehicles金额未披露。虽然可由表内恒等式表示为：2015年Vehicles = 2015年Property, plant and equipment subject to capital leases总额 - 2,289 - 207 + 849，但该2015年总额也未披露，因此无法反推出实际金额或百分比变化。"
+        ],
+        "evidence_quotes": [
+          "Vehicles",
+          "[not disclosed]",
+          "$86",
+          "Property, plant and equipment subject to capital leases"
+        ],
+        "rationale": "2014年车辆金额为8600万美元，但2015年车辆金额及可用于反推它的2015年净额合计均未披露。因此只能给出计算公式，既不能确定精确百分比，也没有依据支持近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "7e60e67b084f1145720f71daffdfdb25a1419e59f4b05c14e2bab4817a9e00b1"
+    },
+    {
+      "source_id": "AAPL/2012/page_64.pdf-4",
+      "case_number": 44,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "增加额 = 2012年确认的利息费用 − 2011年确认的利息费用 = 未披露金额 − $14 million",
+        "missing_inputs_or_ambiguities": [
+          "2012年确认的利息费用金额未披露。应计利息及罚款总额从$261 million增至$401 million，包含罚款且属于期末应计余额，不能替代当年确认的利息费用。"
+        ],
+        "evidence_quotes": [
+          "in connection with tax matters , the company recognized interest expense in 2012 and 2011 of $ [not disclosed] million and $ 14 million , respectively , and in 2010 the company recognized an interest benefit of $ 43 million .",
+          "as of september 29 , 2012 and september 24 , 2011 , the total amount of gross interest and penalties accrued was $ 401 million and $ 261 million , respectively , which is classified as non-current liabilities in the consolidated balance sheets .",
+          "the company includes interest and penalties related to unrecognized tax benefits within the provision for income taxes ."
+        ],
+        "rationale": "所求增加额必须用2012年确认的利息费用减去2011年的$14 million，但前者明确缺失。$401 million与$261 million是利息和罚款合计的应计余额，并非各年度确认的利息费用，因此无法据此精确或近似恢复答案。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "e71db7f4c08fc8d4d26b9f24c003b4155a092db8870fa13d93f2527cfbbf964d"
+    },
+    {
+      "source_id": "CE/2010/page_150.pdf-1",
+      "case_number": 45,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "百分比降幅 = (526 − 2010年末案件数) / 526 × 100%；按案件活动表的调节关系，也可表示为 (已解决案件数 − 2 − 41) / 526 × 100%。",
+        "missing_inputs_or_ambiguities": [
+          "2010年12月31日的案件数未披露。",
+          "已解决案件数也未披露，因此无法通过期初案件数、案件调整和新立案件数推导期末案件数。"
+        ],
+        "evidence_quotes": [
+          "As of December 31, 2009",
+          "526",
+          "Case adjustments",
+          "2",
+          "New cases filed",
+          "41",
+          "Resolved cases",
+          "[not disclosed]",
+          "As of December 31, 2010"
+        ],
+        "rationale": "计算2009年至2010年的案件数降幅需要2010年末案件数。证据仅给出2009年末526件、调整2件及新增41件，而期末数和已解决数均未披露，故不能确定精确值或有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "b0fa57ea5a3ec03a80f9f53a4f10849ca0739e139ded474c96500b821f0dec97"
+    },
+    {
+      "source_id": "RCL/2008/page_19.pdf-1",
+      "case_number": 46,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "2005年北美市场加权平均床位供应量 ÷ 282,000 × 100%",
+        "missing_inputs_or_ambiguities": [
+          "2005年“Weighted-Average Supply of Berths Marketed in North America”未披露，因此缺少所求百分比的分子。",
+          "北美邮轮乘客数9,909,000与床位供应量不是同一指标；证据未提供入住率、周转次数或其他可用于换算的关系。相邻年份数据也不能确定2005年的实际值。"
+        ],
+        "evidence_quotes": [
+          "Weighted-Average  Supply of Berths  Marketed Globally(1)",
+          "Weighted-  Average Supply ofBerths Marketed in  North  America(1)",
+          "282,000",
+          "9,909,000",
+          "[not disclosed]"
+        ],
+        "rationale": "2005年全球营销的加权平均床位供应量为282,000，但北美对应值明确未披露。现有乘客数和相邻年度床位数无法唯一或可靠地推导该分子，故既不能得到精确百分比，也没有依据给出合理的四舍五入近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "a840ceba86af4836eef11cccab28a73e71bceeae1d7c15d395ef99a3a306c176"
+    },
+    {
+      "source_id": "DISCA/2013/page_45.pdf-3",
+      "case_number": 47,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Implied total value (US$ millions) = cash paid in US$ millions / (51% - 20%) = cash paid in US$ millions / 31%.",
+        "missing_inputs_or_ambiguities": [
+          "The cash consideration in US$ millions is explicitly marked \"[not disclosed]\", so the numerator needed to value the 31% incremental ownership interest is unavailable.",
+          "The euro consideration is also undisclosed, so the missing US-dollar amount cannot be recovered through currency conversion."
+        ],
+        "evidence_quotes": [
+          "on january 21 , 2014 , we entered into an agreement with tf1 to acquire a controlling interest in eurosport international ( \"eurosport\" ) , a leading pan-european sports media platform , by increasing our ownership stake from 20% ( 20 % ) to 51% ( 51 % ) for cash of approximately €[not disclosed] million ( $ [not disclosed] million ) subject to working capital adjustments .",
+          "due to regulatory constraints the acquisition initially excludes eurosport france , a subsidiary of eurosport ."
+        ],
+        "rationale": "新增持股比例可确定为31%，但对应的美元及欧元支付金额均未披露。因此只能建立“支付金额÷31%”的估值表达式，无法得到精确值或有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "53c3be51d2adc45ac6db33f654848489c2622ca5d95c5808a08560b7666dd7b7"
+    },
+    {
+      "source_id": "STT/2001/page_36.pdf-3",
+      "case_number": 48,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "100 ×（2001年 servicing fees ÷ 2001年 Total fee revenue）",
+        "missing_inputs_or_ambiguities": [
+          "2001年 servicing fees 的金额未披露。",
+          "2001年 Total fee revenue 的金额未披露。",
+          "已披露的 servicing fees 增加额为199百万美元，但其2000年基数和增长百分比均未确定，因此无法还原2001年金额。",
+          "虽然2001年 foreign exchange trading 为368百万美元、processing fees and other 为329百万美元，但 management fees 和 servicing fees 的金额均缺失，不能通过分项加总恢复总额。"
+        ],
+        "evidence_quotes": [
+          "growth in servicing fees of $ 199million , or [not disclosed]% , was the primary contributor to the increase in fee revenue .",
+          "fee revenue total operating fee revenuewas $ [not disclosed] billion in 2001 , compared to $ [not disclosed] billion in 2000 , an increase of 6% ( 6 % ) .",
+          "management fees were down 5% ( 5 % ) , adjusted for the formation of citistreet , reflecting the decline in theworldwide equitymarkets .",
+          "Servicing fees",
+          "Total fee revenue"
+        ],
+        "rationale": "所求比例必须同时知道2001年服务费和总费用收入。两项金额均被隐去；199百万美元仅是服务费同比增加额，而5%和6%的变动信息也缺少必要基数，无法唯一恢复金额。因此既不能得到精确百分比，也没有足够依据给出合理的四舍五入近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "3413e3b9396915e8612d0ef5e3cba03499b10cfd8702863ad7dd23ed1f9fa62c"
+    },
+    {
+      "source_id": "BDX/2009/page_81.pdf-3",
+      "case_number": 49,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "（代表董事2009年薪酬的信托持股数 ÷ 86,643）× 100%",
+        "missing_inputs_or_ambiguities": [
+          "代表董事2009年薪酬的信托持股数量未披露；每股收益表中的加权平均股数及其他计划的可发行股数与该分子并非同一指标，无法替代。"
+        ],
+        "evidence_quotes": [
+          "as of september 30 , 2009 , 86643 shares were held in trust , of which [not disclosed] shares represented directors 2019 compensation in 2009 , in accordance with the provisions of the plan ."
+        ],
+        "rationale": "已知信托共持有86,643股，但其中代表董事薪酬的股数被明确标为未披露，因此既不能计算精确百分比，也没有足够信息支持近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "558c0f2bffd385a39c5d6be7df09d3f991160a0f0ae0faf03fc770f1b3a4ce7c"
+    },
+    {
+      "source_id": "MKTX/2009/page_79.pdf-3",
+      "case_number": 50,
+      "annotation": {
+        "answerability": "sufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": true,
+        "supported_target_expression": "Using thousands of dollars: known net allocation = 6,406 + 2,139 + 8,330 + 29,405 + 3,410 - 8,701 = 40,989. Using the disclosed rounded total of $42.4 million, other assets ≈ 42,400 - 40,989 = 1,411; percentage ≈ 1,411 / 42,400 × 100 = 3.33%, or approximately 3.3%.",
+        "missing_inputs_or_ambiguities": [
+          "The exact table values for “Other assets, including investment in TradeHelm” and “Total purchase price” are not disclosed.",
+          "The stated $42.4 million aggregate consideration is rounded, so it supports an approximate percentage but not an exact value."
+        ],
+        "evidence_quotes": [
+          "the purchase price allocation is as follows ( in thousands ) :",
+          "Cash",
+          "$6,406",
+          "Accounts receivable",
+          "2,139",
+          "Amortizable intangibles",
+          "8,330",
+          "Goodwill",
+          "29,405",
+          "Deferred tax assets, net",
+          "3,410",
+          "Other assets, including investment in TradeHelm",
+          "Accounts payable, accrued expenses and deferred revenue",
+          "(8,701)",
+          "a total of $ 1.4 million was paid to the sellers in 2009 based on the 2008 earn-out target , bringing the aggregate consideration to $ 42.4 million ."
+        ],
+        "rationale": "可用披露的约4240万美元总对价减去其他已列示的净购买价分配项目，估算其他资产约为141.1万美元，占比约3.3%。但总对价本身为四舍五入后的叙述金额，且目标行未披露，因此无法确定精确百分比。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "b5f564f95f737566d2459ad9b23a874022a128516546c5d63426bc4e9e74dc6c"
+    },
+    {
+      "source_id": "PKG/2006/page_27.pdf-2",
+      "case_number": 51,
+      "annotation": {
+        "answerability": "sufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": true,
+        "supported_target_expression": "Using the rounded disclosures: 2005 gross profit ≈ 137.1 / 0.447 = $306.7 million; 2005 net sales ≈ 306.7 / 0.154 = $1,991.6 million; net-sales increase ≈ (2,187.1 / 1,991.6 - 1) × 100 = 9.8%.",
+        "missing_inputs_or_ambiguities": [
+          "The 2005 net-sales amount and the directly reported net-sales percentage change are not disclosed.",
+          "The 44.7% gross-profit increase and 15.4% gross margin are rounded disclosures, so they support an approximately 9.8% result but not the exact underlying percentage."
+        ],
+        "evidence_quotes": [
+          "$2,187.1",
+          "gross profit increased $ 137.1 million , or 44.7% ( 44.7 % ) , for the year ended december 31 , 2006 from the year ended december 31 , 2005 .",
+          "gross profit as a percentage of net sales increased from 15.4% ( 15.4 % ) of net sales in 2005 to 20.3% ( 20.3 % ) of net sales in the current year primarily due to the increased sales prices described previously ."
+        ],
+        "rationale": "可利用毛利润增加额及增幅近似还原2005年毛利润，再用2005年毛利率近似还原净销售额，得到净销售额约增长9.8%。但相关百分比均已四舍五入，因此无法精确识别未取整的增长率。",
+        "confidence": "medium"
+      },
+      "status": "completed",
+      "attempt_id": "71b2da267b20472aeb57b80dc235650bdcd13c46c5f22dc381da3dd321ffaef4"
+    },
+    {
+      "source_id": "BLL/2007/page_75.pdf-3",
+      "case_number": 52,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Expected annual cash interest cost = 6.625% × face principal amount of the senior notes = 0.06625 × $[not disclosed] million.",
+        "missing_inputs_or_ambiguities": [
+          "The face principal amount of the 6.625% senior notes is not disclosed.",
+          "The $456.1 million of long-term debt maturing after 2012 is an aggregate amount and is not identified solely as the 6.625% senior notes, so it cannot be used to recover their principal.",
+          "The issue price of 99.799% and effective yield of 6.65% do not determine annual cash coupon interest without the face principal amount.",
+          "The total interest-cost figures combine multiple obligations and do not isolate interest on these notes."
+        ],
+        "evidence_quotes": [
+          "also on march 27 , 2006 , ball issued at a price of 99.799 percent $ [not disclosed] million of 6.625% ( 6.625 % ) senior notes ( effective yield to maturity of 6.65 percent ) due in march 2018 .",
+          "debt and interest costs ( continued ) long-term debt obligations outstanding at december 31 , 2007 , have maturities of $ 127.1 million , $ 160 million , $ 388.4 million , $ 625.1 million and $ 550.3 million for the years ending december 31 , 2008 through 2012 , respectively , and $ 456.1 million thereafter .",
+          "Interest costs before refinancing costs",
+          "$155.8"
+        ],
+        "rationale": "现金利息应按票面本金乘以6.625%计算，但证据隐去了该票据的本金。到期债务总额及综合利息成本均包含其他债务，无法据此分离或可靠近似该票据的年度现金利息。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "7fc66117bb41ed9803b99be5d21f4d0c82c43153281822007024fceb4b898b04"
+    },
+    {
+      "source_id": "VTR/2007/page_48.pdf-1",
+      "case_number": 53,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若“growth rate”指自12/31/2002至12/31/2003的累计总回报，则增长率 = (Ventas在12/31/2003的价值 ÷ $100 − 1) × 100%。",
+        "missing_inputs_or_ambiguities": [
+          "Ventas在12/31/2003的价值未披露，因此无法计算该年度的增长率。",
+          "12/31/2004的$270不能确定12/31/2003的价值；除非另行假设各期增长相同，而证据并未作此声明。",
+          "“growth rate”可能指截至该日的累计总回报或其他增长口径；现有上下文最支持前者，但无论采用哪种口径，关键的2003年Ventas数值仍缺失。"
+        ],
+        "evidence_quotes": [
+          "the comparison assumes $ 100 was invested on december 31 , 2002 in our common stock and in each of the foregoing indices and assumes reinvestment of dividends , as applicable .",
+          "the figures in the table below are rounded to the nearest dollar. .",
+          "[not disclosed]",
+          "$270"
+        ],
+        "rationale": "表中仅给出Ventas于12/31/2002的$100基准和12/31/2004的$270，12/31/2003数值明确未披露。后一期数值不能唯一反推出中间期表现，因此既不能识别精确增长率，也没有依据给出合理的四舍五入近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "08a06619462bcf134493d131420a72aed92316dbb551dbd5aa189344fb04d5dc"
+    },
+    {
+      "source_id": "HFC/2017/page_103.pdf-1",
+      "case_number": 54,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若“greater than 5 years”对应“Thereafter”，则所求百分比 = Thereafter ÷ Total × 100%。",
+        "missing_inputs_or_ambiguities": [
+          "“Thereafter”的金额为“[not disclosed]”。",
+          "“Total”的金额为“[not disclosed]”。",
+          "2018和2019金额也未披露，因此无法通过将各年度金额与“Thereafter”相加来重建Total。"
+        ],
+        "evidence_quotes": [
+          "2018",
+          "[not disclosed]",
+          "2019",
+          "2020",
+          "119,639",
+          "2021",
+          "107,400",
+          "2022",
+          "102,884",
+          "Thereafter",
+          "Total"
+        ],
+        "rationale": "表中可将五年以上到期义务合理对应为“Thereafter”，但其金额和义务总额均未披露；其余已知年度金额不足以恢复这两个输入，因此既不能确定精确百分比，也没有依据给出近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "d8076912186b145a1d4604f5a3ff5bd408c1547aaa77315fe42f754452cd8cd1"
+    },
+    {
+      "source_id": "ADI/2007/page_82.pdf-1",
+      "case_number": 55,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "2007年租赁费用增长率 =（2007年经营租赁租赁费用 − 45百万美元）÷ 45百万美元 × 100%",
+        "missing_inputs_or_ambiguities": [
+          "2007财年经营租赁租赁费用未披露，因此无法计算相对于2006财年45百万美元的增长率。",
+          "未来最低租赁付款表反映的是截至2007年11月3日的未来合同付款，并非2007财年的租赁费用；即使由总额推导出缺失的2008年付款，也不能恢复2007年租赁费用。"
+        ],
+        "evidence_quotes": [
+          "total rental expense under operating leases was approximately $ [not disclosed] million in fiscal 2007 , $ 45 million in fiscal 2006 and $ 44 million in fiscal 2005 .",
+          "the following is a schedule of future minimum rental payments required under long-term operating leases at november 3 , 2007 : fiscal years operating leases ."
+        ],
+        "rationale": "增长率需要2007年与2006年的同口径租赁费用。证据仅给出2006年为45百万美元，而2007年金额明确缺失；未来最低租赁付款不能替代当期租赁费用，故精确值和合理近似值均不可识别。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "040c248374789f657600c4f5c107464369bbc05f5bab45f57a94464931d45342"
+    },
+    {
+      "source_id": "DISCA/2016/page_11.pdf-1",
+      "case_number": 56,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若分母指三个 Eurosport 电视品牌的合计触达量，设未披露的 Eurosport 主网络触达量为 E（百万），则 Eurosport 2 所占百分比 = 65 / (E + 65 + 9) × 100%。",
+        "missing_inputs_or_ambiguities": [
+          "Eurosport 主网络的 viewing subscribers reached 数值未披露，因此无法确定三个品牌的合计触达量这一分母。",
+          "问题中的“eurosport viewing subscribers reached”未明确是指三个电视品牌的合计触达量，还是仅指 Eurosport 主网络；任一解释都需要未披露的 Eurosport 主网络数值。",
+          "其他表格及叙述披露的是不同网络或品牌的订户/观众数量，不能用于恢复 Eurosport 主网络的缺失值。"
+        ],
+        "evidence_quotes": [
+          "2022 eurosport is the leading sports entertainment provider across europe with the following tv brands : eurosport , eurosport 2 and eurosportnews , reaching viewers across europe and asia , as well as eurosport digital , which includes eurosport player and eurosport.com .",
+          "2022 viewing subscribers reached by each brand as of december 31 , 2016 were as follows : eurosport : [not disclosed] million ; eurosport 2 : 65 million ; and eurosportnews : 9 million ."
+        ],
+        "rationale": "已知 Eurosport 2 为 65 百万、Eurosportnews 为 9 百万，但 Eurosport 主网络数值被明确标为未披露。因而总触达量无法计算，既不能得到精确百分比，也没有足够信息支持四舍五入近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "4954ff1a41923bda657aeb40f9725b622312cab2f7e5e230977bd0794a372ce0"
+    },
+    {
+      "source_id": "RSG/2005/page_55.pdf-1",
+      "case_number": 57,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Using the disclosed definition, 2004 proceeds = 388.2 - 666.3 + 283.8 = $5.7 million. Therefore, percent increase = ((2005 proceeds - 5.7) / 5.7) × 100%, but 2005 proceeds cannot be determined.",
+        "missing_inputs_or_ambiguities": [
+          "The 2005 proceeds from sales of property and equipment are not disclosed.",
+          "The 2005 free cash flow is also not disclosed, so it cannot be used with 2005 cash provided by operating activities and purchases of property and equipment to derive 2005 proceeds."
+        ],
+        "evidence_quotes": [
+          "free cash flow we define free cash flow , which is not a measure determined in accordance with generally accepted accounting principles in the united states , as cash provided by operating activities less purchases of property and equipment plus proceeds from sales of property and equipment as presented in our consolidated statements of cash flows .",
+          "$666.3",
+          "(283.8)",
+          "$388.2",
+          "[not disclosed]"
+        ],
+        "rationale": "根据自由现金流公式，可由2004年的经营现金流、设备购置额和自由现金流推得销售资产所得为5.7百万美元。但2005年的销售所得和自由现金流均未披露，叙述仅说明2005年自由现金流较高，不能确定其数值，因此无法计算实际增长百分比或可靠近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "b87d2c257b3f69575f8c718fd779b0d87dfa58b6a0038c31b5c7d4603a3321c3"
+    },
+    {
+      "source_id": "RL/2010/page_11.pdf-1",
+      "case_number": 58,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "欧洲地区门店数 ÷ 批发部门全球门店总数 × 100%",
+        "missing_inputs_or_ambiguities": [
+          "Europe 的门店数未披露。",
+          "Total 的门店总数未披露。",
+          "约 14,000 个 shop-within-shops 与表中的地理位置门店（doors）并非明确相同的统计口径，且未提供欧洲部分，因此不能替代缺失数据。"
+        ],
+        "evidence_quotes": [
+          "Europe",
+          "[not disclosed]",
+          "Total",
+          "as of april 3 , 2010 , we had approximately 14000 shop-within-shops dedicated to our ralph lauren-branded wholesale products worldwide ."
+        ],
+        "rationale": "所求比例需用欧洲 doors 除以全球 Total doors，但两项均未披露。日本的 117 和全球约 14,000 个 shop-within-shops 无法推导欧洲 doors 或同口径总数，因此既不能得到精确值，也没有依据给出近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "0cd9dff0612cc0f5907aa0158e7452bee800735f9b16967eff52b4cb2f6c187a"
+    },
+    {
+      "source_id": "APD/2013/page_44.pdf-2",
+      "case_number": 59,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "设2013年现金缴款及未筹资计划福利支付总额为 X，则增加额 = X - $76.4（按原文单位）；且2013年仅已披露的自愿缴款部分为 $220.0。",
+        "missing_inputs_or_ambiguities": [
+          "2013年“cash contributions to funded plans and benefit payments for unfunded plans”的合计金额未披露。",
+          "$220.0仅是2013年美国计划的自愿缴款组成部分，并非该年度全部现金缴款与未筹资计划福利支付总额，因此不能据此精确计算同比增加额。"
+        ],
+        "evidence_quotes": [
+          "during 2013 and 2012 , our cash contributions to funded plans and benefit payments for unfunded plans were $ [not disclosed] and $ 76.4 , respectively .",
+          "contributions for 2013 include voluntary contributions for u.s .",
+          "plans of $ 220.0. ."
+        ],
+        "rationale": "2012年金额为$76.4，但计算增加额所需的2013年同口径合计数被明确标为未披露。已披露的$220.0只是其中一项，无法替代合计数，也不足以形成可靠的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "58a1aa4e2204858a85f4078b84058121bddaa763a4d95d678d9a13a760f97e24"
+    },
+    {
+      "source_id": "BKR/2018/page_52.pdf-2",
+      "case_number": 60,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "令 N_2017 为2017年北美平均钻机数，则北美占比 = N_2017 / (N_2017 + 948) × 100%；等价地，若 W_2017 为2017年全球平均钻机数，则占比 = (W_2017 - 948) / W_2017 × 100%。",
+        "missing_inputs_or_ambiguities": [
+          "2017年北美平均钻机数未披露。",
+          "2017年全球平均钻机数也未披露；已知国际钻机数为948只能得到 W_2017 = N_2017 + 948，不能确定其中任一未知数。",
+          "美国、加拿大以及陆地、海上钻机的同比变动率无法补足缺口，因为相应基期分项数量未提供，且这些百分比为叙述性取整数据。"
+        ],
+        "evidence_quotes": [
+          "[\"North America\", \"[not disclosed]\", \"[not disclosed]\", \"642\"]",
+          "[\"International\", \"988\", \"948\", \"956\"]",
+          "[\"Worldwide\", \"2,211\", \"[not disclosed]\", \"1,598\"]",
+          "the rig count in north america increased [not disclosed]% in 2017 compared to 2016 .",
+          "within north america , the increase was primarily driven by the u.s .",
+          "rig count , which was up 18% ( 18 % ) on average versus 2017 , partially offset with a decrease in the canadian rig count , which was down 8% ( 8 % ) on average ."
+        ],
+        "rationale": "2017年分母中的全球钻机数和分子中的北美钻机数均被隐去。国际钻机数948仅能形成上述恒等关系；分项同比变化缺少基期权重，不能唯一或可靠近似地反推出北美数量，因此无法计算所问占比。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "edc8232afa95f782783fa6f1ce713864ea632a05368f874e6a44dc58bd1b5196"
+    },
+    {
+      "source_id": "HII/2011/page_100.pdf-2",
+      "case_number": 61,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "$1,864 million ÷ estimated fair value of total long-term debt at December 31, 2010",
+        "missing_inputs_or_ambiguities": [
+          "The estimated fair value of total long-term debt at December 31, 2010—the denominator of the requested ratio—is explicitly not disclosed.",
+          "The $1,859 million table total is a principal-payment total, not the missing 2010 estimated fair value, so it cannot validly replace the denominator."
+        ],
+        "evidence_quotes": [
+          "the estimated fair value of the company's total long-term debt , including current portions , at december 31 , 2011 and 2010 , was $ 1864 million and $ [not disclosed] million , respectively .",
+          "the aggregate amounts of principal payments due on long-term debt for each of the next five years and thereafter are : ( $ in millions ) .",
+          "Total long-term debt",
+          "$1,859"
+        ],
+        "rationale": "只能确定2011年估计公允价值为18.64亿美元；2010年对应数值未披露。表中的18.59亿美元是长期债务本金付款总额，指标和期间均不能替代2010年公允价值，因此无法计算精确或合理近似的比率。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "a847b28a91ef05fd44d9132e31bd5872557b9154c9cfef710be3b88d748f1774"
+    },
+    {
+      "source_id": "IPG/2013/page_46.pdf-3",
+      "case_number": 62,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Growth rate = (2013 interest income - $29.5 million) / $29.5 million × 100%",
+        "missing_inputs_or_ambiguities": [
+          "2013 interest income is not disclosed. The approximately $16.4 million figure is the estimated effect of a 100-basis-point interest-rate change, not 2013 interest income, so it cannot supply the missing numerator."
+        ],
+        "evidence_quotes": [
+          "during 2013 and 2012 , we had interest income of $ [not disclosed] and $ 29.5 , respectively .",
+          "based on our 2013 results , a 100-basis-point increase or decrease in interest rates would affect our interest income by approximately $ 16.4 , assuming that all cash , cash equivalents and marketable securities are impacted in the same manner and balances remain constant from year-end 2013 levels ."
+        ],
+        "rationale": "已知2012年利息收入为2950万美元，但2013年金额缺失。1640万美元仅是利率变动100个基点时的敏感性估计，并非当年利息收入，因此无法计算精确或合理的近似增长率。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "1614c5f6254c7c9bc03874e23676246883f5e4909569cb52714d81acc62a86e5"
+    },
+    {
+      "source_id": "APD/2015/page_105.pdf-1",
+      "case_number": 63,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若“decrease”表示下降金额，则为 2016 年无条件购买义务总额 − 2017 年无条件购买义务总额；若采用带符号变动，则为 2017 年总额 − 2016 年总额。",
+        "missing_inputs_or_ambiguities": [
+          "表中 2016 年和 2017 年的无条件购买义务总额均为“[not disclosed]”，因此无法计算两年之间的下降金额或百分比。",
+          "约 $540 仅为计入 2016 年无条件购买义务的新增厂房和设备购买承诺，并未被披露为 2016 年义务总额。",
+          "约 $390 是与多个 hyco 设施原料供应相关的长期义务汇总，未按 2016 年和 2017 年分别列示，不能补足缺失年度数值。",
+          "问题未明确要求下降金额还是下降百分比；但无论采用哪种口径，均缺少 2016 年和 2017 年总额。"
+        ],
+        "evidence_quotes": [
+          "2016",
+          "[not disclosed]",
+          "2017",
+          "approximately $ 390 of our long-term unconditional purchase obligations relate to feedstock supply for numerous hyco ( hydrogen , carbon monoxide , and syngas ) facilities .",
+          "purchase commitments to spend approximately $ 540 for additional plant and equipment are included in the unconditional purchase obligations in 2016. ."
+        ],
+        "rationale": "现有证据没有披露 2016 年或 2017 年的无条件购买义务总额。$540 只是 2016 年总额中的一个组成部分，$390 也不是按年度拆分的数据，因此既不能精确计算，也不能形成有依据的近似下降值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "0377bb23103ef39f46cfb5b818fe21ba8c3e8b1aeb447bd2122e23d99f9e2cec"
+    },
+    {
+      "source_id": "RCL/2006/page_37.pdf-4",
+      "case_number": 64,
+      "annotation": {
+        "answerability": "uncertain",
+        "exact_value_identifiable": false,
+        "approximation_supported": true,
+        "supported_target_expression": "若指2005年，按债务绝对额计算：125,385 / 4,368,874 ≈ 0.02870，即2.87%。若“total”指2006年和2005年合计，则比率为(Cash_2006 + 125,385) / (5,474,988 + 4,368,874)，但Cash_2006未知。",
+        "missing_inputs_or_ambiguities": [
+          "问题未说明比率对应2006年、2005年，还是两个年度的合计。",
+          "2006年的Cash and cash equivalents为“[not disclosed]”，因此无法计算2006年比率或两年合计比率。",
+          "长期债务以括号列示；通常现金对债务比率使用债务绝对额。若按带符号数直接相除，2005年结果将为-2.87%，存在符号口径歧义。"
+        ],
+        "evidence_quotes": [
+          "Cash and cash equivalents",
+          "[not disclosed]",
+          "$ 125,385",
+          "Long-term debt (including current portion of long-term debt)",
+          "(5,474,988)",
+          "(4,368,874)"
+        ],
+        "rationale": "现有证据只能支持按2005年口径得到约2.87%的比率。由于目标期间未指明且2006年现金缺失，无法唯一确定题目所要求的比率；其他文字仅说明现金账面价值接近公允价值，并未补充2006年金额。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "0847701a57350c347189ab3f03f8dc409a6b407f1e525c67c3aa480408a20085"
+    },
+    {
+      "source_id": "LMT/2013/page_81.pdf-2",
+      "case_number": 65,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "以“2013年减2012年”计，变化 = 6,152 - (6,308 - C_2012) = C_2012 - 156（百万美元），其中 C_2012 为2012年的长期债务当期到期额。由债务分项可推出7.38%票据为 7,200 - 5,642 - 930 - 478 = 150（百万美元）；只有在另行假设其构成全部当期到期额时，变化才为 -6（百万美元），但该假设未被证据确定。",
+        "missing_inputs_or_ambiguities": [
+          "2012年“current maturities of long-term debt”的金额未披露，因此2012年“Total long-term debt, net”不能精确确定。",
+          "虽然可从分项推出2012年到期的7.38%票据为150百万美元，但“Other debt”478百万美元的到期结构未披露，不能确定其中是否另有当期到期额。",
+          "2011年赎回于2013年到期的500百万美元票据这一披露不能确定2012年末全部长期债务当期到期额。"
+        ],
+        "evidence_quotes": [
+          "Total long-term debt, net of unamortized discounts",
+          "6,308",
+          "Less: current maturities of long-term debt",
+          "[not disclosed]",
+          "Total long-term debt, net",
+          "$6,152",
+          "Notes with a rate of 7.38%, due 2013",
+          "Other debt",
+          "478",
+          "Total long-term debt",
+          "7,200"
+        ],
+        "rationale": "目标需要2012年长期债务净额。证据给出扣除未摊销折价后的金额6,308百万美元，但当期到期额缺失。分项恒等式虽能恢复2013年到期票据为150百万美元，却不能排除“Other debt”中还有当期到期部分，故不能唯一确定变化，也无充分依据给出四舍五入近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "ae896525ebaee8f360ff7115cb27ed0d19554b8b5e07fd8cc4612740d5f0f406"
+    },
+    {
+      "source_id": "IPG/2018/page_78.pdf-2",
+      "case_number": 66,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "总发行成本与发行折价之比 = (C_2020 + 3.2 + 4.4 + 5.6) / 5.8 = (C_2020 + 13.2) / 5.8，其中 C_2020 为2020年到期票据的发行成本（单位均为百万美元）。",
+        "missing_inputs_or_ambiguities": [
+          "2020年到期的3.50%优先票据发行成本未披露；其净收益也未披露，因此无法通过“净发行价格－发行成本＝净收益”反推出该成本。",
+          "总发行成本和总净收益均未披露，其他三个系列的发行成本之和13.2不能代表全部四个系列的发行成本。"
+        ],
+        "evidence_quotes": [
+          "upon issuance , the senior notes were reflected on our consolidated balance sheets net of discount of $ 5.8 and net of the capitalized debt issuance costs , including commissions and offering expenses of $ [not disclosed] , both of which will be amortized in interest expense through the respective maturity dates of each series of senior notes using the effective interest method .",
+          "[\"3.50% Senior Notes due 2020\", \"[not disclosed]\", \"$1.0\", \"$499.0\", \"[not disclosed]\", \"[not disclosed]\"]",
+          "[\"3.75% Senior Notes due 2021\", \"500.0\", \"0.3\", \"499.7\", \"3.2\", \"496.5\"]",
+          "[\"4.65% Senior Notes due 2028\", \"500.0\", \"1.7\", \"498.3\", \"4.4\", \"493.9\"]",
+          "[\"5.40% Senior Notes due 2048\", \"500.0\", \"2.8\", \"497.2\", \"5.6\", \"491.6\"]",
+          "[\"Total\", \"$2,000.0\", \"$5.8\", \"$1,994.2\", \"[not disclosed]\", \"[not disclosed]\"]"
+        ],
+        "rationale": "折价总额5.8可确定，且三个系列的发行成本合计为13.2；但第四个系列的发行成本及其净收益均缺失。因而分子无法确定，也没有足够信息支持合理的四舍五入近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "9864d36da13226384ae82ce4454ef41ac3cbba43782ae09a30056fdbfaaf05cb"
+    },
+    {
+      "source_id": "ADBE/2013/page_84.pdf-1",
+      "case_number": 67,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "令 S 表示2013年“Settlements with taxing authorities”的减少额（正数，单位：千美元），则2013年期末余额 = 160,468 + 20,244 + 16,777 - S - 4,066 - 1,474 = 191,949 - S；百分比变化 = [(191,949 - S) - 160,468] / 160,468 × 100% = (31,481 - S) / 160,468 × 100%。",
+        "missing_inputs_or_ambiguities": [
+          "2013年期末未确认税收优惠总额未披露。",
+          "2013年与税务机关结算的金额未披露，因此无法通过余额滚动表推算2013年期末余额。",
+          "文中$41.2 million的结算额包含现金和所得税资产，且相关$48.4 million还包括税款及利息，不能确定其等同于表内未确认税收优惠的结算额。"
+        ],
+        "evidence_quotes": [
+          "Settlements with taxing authorities",
+          "[not disclosed]",
+          "Ending balance",
+          "$160,468",
+          "we settled the tax obligation resulting from this examination with cash and income tax assets totaling $ 41.2 million , and the resulting $ 7.2 million income tax benefit was recorded in the third quarter of fiscal 2013 ."
+        ],
+        "rationale": "2012年期末余额为160,468千美元，但2013年期末余额及可用于推算它的2013年结算额均缺失。其他叙述中的结算数字口径不同，不能替代表内项目，因此既无法得到精确百分比，也没有足够信息支持合理的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "14382ca1fe749a8311adca5d85e052899bd3b6f49465dac0e4cc43ee182df6ad"
+    },
+    {
+      "source_id": "C/2010/page_229.pdf-3",
+      "case_number": 68,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "设 B 为2011年 Bank 到期义务（百万美元），则所求比例 = 100 × B / (B + 15,213 + 21,194) = 100 × B / (B + 36,407)。",
+        "missing_inputs_or_ambiguities": [
+          "2011年 Bank 金额标为“[not disclosed]”。",
+          "2011年 Total 金额也标为“[not disclosed]”；已披露的 Non-bank 与 Parent company 金额只能确定二者合计为36,407百万美元，不能据此确定 Bank 金额或其占比。",
+          "表格描述的是长期债务到期义务（包括信托优先证券）；问题中的“total subsidiary trusts obligations”是否专指该表总额存在措辞歧义，但即使按该表解释，比例仍无法确定。"
+        ],
+        "evidence_quotes": [
+          "aggregate annual maturities of long-term debt obligations ( based on final maturity dates ) including trust preferred securities are as follows : long-term debt at december 31 , 2010 and december 31 , 2009 includes $ 18131 million and $ 19345 million , respectively , of junior subordinated debt .",
+          "Bank",
+          "Total",
+          "[not disclosed]",
+          "15,213",
+          "21,194"
+        ],
+        "rationale": "2011年已知的非银行和母公司金额合计为15,213 + 21,194 = 36,407百万美元，但银行金额和总额均未披露。由于银行占比随未知的 B 变化，现有证据既不能确定精确百分比，也不能支持有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "a35098b3e870d0fbf185e1bc52e6dcc555980afb34192a4ed46e13180d1fbafa"
+    },
+    {
+      "source_id": "NTAP/2014/page_33.pdf-2",
+      "case_number": 69,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "设 N 为 NetApp, Inc. 在 4/14 的累计总回报指数值（4/09=100）。若“difference”指累计回报的百分点差，则差额 = (N-100) - (236.12-100) = N-236.12 个百分点。",
+        "missing_inputs_or_ambiguities": [
+          "NetApp, Inc. 的 4/14 累计总回报指数值未披露，因此无法计算差额。",
+          "其余年份的 NetApp 数值及其他指数的数值均不能确定 NetApp 的 4/14 数值；证据也未提供可用于推算该值的关系或近似叙述。"
+        ],
+        "evidence_quotes": [
+          "comparison of 5 year cumulative total return* among netapp , inc. , the nasdaq composite index , the s&p 500 index and the s&p 500 information technology index .",
+          "NetApp, Inc.",
+          "[not disclosed]",
+          "S&P 500 Information Technology",
+          "236.12"
+        ],
+        "rationale": "表中可确定标普500信息技术指数在4/14为236.12，即相对基期100的累计回报为136.12%；但NetApp同一期数值明确未披露。没有该输入，既不能得到精确差额，也没有足够信息支持四舍五入近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "8a92c33297436ab7c206bed8444cb41dca354f71222a343f98a73dd3b83f8a00"
+    },
+    {
+      "source_id": "EOG/2017/page_85.pdf-1",
+      "case_number": 70,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "增加额 = 2017年金额 − 2016年金额 = $275,305千 − 2016年Interest, Net of Capitalized Interest；若求百分比增幅，则为($275,305千 − 2016年金额) ÷ 2016年金额 × 100%。",
+        "missing_inputs_or_ambiguities": [
+          "2016年“Interest, Net of Capitalized Interest”金额未披露，因此无法计算2016年至2017年的增加额或百分比增幅。",
+          "问题中的“increase”未明确指金额增加还是百分比增幅，但两种计算均需要缺失的2016年金额。",
+          "2015年的$222,088千不能替代2016年金额，也不能据此推定2016年数值。"
+        ],
+        "evidence_quotes": [
+          "Interest, Net of Capitalized Interest",
+          "$275,305",
+          "[not disclosed]",
+          "$222,088",
+          "supplemental cash flow information net cash paid for interest and income taxes was as follows for the years ended december 31 , 2017 , 2016 and 2015 ( in thousands ) : ."
+        ],
+        "rationale": "表格仅给出2017年和2015年的该项金额，2016年明确为未披露。由于目标是比较2016年与2017年，关键基期输入缺失，现有证据既不支持精确值，也不支持合理的舍入近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "1b141db02a32b58a0e7aa2bab40113c1a81daa2c1f8fac7ac94bf88958e4d560"
+    },
+    {
+      "source_id": "MMM/2012/page_45.pdf-1",
+      "case_number": 71,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Let x be long-term debt due after 2017, in millions. The requested percentage is 100 × (4,216 + x) / (8,257 + x), because disclosed 2013–2017 debt sums to 4,216 and the other obligation-category totals sum to 4,041.",
+        "missing_inputs_or_ambiguities": [
+          "The amount of long-term debt due after 2017 is not disclosed. Consequently, neither total long-term debt nor total contractual cash obligations is determined.",
+          "The unknown x does not cancel from (4,216 + x) / (8,257 + x), so the requested percentage cannot be calculated exactly or approximated from the supplied evidence."
+        ],
+        "evidence_quotes": [
+          "Long-term debt, including current portion (Note 9)",
+          "$986",
+          "$1,481",
+          "$107",
+          "$994",
+          "$648",
+          "Interest on long-term debt",
+          "1,721",
+          "Operating leases (Note 13)",
+          "735",
+          "Capital leases (Note 13)",
+          "96",
+          "Unconditional purchase obligations and other",
+          "1,489",
+          "Total contractual cash obligations",
+          "[not disclosed]"
+        ],
+        "rationale": "已披露的2013至2017年长期债务合计为4,216百万美元，其他四类义务总额合计为4,041百万美元。设2017年后长期债务为x，则长期债务总额为4,216+x，总合同现金义务为8,257+x。由于x未披露且不会在比率中抵消，无法得到精确值，也没有叙述性信息支持合理的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "11c2a4e5bce64e4539c2303e73b68962fb56217324d8a1a5f15448bd211deb87"
+    },
+    {
+      "source_id": "FITB/2008/page_96.pdf-2",
+      "case_number": 72,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "设2008年12月回购股数为 D，则所求比例为 D / (25,394 + 7,526 + D) × 100% = D / (32,920 + D) × 100%。",
+        "missing_inputs_or_ambiguities": [
+          "2008年12月的回购股数未披露，因此第四季度回购总数也无法确定。",
+          "现有资料没有提供可用于合理估算12月回购股数或所求百分比的其他披露。"
+        ],
+        "evidence_quotes": [
+          "[\"December 2008\", \"[not disclosed]\", \"-\", \"-\", \"[not disclosed]\"]",
+          "[\"Total\", \"[not disclosed]\", \"$-\", \"-\", \"[not disclosed]\"]",
+          "( a ) the bancorp repurchased 25394 , 7526 and [not disclosed] shares during october , november and december of 2008 in connection with various employee compensation plans of the bancorp ."
+        ],
+        "rationale": "“全年最后一个月”对应2008年12月。所求比例需要12月回购股数作为分子，并需要10月至12月回购总数作为分母；但12月数值及季度合计均未披露，所以只能给出含未知数 D 的表达式，不能得到精确值或有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "f8ba21139469fe65db47a0c0e646e9d496f5ccd72941f2019c00fed629954f45"
+    },
+    {
+      "source_id": "LMT/2010/page_37.pdf-4",
+      "case_number": 73,
+      "annotation": {
+        "answerability": "sufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": true,
+        "supported_target_expression": "2009 sales increase = 429 + 355 - 55 = $729 million. Estimated 2009 net sales = 1,660 / 12.3% ≈ $13,495.9 million; estimated 2008 net sales = 13,495.9 - 729 ≈ $12,766.9 million. Growth rate ≈ 729 / 12,766.9 × 100% ≈ 5.7%, or about 6% rounded to a whole percent.",
+        "missing_inputs_or_ambiguities": [
+          "Exact 2008 and 2009 net sales are not disclosed.",
+          "The 12.3% operating margin is rounded, so it supports an approximate growth rate but not an exact value."
+        ],
+        "evidence_quotes": [
+          "1,660",
+          "12.3%",
+          "the $ 429 million increase in sales at m&fc primarily was due to growth on tactical missile programs and fire control systems .",
+          "the $ 355 million increase at gt&l primarily was due to growth on simulation and training activities and readiness and stability operations .",
+          "the $ 55 million decrease at ms2 mainly was due to lower volume on ship & aviation systems and undersea warfare programs , which partially were offset by higher volume on radar systems and surface naval warfare programs. ."
+        ],
+        "rationale": "三个业务线的变动合计使2009年销售额增加7.29亿美元。以2009年营业利润16.60亿美元及12.3%的营业利润率反推销售额，可估算2008年基数并得到约5.7%的增长率，即按整数百分比约为6%。但利润率经过四舍五入，因此无法识别精确增长率。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "8a63d38d8612c010b53efb086843e651c0251f41a795af236524c8dd1b1412b1"
+    },
+    {
+      "source_id": "VRTX/2005/page_112.pdf-3",
+      "case_number": 74,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "（Vertex 401(k) Plan项下普通股数量 ÷ 普通股总数）× 100%",
+        "missing_inputs_or_ambiguities": [
+          "“Common stock under the Vertex 401(k) Plan”的数量未披露。",
+          "表中“Total”的数量未披露，因此无法计算该计划普通股占总数的百分比。",
+          "问题中的“used for research funding”与该普通股预留表之间没有明确对应关系；研究资助相关文本未提供普通股数量或可用于换算的关系。"
+        ],
+        "evidence_quotes": [
+          "Common stock under the Vertex 401(k) Plan",
+          "[not disclosed]",
+          "Total",
+          "research , development and commercialization agreements provide the company with financial support and other valuable resources for its research programs and for the development of clinical drug candidates , and the marketing and sales of products ."
+        ],
+        "rationale": "所求比例需要401(k)计划项下普通股数量及相应总普通股数量，但两项均标为未披露。唯一披露的842属于Vertex Purchase Plan，不能替代上述任一输入；研究资助叙述也未给出可用于恢复这些数值的数据。因此既不能精确计算，也没有足够信息支持近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "aaedeb32ce3b295708d02d572f856c2dcb222d2bb57f330962f1915400eb2b2e"
+    },
+    {
+      "source_id": "REGN/2010/page_64.pdf-2",
+      "case_number": 75,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "2010年和2009年合计 = $25.3 million + 2009年 ARCALYST net product sales（未披露）",
+        "missing_inputs_or_ambiguities": [
+          "2009年 ARCALYST net product sales 的金额被明确标为“[not disclosed]”，且其他披露未提供可用于推导该金额的数据。"
+        ],
+        "evidence_quotes": [
+          "net product sales in 2010 and 2009 , we recognized as revenue $ 25.3 million and $ [not disclosed] million , respectively , of arcalyst ae net product sales for which both the right of return no longer existed and rebates could be reasonably estimated .",
+          "the company had limited historical return experience for arcalyst ae beginning with initial sales in 2008 through the end of 2009 ; therefore , arcalyst ae net product sales were deferred until the right of return no longer existed and rebates could be reasonably estimated ."
+        ],
+        "rationale": "披露仅确定2010年金额为2530万美元，2009年金额缺失。其余资料没有提供2009年销售额或可据以反推的总额，因此无法计算两年合计，也不支持合理的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "f39de396e3943ad7dd181c1bc5ec96e30628819044afe1ed7be52de5879c2006"
+    },
+    {
+      "source_id": "DRE/2010/page_59.pdf-2",
+      "case_number": 76,
+      "annotation": {
+        "answerability": "sufficient",
+        "exact_value_identifiable": true,
+        "approximation_supported": true,
+        "supported_target_expression": "$638.231 million − $305.619 million = $332.612 million (approximately $332.6 million)",
+        "missing_inputs_or_ambiguities": [],
+        "evidence_quotes": [
+          "the following table summarizes our allocation of the fair value of amounts recognized for each major class of assets and liabilities ( in thousands ) : .",
+          "Total acquired assets",
+          "$638,231",
+          "Total assumed liabilities",
+          "$305,619",
+          "Fair value of acquired net assets (represents 100% interest)",
+          "$332,612"
+        ],
+        "rationale": "表中金额单位为千美元，且明确披露100%权益对应的净资产公允价值为332,612千美元，即332.612百万美元；也可由总资产638.231百万美元减总负债305.619百万美元验证。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "8c66157a9b1a2728c780f6cac962230398821fc437a53558b6fb4465bb453ddb"
+    },
+    {
+      "source_id": "VNO/2010/page_88.pdf-1",
+      "case_number": 77,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Percentage growth = ((Vornado Realty Trust 2006 indexed value - 100) / 100) × 100%; the required 2006 indexed value is not disclosed.",
+        "missing_inputs_or_ambiguities": [
+          "The Vornado Realty Trust indexed value for 2006 is not disclosed. The 2005 base value of 100 and the later values do not determine it, and no rounded 2006 return is provided in the narrative."
+        ],
+        "evidence_quotes": [
+          "the graph assumes that $ 100 was invested on december 31 , 2005 in our common shares , the s&p 500 index and the nareit all equity index and that all dividends were reinvested without the payment of any commissions .",
+          "[not disclosed]"
+        ],
+        "rationale": "表中仅给出Vornado Realty Trust在2005年的基准值100，2006年数值明确未披露。后续年度数值不能反推出2006年的增长率，文本也未提供可支持近似值的年度回报，因此无法计算。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "1fd7df6d3b39d16169ae68b2b6960e4a740d89c24aff7e919200577c0d165935"
+    },
+    {
+      "source_id": "ADBE/2011/page_116.pdf-4",
+      "case_number": 78,
+      "annotation": {
+        "answerability": "sufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": true,
+        "supported_target_expression": "2010总额（千美元）=1,513,662+8,799=1,522,461；2011近似总额=1,494,627+19,700=1,514,327。因此增长率≈(1,514,327−1,522,461)/1,522,461×100%=−0.534%，约为−0.5%（即下降约0.5%）。",
+        "missing_inputs_or_ambiguities": [
+          "2011年资本租赁义务仅披露为四舍五入后的$19.7 million，未披露精确到千美元的数值，因此无法确定精确增长率。",
+          "“增长率”若以正数表示降幅，则答案为约0.5%的下降；若采用带符号增长率，则为约−0.5%。"
+        ],
+        "evidence_quotes": [
+          "$1,494,627",
+          "as of december 2 , 2011 , our capital lease obligations of $ 19.7 million includes $ 9.2 million of current debt .",
+          "8,799",
+          "$1,513,662"
+        ],
+        "rationale": "2010年总额可由非流动余额加流动部分精确还原；2011年可用票据余额与披露的约$19.7 million资本租赁义务得到近似总额。两年比较支持约下降0.5%，但因2011年租赁义务经过取整，不能识别更高精度的准确增长率。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "72a72b36013ba90d7c3b30b8e0f927028a57bc12e0b65bf5efe9021124e778e5"
+    },
+    {
+      "source_id": "KMI/2010/page_164.pdf-4",
+      "case_number": 79,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若“第二列”指第二个数值列，则百分比为 (21.2 ÷ 第二个数值列的 Total Long-term Debt– KMP) × 100%；若保留括号所示负号，则为 (−21.2 ÷ 该总额) × 100%。",
+        "missing_inputs_or_ambiguities": [
+          "第二个数值列的“Total Long-term Debt– KMP”未披露，因此缺少计算百分比所需的分母。",
+          "债务折价可报告为正的折价占比或带负号的抵减项占比，但该符号惯例不影响分母缺失这一问题。"
+        ],
+        "evidence_quotes": [
+          "Unamortized Debt Discount on Long-term Debt",
+          "(21.2)",
+          "Total Long-term Debt– KMP",
+          "[not disclosed]"
+        ],
+        "rationale": "第二个数值列给出了未摊销债务折价21.2，但对应的长期债务总额明确未披露。其余披露仅是部分债务项目和流动到期额，无法据此恢复完整总额，因此既不能精确计算，也没有足够信息支持近似百分比。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "f0d28aa5bdf619275b1547819608411193e1b549ed1f616ab52d2c6b42e9ca63"
+    },
+    {
+      "source_id": "IPG/2012/page_89.pdf-4",
+      "case_number": 80,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若目标为扣除现金薪酬后的末行“Total”，令 x 为2015年“cash compensation expense included above”，则2015年金额为 42.6−x，全部期间金额为 231.1−(0.7+0.6+0.2+x)=229.6−x，所求比例为 (42.6−x)/(229.6−x)×100%。若改按毛额“Total contingent acquisition payments”口径，则可算 42.6/231.1×100%≈18.43%，但这不是唯一可确定的口径。",
+        "missing_inputs_or_ambiguities": [
+          "2015年“Less: cash compensation expense included above”未披露，因此末行2015年净额及末行总计均无法确定。",
+          "问题中的“total”可能指毛额行“Total contingent acquisition payments”，也可能指扣除现金薪酬后的末行“Total”；两种口径并不相同。"
+        ],
+        "evidence_quotes": [
+          "contingent acquisition obligations the following table details the estimated future contingent acquisition obligations payable in cash as of december 31 .",
+          "Total contingent acquisition payments",
+          "42.6",
+          "231.1",
+          "Less: cash compensation expense included above",
+          "[not disclosed]",
+          "Total"
+        ],
+        "rationale": "表中毛额口径可直接得到约18.43%，但最终净额口径所需的2015年现金薪酬扣减额被隐藏，且不能由其他年度数据推出。由于题目未明确采用毛额还是末行净额，目标比例不能被唯一识别，也没有足以支持特定舍入结果的净额近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "5ad7d01bc0d1a9530eca94d49ec038755ea709a0a96efc4a3239149d27f9f624"
+    },
+    {
+      "source_id": "AMAT/2015/page_31.pdf-3",
+      "case_number": 81,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若“公司的物业”指全部物业面积，令美国租赁面积为 L（千平方英尺），则目标百分比 = 100 × L / (5,372 + 1,107 + L) = 100 × L / (6,479 + L)。若问题实际指租赁物业中位于美国的比例，则为 100 × L / (1,107 + L)。",
+        "missing_inputs_or_ambiguities": [
+          "美国租赁物业面积未披露，且不能由其他国家的租赁面积或总面积推导。",
+          "美国物业总面积和公司全部物业总面积也未披露，因此无法通过总数减法恢复美国租赁面积。",
+          "分母存在语义歧义：可能是公司全部物业面积，也可能是全部租赁物业面积；两种解释均缺少美国租赁面积。"
+        ],
+        "evidence_quotes": [
+          "(Square feet in thousands)",
+          "United States",
+          "Other Countries",
+          "Total",
+          "Owned",
+          "3,748",
+          "1,624",
+          "5,372",
+          "Leased",
+          "[not disclosed]",
+          "1,107",
+          "2,731",
+          "applied also owns and leases offices , plants and warehouse locations in many locations throughout the world , including in europe , japan , north america ( principally the united states ) , israel , china , india , korea , southeast asia and taiwan ."
+        ],
+        "rationale": "表中仅能确认自有物业合计为5,372千平方英尺、其他国家租赁物业为1,107千平方英尺；“其他国家”总计2,731恰为1,624加1,107，不提供美国租赁面积的新信息。叙述只说明公司在美国等地拥有和租赁物业，没有可支持精确值或近似值的数量信息。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "5e6667637edadab1022086c723f1fa21f37d899a1dbc5b5c10e09bceb5ffac71"
+    },
+    {
+      "source_id": "AAP/2006/page_85.pdf-3",
+      "case_number": 82,
+      "annotation": {
+        "answerability": "sufficient",
+        "exact_value_identifiable": true,
+        "approximation_supported": true,
+        "supported_target_expression": "$82,767 thousand − $72,789 thousand = $9,978 thousand,即 $9.978 million（2006财年成本销售额的减少）",
+        "missing_inputs_or_ambiguities": [],
+        "evidence_quotes": [
+          "as a result of the lifo method and the ability to obtain lower product costs , the company recorded a reduction to cost of sales of $ 9978 for fiscal year ended 2006 , an increase in cost of sales of $ 526 for fiscal year ended 2005 and a reduction to cost of sales of $ [not disclosed] for fiscal year ended 2004 .",
+          "Adjustments to state inventories at LIFO",
+          "82,767",
+          "72,789",
+          "and subsidiaries notes to consolidated financial statements 2013 ( continued ) december 30 , 2006 , december 31 , 2005 and january 1 , 2005 ( in thousands , except per share data ) 8 ."
+        ],
+        "rationale": "证据直接披露2006财年因LIFO方法及较低采购成本而使销售成本减少9,978（单位为千美元）。该金额也可由LIFO调整额从72,789增至82,767的差额验证，因此报告口径下的精确值为9,978千美元，即约997.8万美元。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "c22f909081275d869743f76c7845f49e47b231be62ccde5253bb0d1c38ff30c5"
+    },
+    {
+      "source_id": "MAA/2017/page_18.pdf-4",
+      "case_number": 83,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "|Charlotte at Midtown units − 320|",
+        "missing_inputs_or_ambiguities": [
+          "The number of units for Charlotte at Midtown is not disclosed. No other supplied disclosure provides a total or relationship from which that value can be derived."
+        ],
+        "evidence_quotes": [
+          "Charlotte at Midtown",
+          "[not disclosed]",
+          "Acklen West End",
+          "320"
+        ],
+        "rationale": "Acklen West End 的单位数为 320，但 Charlotte at Midtown 的单位数明确标为未披露；其余材料也没有可用于反推该数值的合计或关系，因此无法计算两者单位数之差，亦不支持近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "5ae5b548163ddbc6aa95e5b823fd80cbbf93a9039708c9e8cb39cdd888b4c4bf"
+    },
+    {
+      "source_id": "CDNS/2016/page_32.pdf-4",
+      "case_number": 84,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Let V_2015 be Cadence Design Systems' cumulative investment value at 1/2/2016. The return through 12/31/2016 is ((242.50 / V_2015) - 1) × 100%.",
+        "missing_inputs_or_ambiguities": [
+          "Cadence Design Systems' cumulative investment value at 1/2/2016, representing the end of fiscal 2015, is not disclosed. Without this starting value, neither an exact return nor a supported rounded approximation can be calculated."
+        ],
+        "evidence_quotes": [
+          "the graph assumes that the value of the investment in our common stock and in each index on december 31 , 2011 ( including reinvestment of dividends ) was $ 100 and tracks it each year thereafter on the last day of our fiscal year through december 31 , 2016 and , for each index , on the last day of the calendar year .",
+          "[not disclosed]",
+          "242.50"
+        ],
+        "rationale": "2016年末的累计投资价值为242.50，但2015年末对应的1/2/2016数值未披露。收益率必须用该期初值计算，其他指数的数据不能替代Cadence自身的期初值，因此无法得到精确值或有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "7e8e91ba81f282ddee0d118e52d48e5ad002905cd04738e5cf29a3d63dc1b9e6"
+    },
+    {
+      "source_id": "FRT/2004/page_53.pdf-1",
+      "case_number": 85,
+      "annotation": {
+        "answerability": "sufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": true,
+        "supported_target_expression": "Approximate decrease magnitude = (($35.0 million - $30.5 million) / $35.0 million) × 100 ≈ 12.9% (equivalently, a signed change of approximately -12.9%).",
+        "missing_inputs_or_ambiguities": [
+          "The December 31, 2003 balance is disclosed only as the rounded amount $35.0 million, so an exact percentage is not identifiable.",
+          "“Decrease” may be reported as a positive magnitude (12.9%) or as a signed percentage change (-12.9%)."
+        ],
+        "evidence_quotes": [
+          "cash and cash equivalents were $ 30.5 million and $ 35.0 million at december 31 , 2004 and december 31 , 2003 , respectively .",
+          "Cash and cash equivalents, end of period",
+          "$30,475"
+        ],
+        "rationale": "叙述提供了期初约3500万美元和期末约3050万美元，因此可计算出约12.9%的下降幅度。由于期初金额仅披露到十万美元精度，无法确定精确百分比；表中的期末数虽更精确，也不能消除期初数的舍入不确定性。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "b47914171bf66068f50477f0d5457140441e5f0bb830c493b77893d0ed1aeefb"
+    },
+    {
+      "source_id": "AAPL/2013/page_27.pdf-4",
+      "case_number": 86,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "设 V_2013 为 Apple Inc. 在 September 30, 2013 的期末价值，则累计价值变化为 V_2013 - $100；若问题指累计百分比回报，则为 (V_2013 / $100 - 1) × 100%。",
+        "missing_inputs_or_ambiguities": [
+          "Apple Inc. 的 September 30, 2013 数值为“[not disclosed]”，因此无法计算相对 September 30, 2008 的累计变化。",
+          "其他指数的2013年数值不能用于推导 Apple Inc. 的2013年数值，因为证据未披露它们之间的确定关系。",
+          "“change in value”可能指美元价值增量或累计百分比回报；但无论采用哪种口径，都缺少 Apple Inc. 的2013年期末值。"
+        ],
+        "evidence_quotes": [
+          "*$ 100 invested on 9/30/08 in stock or index , including reinvestment of dividends .",
+          "Apple Inc.",
+          "$100",
+          "[not disclosed]"
+        ],
+        "rationale": "证据确定Apple Inc.于2008年的基准价值为$100，但2013年对应值未披露。没有可用于恢复该端点的其他直接披露或确定关系，因此既不能得到精确结果，也不支持合理的四舍五入近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "8c91b11ce5f4d33acdce90e35dc6e0fc35a4a926b6c6a4179f2a3311ba23de48"
+    },
+    {
+      "source_id": "PPG/2005/page_20.pdf-1",
+      "case_number": 87,
+      "annotation": {
+        "answerability": "sufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": true,
+        "supported_target_expression": "约为 $609 ÷ ($5,275 × (1 + 3% + 1% + 1%)) × 100% ≈ 11.0%",
+        "missing_inputs_or_ambiguities": [
+          "Coatings 2005 net sales are explicitly marked \"[not disclosed]\", so an exact operating-income percentage is not identifiable.",
+          "The disclosed 3%, 1%, and 1% sales-growth components are rounded percentages; their sum supports an approximate 5% increase, not an exact 2005 sales figure."
+        ],
+        "evidence_quotes": [
+          "Coatings",
+          "[not disclosed]",
+          "$5,275",
+          "$609",
+          "sales increased 3% ( 3 % ) due to higher selling prices across all businesses except automotive ; 1% ( 1 % ) due to improved volumes as increases in our aerospace , architectural and original equipment automotive businesses offset volume declines in automotive refinish and industrial coatings ; and 1% ( 1 % ) due to the positive effects of foreign currency translation ."
+        ],
+        "rationale": "营业利润率应为2005年营业利润除以2005年净销售额。证据给出营业利润609百万美元、2004年销售额5,275百万美元，并以分项披露支持约5%的销售增长，因此可合理估算2005年销售额约5,539百万美元，营业利润率约11.0%；但因增长率经过取整且2005年销售额未披露，无法确定精确值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "7949d0a024dc5ca5cbbf6ec9bfaab4fdd6e9bf5b02a881c3be661e4d43c22b89"
+    },
+    {
+      "source_id": "HII/2012/page_127.pdf-4",
+      "case_number": 88,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "3,946,111 / C，其中 C 为截至 2012 年 12 月 31 日可供未来发行的剩余证券数量。",
+        "missing_inputs_or_ambiguities": [
+          "分母“Number of Securities Remaining Available for Future Issuance Under Equity Compensation Plans”未披露。未获证券持有人批准的计划没有奖励，因此其数值不能用于推导未披露的剩余可发行证券总数。"
+        ],
+        "evidence_quotes": [
+          "3,946,111",
+          "[not disclosed]",
+          "( 3 ) there are no awards made under plans not approved by security holders ."
+        ],
+        "rationale": "已发行证券数量可确定为 3,946,111，但计算比率所需的剩余可发行证券数量在总计行及获批准计划行均未披露，其他文字也未提供可推导该分母的数据。因此只能给出符号表达式，无法得到精确值或有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "22cd0bfcfe84ee666b43c2424d2f4862af431d1c9f7e819993c3ad740e7a1c5f"
+    },
+    {
+      "source_id": "NKE/2014/page_36.pdf-2",
+      "case_number": 89,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Let x be Operating Leases due \"Thereafter\" (after 2019), in millions. Known 2015–2019 operating leases total $1,754 million, so the requested percentage is 100 × x / (1,754 + x).",
+        "missing_inputs_or_ambiguities": [
+          "The Operating Leases amount due \"Thereafter\" is not disclosed.",
+          "The total Operating Leases amount is also not disclosed and cannot be independently recovered from the supplied totals. Therefore, neither an exact percentage nor a rounded approximation is identifiable."
+        ],
+        "evidence_quotes": [
+          "Operating Leases",
+          "$427",
+          "$399",
+          "$366",
+          "$311",
+          "$251",
+          "Thereafter",
+          "[not disclosed]"
+        ],
+        "rationale": "2015至2019年的经营租赁付款合计为427+399+366+311+251=1,754百万美元，但“2019年后”的金额及经营租赁总额均未披露。其他行和合计行也未提供可反推出该缺失金额的数据，因此只能给出公式，不能计算百分比。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "636b0453ce21e41338b01abc2525385450487d1ec129c5d9d8ef38a6d8c315b5"
+    },
+    {
+      "source_id": "JKHY/2016/page_61.pdf-4",
+      "case_number": 90,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "($848 + R_2015 + $6,393) / 3, where R_2015 is Banno's undisclosed revenue for the fiscal year ended June 30, 2015",
+        "missing_inputs_or_ambiguities": [
+          "Banno's revenue for the year ended June 30, 2015 is explicitly marked \"[not disclosed]\" and cannot be derived from the other supplied figures.",
+          "The 2014 figure covers only the period from the March 1, 2014 acquisition date through June 30, 2014, rather than a full fiscal year."
+        ],
+        "evidence_quotes": [
+          "the results of banno's operations included in the company's consolidated statements of income for the year ended june 30 , 2016 included revenue of $ 6393 and after-tax net loss of $ 1289 .",
+          "for the year ended june 30 , 2015 , our consolidated statements of income included revenue of $ [not disclosed] and after-tax net loss of $ 1784 attributable to banno .",
+          "the results of banno's operations included in the company's consolidated statement of operations from the acquisition date to june 30 , 2014 included revenue of $ 848 and after-tax net loss of $ 1121 ."
+        ],
+        "rationale": "计算2014至2016年三期平均收入需要2015年收入。证据仅披露2014年的848和2016年的6393，2015年收入明确缺失，且净亏损无法用于反推出收入，因此既不能确定精确平均值，也没有足够信息支持近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "67fec567455022599c6853a158d45da558619b69f0f01eb126bd53c589571236"
+    },
+    {
+      "source_id": "MAA/2015/page_57.pdf-4",
+      "case_number": 91,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Large Market Same Store 2014 / Secondary Market Same Store 2014, with their combined revenue derivable as $992,178 thousand − $493,349 thousand = $498,829 thousand; the individual components and therefore their ratio are not determined.",
+        "missing_inputs_or_ambiguities": [
+          "The 2014 property revenue for Large Market Same Store is \"[not disclosed]\".",
+          "The 2014 property revenue for Secondary Market Same Store is \"[not disclosed]\".",
+          "The combined same-store revenue and the 3.1% portfolio growth do not determine how revenue was split between the two same-store segments."
+        ],
+        "evidence_quotes": [
+          "property revenues the following table shows our property revenues by segment for the years ended december 31 , 2014 and december 31 , 2013 ( dollars in thousands ) : year ended december 31 , 2014 year ended december 31 , 2013 increase percentage increase .",
+          "Large Market Same Store",
+          "Secondary Market Same Store",
+          "[not disclosed]",
+          "Same Store Portfolio",
+          "3.1%",
+          "Non-Same Store and Other",
+          "493,349",
+          "Total",
+          "$992,178"
+        ],
+        "rationale": "可由总收入减去非同店及其他收入，得到2014年同店组合收入合计为498,829千美元。但大型市场与次级市场各自的收入均未披露，且组合增长率不能恢复两者的分拆，因此无法计算或合理近似该比率。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "e9a1c5433e290188826a2caa221b211907f82d838f249672e9712be4403e9dee"
+    },
+    {
+      "source_id": "CAT/2017/page_136.pdf-2",
+      "case_number": 92,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "2016年保修负债净变动 = $1,258 million − 2016年1月1日保修负债；等价地，= $813 million − 2016年负债减少额（付款）。",
+        "missing_inputs_or_ambiguities": [
+          "2016年1月1日的保修负债未披露。",
+          "2016年的负债减少额（付款）未披露；因此不能用新增保修负债减去付款额来替代计算。",
+          "2016年12月31日余额可作为2017年期初余额，但不能据此确定2016年期初余额。"
+        ],
+        "evidence_quotes": [
+          "Warranty liability, January 1",
+          "[not disclosed]",
+          "Reduction in liability (payments)",
+          "Increase in liability (new warranties)",
+          "813",
+          "Warranty liability, December 31",
+          "$1,258"
+        ],
+        "rationale": "净变动需要期末减期初，或新增负债减付款。证据仅给出2016年期末余额1,258百万美元和新增负债813百万美元，两个可选计算路径各缺少一个必要输入，且没有支持近似值的叙述信息。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "0c466761472110373f66a9fd7c10f2823c418c95f76264ef5169fe3ace014696"
+    },
+    {
+      "source_id": "MA/2008/page_116.pdf-2",
+      "case_number": 93,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "$63,863 / accrued liability at December 31, 2007",
+        "missing_inputs_or_ambiguities": [
+          "The accrued liability related to the severance plan and other severance obligations at December 31, 2007 is explicitly not disclosed.",
+          "The 2007 severance benefit of $(3,418) is an expense/benefit flow, not the year-end accrued liability balance; without other accrual movements or payments, it cannot recover the missing 2007 liability."
+        ],
+        "evidence_quotes": [
+          "the company has an accrued liability related to the severance plan and other severance obligations in the amount of $ 63863 and $ [not disclosed] at december 31 , 2008 and 2007 , respectively .",
+          "as a result of updating the assumptions , the company recorded severance expense ( benefit ) related to the severance plan of $ 2643 , $ ( 3418 ) and $ 8400 , respectively , during the years 2008 , 2007 and 2006 ."
+        ],
+        "rationale": "2008年应计负债为63,863美元，但2007年余额未披露。已披露的2007年辞退福利收益属于期间流量，不能在缺少付款及其他负债变动的情况下推导年末余额，因此无法计算该比率或支持近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "7e20570502c1370f26b942cbd72363607f75b7be6ea5723bdd7149b2034d106c"
+    },
+    {
+      "source_id": "RCL/2011/page_16.pdf-1",
+      "case_number": 94,
+      "annotation": {
+        "answerability": "sufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": true,
+        "supported_target_expression": "(28,000 ÷ 149,000) × 100% ≈ 18.8%（以2011年欧洲市场加权平均泊位供应量为基准）",
+        "missing_inputs_or_ambiguities": [
+          "证据未披露2011年末121艘船对应的泊位总数；149,000是2011年欧洲市场的加权平均泊位供应量，并非明确的年末容量。因此18.8%是有支持的近似值，而非精确可识别的年末容量增长率。"
+        ],
+        "evidence_quotes": [
+          "there are approximately 10 ships with an estimated 28000 berths that are expected to be placed in service in the european cruise market between 2012 and 2016 .",
+          "Weighted-AverageSupply ofBerthsMarketed inEurope(1)",
+          "149,000"
+        ],
+        "rationale": "以2011年欧洲市场加权平均泊位供应量149,000为基数，预计新增28,000个泊位，占比约为18.8%。但新增量和基数均属估计口径，且基数不是未披露的2011年末泊位数，故只能支持该舍入近似值。",
+        "confidence": "medium"
+      },
+      "status": "completed",
+      "attempt_id": "9198852c2276cfdd8d6589a432192a79f4599661a01e4a653e995c74cc94c598"
+    },
+    {
+      "source_id": "SWKS/2012/page_116.pdf-4",
+      "case_number": 95,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Percentage change = (($52.380 million − 2011 gross unrecognized tax benefits) / 2011 gross unrecognized tax benefits) × 100%.",
+        "missing_inputs_or_ambiguities": [
+          "The gross unrecognized tax benefits balance as of September 30, 2011 is not disclosed.",
+          "The missing 2011 balance cannot be reconstructed from the reconciliation because the increases related to prior years, increases related to the current year, and decreases from lapses of statutes of limitations are also not disclosed."
+        ],
+        "evidence_quotes": [
+          "the company's gross unrecognized tax benefits totaled $ 52.4 million and $ [not disclosed] million as of september 28 , 2012 and september 30 , 2011 , respectively .",
+          "Balance at September 30, 2011",
+          "[not disclosed]",
+          "Balance at September 28, 2012",
+          "$52,380"
+        ],
+        "rationale": "只能确定2012年余额为52.380百万美元；2011年余额及可用于倒推该余额的多个变动项目均未披露，因此无法计算精确或有依据的近似百分比变化。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "9b73962132bd9cf987152b5ee28685f0efe5cd7e61527686cbaec61087ffeb56"
+    },
+    {
+      "source_id": "EMR/2018/page_28.pdf-2",
+      "case_number": 96,
+      "annotation": {
+        "answerability": "sufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": true,
+        "supported_target_expression": "Using Free Cash Flow = Operating Cash Flow − Capital Expenditures: 2017 free cash flow ≈ $2,275 million ÷ 1.03 = $2,209 million; 2017 capital expenditures ≈ $2,690 million − $2,209 million = $481 million; percentage change ≈ ($617 million − $481 million) ÷ $481 million × 100 = 28.2% increase (approximately 28%).",
+        "missing_inputs_or_ambiguities": [
+          "The exact 2017 capital expenditures and free cash flow are not disclosed.",
+          "The stated 3 percent increase in free cash flow is rounded, so it supports only an approximate percentage change, not an exact value."
+        ],
+        "evidence_quotes": [
+          "Operating Cash Flow",
+          "2,690",
+          "Capital Expenditures",
+          "617",
+          "Free Cash Flow(Operating Cash Flow less Capital Expenditures)",
+          "2,275",
+          "free cash flow from continuing operations ( operating cash flow less capital expenditures ) was $ 2.3 billion in 2018 , up 3 percent ."
+        ],
+        "rationale": "可利用表中2018年自由现金流2,275百万美元及“同比增长3%”反推2017年自由现金流约2,209百万美元，再由2017年经营现金流2,690百万美元减得资本支出约481百万美元。因此2018年较2017年约增长28%。但3%为取整披露，无法识别精确结果。",
+        "confidence": "medium"
+      },
+      "status": "completed",
+      "attempt_id": "368a69efab532aa0190cc3074e037d18be7de8ef5785c3815187b767181d1282"
+    },
+    {
+      "source_id": "SLG/2012/page_87.pdf-2",
+      "case_number": 97,
+      "annotation": {
+        "answerability": "uncertain",
+        "exact_value_identifiable": false,
+        "approximation_supported": true,
+        "supported_target_expression": "若“公司的份额”指本次购入的49.9%权益：49.9% × $257,143千 = $128,314.357千，约为$128.3百万。若指公司交割出资占交易价值的比例：$70,000千 ÷ $257,143千 × 100 ≈ 27.22%。",
+        "missing_inputs_or_ambiguities": [
+          "“company's share”未明确是指购入的49.9%权益价值、交割出资占交易价值的比例，还是交易完成后100%的所有权价值。",
+          "“transaction cost”未明确对应表中的“Purchase price allocation”还是“Net consideration funded by us at closing”；两者分别为$257,143千和$70,000千。",
+          "数值输入并不缺失，但上述术语歧义导致目标无法唯一确定。"
+        ],
+        "evidence_quotes": [
+          "in january  2011 , we purchased city investment fund , or cif's , 49.9% ( 49.9 % ) a0interest in 521 a0fifth avenue , thereby assum- ing full ownership of the 460000  square foot ( unaudited ) building .",
+          "Purchase price allocation",
+          "$257,143",
+          "Net consideration funded by us at closing",
+          "$70,000"
+        ],
+        "rationale": "表格和正文足以支持两种常见计算：购入权益价值约为$128.3百万，或公司交割出资占交易价值约27.22%。但问题未定义“份额”和“交易成本”，且公司交易后成为全资持有人，因此不能唯一识别一个精确目标。",
+        "confidence": "medium"
+      },
+      "status": "completed",
+      "attempt_id": "10992d531e81b0b251db8b9910ecc68765d9c87dfaaf4175637881a066d8b665"
+    },
+    {
+      "source_id": "ABMD/2018/page_112.pdf-1",
+      "case_number": 98,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "2019年经营租赁付款额 ÷ 最低租赁付款总额 × 100%",
+        "missing_inputs_or_ambiguities": [
+          "代表流动部分的2019财年经营租赁付款额未披露。",
+          "最低租赁付款总额未披露；仅凭2021年及以后年度合计6,123千美元，无法确定包含2019年和2020年的总额。",
+          "各租赁的年度租金费用仅为估计值，且租期和起租时间不同，不能恢复2019年付款额或表中总额。"
+        ],
+        "evidence_quotes": [
+          "future minimum lease payments under non-cancelable leases as of march 31 , 2018 are approximately as follows : fiscal years ending march 31 , operating leases ( in $ 000s ) .",
+          "2019",
+          "[not disclosed]",
+          "Total minimum lease payments",
+          "the annual rent expense for this lease agreement is estimated to be $ 0.4 million .",
+          "the annual rent expense for the lease is estimated to be $ 0.3 million .",
+          "the annual rent expense for the lease is estimated to be $ 0.9 million ."
+        ],
+        "rationale": "截至2018年3月31日，流动部分通常对应下一财年（2019年）的付款额。该数值及总额均未披露；年度租金估计也不能按实际付款时点和完整租赁范围还原二者，因此无法支持精确值或可靠近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "8fcc3a896c5d5be7f87db2993e1dc5377bb10b8e9863feb502e57fad5b7abc80"
+    },
+    {
+      "source_id": "RE/2006/page_31.pdf-2",
+      "case_number": 99,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若“2005年的增长率”指2005年相对2004年的同比增长率，则为：[(649.6 - R_2005) - 506.7] / 506.7 × 100%，其中 R_2005 为2005年再保险应收款的正数金额；等价地，为 (N_2005 - 506.7) / 506.7 × 100%。",
+        "missing_inputs_or_ambiguities": [
+          "2005年再保险应收款未披露，因此无法由2005年总准备金649.6百万美元推导出2005年净准备金。",
+          "2005年净准备金本身也未披露，且其他披露没有提供可恢复该数值的关系或近似值。",
+          "“growth rate in 2005”通常指2005年相对2004年的同比增长率；若问题采用其他比较基期，则基期定义也需明确。"
+        ],
+        "evidence_quotes": [
+          "Gross reserves",
+          "649.6",
+          "Reinsurance receivable",
+          "[not disclosed]",
+          "Net reserves",
+          "$506.7"
+        ],
+        "rationale": "表中仅能确定2005年总准备金及2004年净准备金。由于计算2005年净准备金所需的2005年再保险应收款缺失，无法计算同比增长率，也没有叙述性信息支持可靠的四舍五入近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "6368c2c3313a2237edce8ea4f91e9d1c72296ddd615eba88c02691fed1b8fd60"
+    },
+    {
+      "source_id": "RE/2012/page_123.pdf-2",
+      "case_number": 100,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "令 C 为分出公司报告的案件准备金，A 为公司就分入再保险索赔增设的案件准备金，则目标比率为 C/A。现有披露至多支持近似关系 C + A ≈ 422849/0.955 - 36667 - 177068（金额单位：千美元），但不能据此分别确定 C 和 A，因而无法计算其比率。",
+        "missing_inputs_or_ambiguities": [
+          "分出公司报告的案件准备金 C 未披露。",
+          "公司就分入再保险索赔增设的案件准备金 A 未披露。",
+          "95.5%是披露的百分比，可能经过四舍五入；即使将其视为精确值，也只能推导 C+A，不能推导 C/A。",
+          "未来保单利益准备金表涉及不同准备金指标，不能补足 C 或 A。"
+        ],
+        "evidence_quotes": [
+          "at december 31 , 2012 , the gross reserves for a&e losses were comprised of $ [not disclosed] thousand representing case reserves reported by ceding companies , $ [not disclosed] thousand representing additional case reserves established by the company on assumed reinsurance claims , $ 36667 thousand representing case reserves established by the company on direct excess insurance claims , including mt .",
+          "mckinley , and $ 177068 thousand representing ibnr reserves .",
+          "with respect to asbestos only , at december 31 , 2012 , the company had gross asbestos loss reserves of $ 422849 thousand , or 95.5% ( 95.5 % ) , of total a&e reserves , of which $ 339654 thousand was for assumed business and $ 83195 thousand was for direct business ."
+        ],
+        "rationale": "目标比率的分子和分母均被明确标为未披露。石棉准备金及其占比只能近似恢复总A&E准备金，结合其他两项也仅能得到两项缺失准备金之和；一个和不足以识别两者之比。因此既无法得到精确比率，也无法得到有依据的近似比率。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "cf36494362f67b7c76b20be95b0aa6f86bf8bb4f5add71f697d0e2bbf0ad5df0"
+    },
+    {
+      "source_id": "TXN/2017/page_55.pdf-3",
+      "case_number": 101,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若“净值”指净负债，则为 $255 million − 2017年末相关共同基金投资金额；若按资产减负债列示，则符号相反。",
+        "missing_inputs_or_ambiguities": [
+          "2017年末与这些计划相关、计入长期投资的共同基金金额被标为“$ [not disclosed] million”，且其他披露无法推导该金额。",
+          "问题未明确“净值”采用负债减投资还是投资减负债的符号约定。"
+        ],
+        "evidence_quotes": [
+          "as of december 31 , 2017 , our liability to participants of the deferred compensation plans was $ 255 million and is recorded in other long-term liabilities on our consolidated balance sheets .",
+          "as of december 31 , 2017 , we held $ [not disclosed] million in mutual funds related to these plans that are recorded in long-term investments on our consolidated balance sheets , and serve as an economic hedge against changes in fair values of our other deferred compensation liabilities ."
+        ],
+        "rationale": "已披露负债为2.55亿美元，但计算净额所必需的投资金额未披露，也没有可用于替代推导的数据。因此既不能确定精确净值，也不能形成有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "79f4ae6528d96584f5b1149874c6efa9d3f51072a3d94cb70e5e037af7eb6cf2"
+    },
+    {
+      "source_id": "UNP/2008/page_83.pdf-2",
+      "case_number": 102,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "2008年与2007年租金费用之比 = 2008年租金费用（百万美元） / 810（百万美元）",
+        "missing_inputs_or_ambiguities": [
+          "2008年期限超过一个月的经营租赁租金费用未披露，因此无法计算该比率。表中的经营租赁未来最低付款额不是当年的租金费用，不能替代该缺失值。"
+        ],
+        "evidence_quotes": [
+          "rent expense for operating leases with terms exceeding one month was $ [not disclosed] million in 2008 , $ 810 million in 2007 , and $ 798 million in 2006 .",
+          "future minimum lease payments for operating and capital leases with initial or remaining non-cancelable lease terms in excess of one year as of december 31 , 2008 were as follows : millions of dollars operating leases capital leases ."
+        ],
+        "rationale": "2007年费用明确为810百万美元，但2008年费用被标为未披露。其他数据是未来最低租赁付款额，指标与目标租金费用不同，故既不能确定精确比率，也没有足够信息支持近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "fbe5c35031757526e1839b5e514a766a9b5163cae99688a9e40cea6d686159f0"
+    },
+    {
+      "source_id": "RE/2010/page_120.pdf-1",
+      "case_number": 103,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Tax rate = Tax ÷ $65,658 × 100%",
+        "missing_inputs_or_ambiguities": [
+          "The tax amount is not disclosed.",
+          "The net cumulative-effect adjustment is also not disclosed, so the tax cannot be derived as gross minus net."
+        ],
+        "evidence_quotes": [
+          "Cumulative-effect adjustment, gross",
+          "$65,658",
+          "Tax",
+          "[not disclosed]",
+          "Cumulative-effect adjustment, net",
+          "[not disclosed]"
+        ],
+        "rationale": "证据仅给出税前累计影响调整额为65,658千美元，税额与税后净额均未披露。由于税率需以税额除以税前总额，且无法通过“总额减净额”反推出税额，因此既不能确定精确税率，也不支持合理的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "fc418cf660c5e56b6acf4dc68f7f96ab6dc68997a7bcf1979459f9a0a5d10f83"
+    },
+    {
+      "source_id": "LLY/2018/page_99.pdf-1",
+      "case_number": 104,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "$185.04 ÷（Dec-17 Peer Group value）",
+        "missing_inputs_or_ambiguities": [
+          "Dec-17 的 Peer Group value 未披露，因此比率的分母无法确定。Dec-16 和 Dec-18 的同类数值不能在未声明插值或收益路径假设的情况下推导出 Dec-17 数值。"
+        ],
+        "evidence_quotes": [
+          "Dec-17",
+          "$185.04",
+          "[not disclosed]"
+        ],
+        "rationale": "表中可确定 2017 年 12 月末 Lilly 的价值为 $185.04，但同期 Peer Group 的价值明确标为未披露。缺少分母，既无法精确计算，也没有足够信息给出合理的舍入近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "2b16bd521e401f5b6a371ca65e0a50597782b701492baab753068c4e5644e384"
+    },
+    {
+      "source_id": "CME/2012/page_107.pdf-3",
+      "case_number": 105,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若“总价值”指授予日公允价值，则为 226,493 × 已取消股份的加权平均授予日公允价值 ÷ 1,000,000（百万美元）；若问题仅要求把已取消股份数量换算为百万股，则为 226,493 ÷ 1,000,000 = 0.226493 百万股。",
+        "missing_inputs_or_ambiguities": [
+          "已取消股份的“WeightedAverageGrant DateFair Value”明确标为“[not disclosed]”，因此无法计算其总公允价值。",
+          "期末股份的加权平均授予日公允价值也未披露，故无法通过股份滚存关系反推出已取消股份的公允价值。",
+          "“total value”可能指货币价值，也可能仅指以百万股表示的股份数量；只有后一解释可由现有证据计算。"
+        ],
+        "evidence_quotes": [
+          "[\"Cancelled\", \"(226,493)\", \"[not disclosed]\"]",
+          "[\"Outstanding at December 31, 2012\", \"1,913,527\", \"[not disclosed]\"]"
+        ],
+        "rationale": "证据仅确定取消了226,493股，但计算货币总价值还需要这些股份的加权平均授予日公允价值，该输入未披露且不能由其他披露唯一恢复。因此不能确定以百万美元计的总价值；仅可在“百万股”解释下得到0.226493百万股。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "4b1a313843d8cc36be4cd2dcf767b27cd25c5aa08b317f437a7394173289ac24"
+    },
+    {
+      "source_id": "FRT/2007/page_137.pdf-2",
+      "case_number": 106,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "按扣除额的正数金额计算：增加额 = 80,258 − 2006年扣除额（千美元）。由余额关系仅能得到：2006年扣除额 = 2006年新增额 − (740,507 − 663,750) = 2006年新增额 − 76,757。",
+        "missing_inputs_or_ambiguities": [
+          "2006年的“Deductions during period—disposition and retirements of property”未披露。",
+          "2006年的新增额也未披露，因此不能利用2005年和2006年期末余额反推出2006年扣除额。"
+        ],
+        "evidence_quotes": [
+          "Balance, December 31, 2005",
+          "$663,750",
+          "Deductions during period—disposition and retirements of property",
+          "[not disclosed]",
+          "Balance, December 31, 2006",
+          "$740,507",
+          "Deductions during period—disposition and retirements of property",
+          "(80,258)"
+        ],
+        "rationale": "2007年扣除额可识别为80,258千美元，但计算相对2006年的增加额还需要2006年扣除额。由于2006年的新增额和扣除额均未披露，余额变动只能提供一个含两个未知数的关系，无法得到精确值或有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "aaa4b4cb1ea9aca584b9fbd0de0ed5dc6d398a0eaf10531bec5201f1a97c5da5"
+    },
+    {
+      "source_id": "IP/2018/page_50.pdf-3",
+      "case_number": 107,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "设2018年Industrial Packaging资本支出为 I（百万美元）：增长额 = I - 836；增长率 = (I / 836 - 1) × 100%。已知2018年Industrial Packaging与Global Cellulose Fibers合计为 1,547 - 303 = 1,244（百万美元），但无法单独确定 I。",
+        "missing_inputs_or_ambiguities": [
+          "2018年Industrial Packaging资本支出为“[not disclosed]”，且没有其他披露可单独推导该数值。",
+          "2018年Global Cellulose Fibers资本支出也为“[not disclosed]”；因此即使利用Subtotal，也只能得到两个分部合计1,244百万美元。",
+          "“growth”可能指增长额或增长率；两种口径均需要缺失的2018年Industrial Packaging数值。"
+        ],
+        "evidence_quotes": [
+          "Industrial Packaging",
+          "[not disclosed]",
+          "$836",
+          "Global Cellulose Fibers",
+          "Subtotal",
+          "1,547",
+          "303"
+        ],
+        "rationale": "表中仅明确给出Industrial Packaging在2017年为836百万美元，2018年数值缺失。2018年Subtotal减去Printing Papers只能得到Industrial Packaging与Global Cellulose Fibers的合计，无法拆分，因此既不能精确计算，也没有足够信息支持合理的近似增长值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "2c71d7709044b94a1791cc999a86a7baa4650efe60e5e346fdc5e4beae9338bc"
+    },
+    {
+      "source_id": "AON/2011/page_38.pdf-1",
+      "case_number": 108,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "(414,000 + 2300 Discovery Drive occupied square footage) / 2",
+        "missing_inputs_or_ambiguities": [
+          "2300 Discovery Drive, Orlando, Florida 的 occupied square footage 未披露，因此无法计算两处租约于2020年到期物业的实际平均占用面积。后文仅说明该地点主要用于 HR Solutions segment，并未补充面积。"
+        ],
+        "evidence_quotes": [
+          "2601 Research Forest Drive, The Woodlands, Texas",
+          "414,000",
+          "2020",
+          "2300 Discovery Drive, Orlando, Florida",
+          "[not disclosed]",
+          "the locations in lincolnshire , illinois , the woodlands , texas , orlando , florida , and charlotte north carolina , each of which were acquired as part of the hewitt acquisition in 2010 , are primarily dedicated to our hr solutions segment ."
+        ],
+        "rationale": "2020年到期的物业有两处；其中一处面积为414,000平方英尺，另一处面积明确标为未披露。缺少第二处面积既无法得到精确平均值，也没有足够信息形成合理的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "d8b2cbc9f602f4eb647c4fa5e34d4ffe38e1a5c47c8f096ffa41b193a091a447"
+    },
+    {
+      "source_id": "MRO/2009/page_32.pdf-5",
+      "case_number": 109,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "无法判定 Detroit, Michigan 的实际原油加工量是否大于 Canton, Ohio 的实际原油加工量。",
+        "missing_inputs_or_ambiguities": [
+          "Detroit, Michigan 的炼油能力数值为“[not disclosed]”。",
+          "Canton 的“78”是截至 2009 年 12 月 31 日的日原油炼制能力，而不是实际原油加工量。",
+          "披露的 957 mbpd 是全部炼油厂在 2009 年的合计实际原油加工量，未给出 Detroit 和 Canton 各自的加工量，无法从总量分解。",
+          "即使将问题理解为比较炼制能力，Detroit 的能力仍未披露，因此也无法比较。"
+        ],
+        "evidence_quotes": [
+          "during 2009 , our refineries processed 957 mbpd of crude oil and 196 mbpd of other charge and blend stocks .",
+          "the table below sets forth the location and daily crude oil refining capacity of each of our refineries as of december 31 , 2009 .",
+          "Detroit, Michigan",
+          "[not disclosed]",
+          "Canton, Ohio",
+          "78"
+        ],
+        "rationale": "证据只提供全体炼油厂的实际加工总量及 Canton 的产能；实际加工量与产能不是同一指标，且 Detroit 的产能也被隐去。因此，无论按实际加工量还是按产能理解，均不能判断 Detroit 是否更多。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "5957ee39eb75a1cb9436b6d47abeb181409bd463c5bb7af2e4f5ba65fa57723d"
+    },
+    {
+      "source_id": "VLO/2011/page_127.pdf-2",
+      "case_number": 110,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Physical contracts – short notional volume ÷ Futures – long notional volume",
+        "missing_inputs_or_ambiguities": [
+          "The notional volume for “Physical contracts – short” is not disclosed, so the numerator is undetermined.",
+          "The notional volume for “Futures – long” is not disclosed, so the denominator is undetermined.",
+          "No total or other stated identity is provided from which either missing volume can be derived; the disclosed swap and short-futures volumes do not determine them."
+        ],
+        "evidence_quotes": [
+          "the information presents the notional volume of outstanding contracts by type of instrument and year of maturity ( volumes in thousands of barrels ) .",
+          "Futures – long",
+          "Physical contracts – short",
+          "[not disclosed]"
+        ],
+        "rationale": "该比率应为“空头实物合同名义量 ÷ 多头期货名义量”，但分子和分母均标为未披露，且材料没有提供可用于反推的总量或恒等关系，因此既不能确定精确值，也不支持合理的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "94759b7f605f857b3c31375d4bb47fec8e084b9a3e0b94d7b3d42086af51f199"
+    },
+    {
+      "source_id": "EW/2016/page_36.pdf-1",
+      "case_number": 111,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若 Edwards Lifesciences 的 2016 年累计总回报指数值为 V，则五年累计总回报率 = (V / $100 - 1) × 100% = V - 100%。",
+        "missing_inputs_or_ambiguities": [
+          "Edwards Lifesciences 的 2016 年累计总回报指数值未披露；现有文本和其他公司的指数值不能确定该缺失值。"
+        ],
+        "evidence_quotes": [
+          "the cumulative total return listed below assumes an initial investment of $ 100 at the market close on december 30 , 2011 and reinvestment of dividends .",
+          "Edwards Lifesciences",
+          "[not disclosed]"
+        ],
+        "rationale": "基准投资额和计算口径已给出，但 Edwards Lifesciences 的 2016 年终值明确缺失，因此无法计算截至 2016 年的五年累计总回报率，也没有足够信息支持近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "77aa017ef5ab273c217fae933ebbdead64f72d2c6aeed5da32a83310f0c86e96"
+    },
+    {
+      "source_id": "IP/2015/page_46.pdf-1",
+      "case_number": 112,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "100 × (2015 North American consumer packaging net sales ÷ 2015 total consumer packaging sales). If the three disclosed geographic categories are exhaustive, this is equivalently 100 × N ÷ (N + 319 + 682), where N is 2015 North American consumer packaging net sales in millions of dollars; N remains undetermined.",
+        "missing_inputs_or_ambiguities": [
+          "The 2015 total Consumer Packaging sales value is explicitly not disclosed in the table.",
+          "The 2015 North American Consumer Packaging net sales value is also explicitly not disclosed.",
+          "European sales of $319 million and Asian sales of $682 million do not determine the North American amount or its percentage of the total."
+        ],
+        "evidence_quotes": [
+          "[not disclosed]",
+          "north american consumer packaging net sales were $ [not disclosed] billion in 2015 compared with $ [not disclosed] billion in 2014 and $ [not disclosed] billion in 2013 .",
+          "european consumer packaging net sales in 2015 were $ 319 million compared with $ 365 million in 2014 and $ 380 million in 2013 .",
+          "net sales were $ 682 million in 2015 compared with $ 1.0 billion in 2014 and $ 1.1 billion in 2013 ."
+        ],
+        "rationale": "所求比例需要2015年北美消费包装销售额和消费包装总销售额。两项关键数值均未披露；欧洲和亚洲销售额之和只能给出其他地区的部分销售额，无法确定北美销售额，因此既不能得到精确比例，也没有足够信息支持近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "5702fce648c5b52180e874b409414b07e06c054aa93414338817e29a7591f8ec"
+    },
+    {
+      "source_id": "CE/2007/page_125.pdf-1",
+      "case_number": 113,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Percentage change = (200 − B) / B × 100%, where B is the balance as of January 1, 2007 (in $ millions). Equivalently, if P is increases in tax positions for prior years, then B + P = 221 and percentage change = (P − 21) / B × 100%.",
+        "missing_inputs_or_ambiguities": [
+          "The balance as of January 1, 2007 is not disclosed.",
+          "Increases in tax positions for prior years are also not disclosed. The reconciliation only establishes that the two missing amounts sum to $221 million, so it cannot separately determine the beginning balance or the percentage change."
+        ],
+        "evidence_quotes": [
+          "Balance as of January 1, 2007",
+          "[not disclosed]",
+          "Increases in tax positions for prior years",
+          "Decreases in tax positions of prior years",
+          "(21)",
+          "Settlements",
+          "(2)",
+          "Balance as of December 31, 2007",
+          "200"
+        ],
+        "rationale": "期末余额为2亿美元，但期初余额缺失；同时“以前年度税务头寸增加额”也缺失。根据表中变动只能得到期初余额与该增加额合计为2.21亿美元，无法唯一确定期初余额，因此不能计算精确或有依据的近似百分比变化。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "ed87e8d8842df5481c1e092675565c195da48407e64081d0f5ce188c13263082"
+    },
+    {
+      "source_id": "PPG/2013/page_54.pdf-4",
+      "case_number": 114,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "设2013年“Additions based on tax positions related to the current year”为A（百万美元），则2013年末未确认税收优惠余额 = 82 + A + 9 - 10 - 10 + 2 = 73 + A；百分比变化 = ((73 + A - 82) / 82) × 100% = ((A - 9) / 82) × 100%。",
+        "missing_inputs_or_ambiguities": [
+          "2013年末“Balance at December 31”未披露。",
+          "2013年“Additions based on tax positions related to the current year”未披露，因此无法通过余额调节表推导2013年末余额。",
+          "披露的$81 million仅指若确认后会影响有效税率的未确认税收优惠，并不等同于未确认税收优惠总余额，不能替代缺失的2013年末余额。"
+        ],
+        "evidence_quotes": [
+          "Balance at January 1",
+          "$82",
+          "Additions based on tax positions related to the current year",
+          "[not disclosed]",
+          "Balance at December 31",
+          "the total amount of unrecognized tax benefits that , if recognized , would affect the effective tax rate was $ 81 million as of december 31 , 2013 ."
+        ],
+        "rationale": "2012年末总余额为8200万美元，但2013年末总余额及可用于推导该余额的当年新增额均缺失。8100万美元是会影响有效税率的子集，口径不同。因此只能给出含未知数A的计算式，无法确定精确值或合理近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "3a9a61a8130c58119cec32f2d129daf933a7a2af807e0b0cf31a72f51c37aefe"
+    },
+    {
+      "source_id": "MRO/2012/page_18.pdf-1",
+      "case_number": 115,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "令 x 为2013年 Other Africa 的净到期未开发英亩数（千英亩），则外国占比 = x / (436 + x) × 100%；等价地，外国占比 = (2013年 Worldwide − 436) / 2013年 Worldwide × 100%。",
+        "missing_inputs_or_ambiguities": [
+          "2013年 Other Africa 数值为“[not disclosed]”；由于2013年 Canada、E.G.、Total Europe 和 Other International 均为零，该数值决定外国净到期英亩数。",
+          "2013年 Worldwide 总数也为“[not disclosed]”，因此百分比的分母无法独立确定。",
+          "2014年和2015年的披露属于不同期间，不能用于恢复2013年的缺失值。"
+        ],
+        "evidence_quotes": [
+          "Net Undeveloped Acres Expiring",
+          "(In thousands)",
+          "2013",
+          "U.S.",
+          "436",
+          "Other Africa",
+          "[not disclosed]",
+          "Worldwide",
+          "—"
+        ],
+        "rationale": "表中2013年美国为436千英亩，其余已披露的外国地区均为“—”，但 Other Africa 及 Worldwide 均未披露。故外国英亩数 x 和总英亩数 436+x 都无法数值确定，也没有叙述性信息支持近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "fb42dd1a44bcb4f776619e229aadc6d7fec14057e1a7e2a289dced2f3eb3e2f3"
+    },
+    {
+      "source_id": "AES/2011/page_131.pdf-3",
+      "case_number": 116,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "美国 Laurel Mountain 项目 Gross MW = 98；所需比较为 98 MW > Maritza Gross MW，但后者未披露。",
+        "missing_inputs_or_ambiguities": [
+          "Maritza（Bulgaria）项目的 Gross MW 为“[not disclosed]”，因此无法判断美国项目的98 MW是否更大。",
+          "约2400 MW是整个建设计划的合计信息，不能用于确定Maritza单个项目的容量。"
+        ],
+        "evidence_quotes": [
+          "Laurel Mountain",
+          "US-WV",
+          "98",
+          "Maritza",
+          "Bulgaria",
+          "[not disclosed]",
+          "completion of an approximately 2400 mw construction program"
+        ],
+        "rationale": "表中可确定美国项目容量为98 Gross MW，但保加利亚Maritza项目容量未披露；汇总建设规模也无法分解到该项目，因此不能支持大小比较或近似结论。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "732277fd9126440e490cf7fd7617d1d69a270648840557c20e1eae3dc2c6c4d6"
+    },
+    {
+      "source_id": "AAP/2016/page_65.pdf-3",
+      "case_number": 117,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "2016年增加额（千美元）= $395,240 − 2016年1月2日的库存采购及仓储间接成本（未披露）",
+        "missing_inputs_or_ambiguities": [
+          "缺少2016年1月2日的库存采购及仓储间接成本。现有库存总额及LIFO调整不能分离或推导该间接成本，因此无法计算增加额。"
+        ],
+        "evidence_quotes": [
+          "inventory overhead costs purchasing and warehousing costs included in inventory as of december 31 , 2016 and january 2 , 2016 , were $ 395240 and $ [not disclosed] , respectively .",
+          "Inventories at FIFO, net",
+          "$4,120,030",
+          "$4,009,641"
+        ],
+        "rationale": "披露仅给出2016年12月31日金额395,240千美元，比较基期金额被明确标为未披露。表中的FIFO库存总额不等同于采购及仓储间接成本，故既不能精确计算，也没有足够信息形成合理的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "1ad3b12ca1ad3dc71b8208c9a46a6ad811d3c94cb771a173246cd00200ed99e5"
+    },
+    {
+      "source_id": "EW/2014/page_35.pdf-2",
+      "case_number": 118,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若“difference in percentage”指累计回报率的百分点差，则设 Edwards 2014 年末累计总回报指数为 E，差额为 [(E/100−1)−(205.14/100−1)]×100 = E−205.14 个百分点。",
+        "missing_inputs_or_ambiguities": [
+          "Edwards Lifesciences 的 2014 年末累计总回报数值未披露，因此无法计算其五年累计回报与 S&P 500 的差额。",
+          "图表文本仅出现“$ 200”，不能确定 Edwards 2014 年的终值，也不足以支持近似值。",
+          "“difference in percentage”可能指累计回报率的百分点差，也可能指相对百分比差；若指后者，还需明确分母约定。"
+        ],
+        "evidence_quotes": [
+          "the cumulative total return listed below assumes an initial investment of $ 100 on december 31 , 2009 and reinvestment of dividends .",
+          "[not disclosed]",
+          "205.14"
+        ],
+        "rationale": "基准投资额为100，S&P 500的2014年终值为205.14，但 Edwards 同期终值明确缺失。此前年度数据不能推导2014年实际终值，且现有图形文字也无法支持可靠近似，因此目标差额不可识别。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "858bcc3b301c7cc9095755209dcc494258264b57051e21bd39bcf10b9671bcb9"
+    },
+    {
+      "source_id": "AWK/2015/page_117.pdf-1",
+      "case_number": 119,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "($62.10 − 2013 grant date fair value per share) / 2013 grant date fair value per share × 100%",
+        "missing_inputs_or_ambiguities": [
+          "The 2013 grant date fair value per share is explicitly marked \"[not disclosed]\". The total grant date fair value of RSUs vested in 2013 cannot recover this input because the corresponding number of vested shares—and a basis establishing comparability with the grant-date per-share metric—is not provided."
+        ],
+        "evidence_quotes": [
+          "[\"Grant date fair value per share\", \"$62.10\", \"$45.45\", \"[not disclosed]\"]",
+          "the total grant date fair value of rsus vested was $ 12 , $ 11 and $ 9 for the years ended december 31 , 2015 , 2014 and 2013. ."
+        ],
+        "rationale": "2015年每股授予日公允价值为62.10美元，但2013年数值未披露。其他信息仅给出已归属RSU的总公允价值，缺少相应股数且指标口径不同，因此既无法精确计算，也不支持合理的四舍五入近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "b4fdce5dc24b0a842947c967b5de31dbd681fc79c5c836f4be0fce2356dd2085"
+    },
+    {
+      "source_id": "RE/2014/page_125.pdf-1",
+      "case_number": 120,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "((8,181 - I_2012) / I_2012) × 100%，其中 I_2012 为2012年利息费用（千美元）。",
+        "missing_inputs_or_ambiguities": [
+          "2012年的利息费用未披露，因此百分比变化的基数无法确定。",
+          "“$ 329897 thousand”仅说明2013年5月24日赎回时的未偿本金，“6.2%”是票面利率；证据未说明该本金在2012年全年均保持不变，也未提供足以精确计算2012年利息费用的计息期限及其他必要条款。"
+        ],
+        "evidence_quotes": [
+          "Interest expense incurred",
+          "$8,181",
+          "[not disclosed]",
+          "holdings elected to redeem the $ 329897 thousand of 6.2% ( 6.2 % ) junior subordinated debt securities outstanding on may 24 , 2013 ."
+        ],
+        "rationale": "2013年利息费用为8,181千美元，但2012年数值明确未披露。现有本金和利率信息只对应2013年赎回时点，不能证明2012年全年本金或实际计息基础，故既不能确定精确变化率，也不能支持可靠的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "9661d8ad98a018bc7a1fe2e6781983135b7ba1f3f86295b85ce5d777e6fc1e9e"
+    },
+    {
+      "source_id": "JKHY/2011/page_34.pdf-2",
+      "case_number": 121,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "（一年内到期的应付票据及应计利息 ÷ 应付票据及应计利息总额）× 100%",
+        "missing_inputs_or_ambiguities": [
+          "“Notes payable, includingaccrued interest”行的“Less than1 year”金额未披露。",
+          "该行的“TOTAL”金额也未披露，且其他期限金额同样不足以推导总额。",
+          "总计行相关金额均未披露，因此无法通过列合计反推所需金额。"
+        ],
+        "evidence_quotes": [
+          "Less than1 year",
+          "TOTAL",
+          "Notes payable, includingaccrued interest",
+          "[not disclosed]"
+        ],
+        "rationale": "所求百分比需要该负债一年内到期金额和总额，但两者均未披露；表内也没有可用于反推它们的列合计或其他等价数据，因此既不能确定精确值，也不支持合理的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "510b446201e1ddc91d5080829fa6f241281f1010f78b072a27b6eec1bc37f2a6"
+    },
+    {
+      "source_id": "SLG/2017/page_110.pdf-1",
+      "case_number": 122,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "以千美元计，2017年市场化证券AOCI余额 = 5,520 - 1,348 + R = 4,172 + R，其中R为该列未披露的重分类金额。若“derivatives”指公司自身衍生工具余额12,542，则市场化证券余额更大当且仅当R > 8,370。",
+        "missing_inputs_or_ambiguities": [
+          "市场化证券列2017年的“A​​mounts reclassified from accumulated other comprehensive income”未披露，因此其年末余额及比较结果无法确定。不能仅因以前年度该项为“—”就假定2017年也为零。",
+          "“derivatives”可能仅指“Net unrealized gain on derivative instruments”的12,542，也可能包含合营企业衍生工具余额5,020；问题措辞存在一定范围歧义。"
+        ],
+        "evidence_quotes": [
+          "Net unrealized gain on derivative instruments(1)",
+          "SL Green’s share of joint venture net unrealized gain on derivative instruments(2)",
+          "Net unrealized gain on marketable securities",
+          "Balance at December 31, 2016",
+          "5,520",
+          "Other comprehensive (loss) income before reclassifications",
+          "(1,348)",
+          "Amounts reclassified from accumulated other comprehensive income",
+          "[not disclosed]",
+          "Balance at December 31, 2017",
+          "$12,542",
+          "$5,020"
+        ],
+        "rationale": "表中可确定衍生工具2017年余额为12,542千美元，但市场化证券余额还依赖未披露的重分类金额R。现有证据既未给出R，也未提供可恢复R的总额，因此无法判断市场化证券余额是否更大。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "237042f2ae56aaf03b5c558c4190aab459cab7a175d9d8f2e06995438ed0b77f"
+    },
+    {
+      "source_id": "ORLY/2017/page_30.pdf-1",
+      "case_number": 123,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "ROI（2014至2016，含股息再投资）=（S&P 500在2016年的累计投资价值 ÷ $144）− 1；百分比形式再乘以100%。",
+        "missing_inputs_or_ambiguities": [
+          "S&P 500在2016年的累计投资价值为“[not disclosed]”，因此无法计算该期间的实际ROI。",
+          "2017年的$187不能确定2016年的数值，因为未披露2016至2017年的回报率或价值变动。"
+        ],
+        "evidence_quotes": [
+          "the graph below shows the cumulative total shareholder return assuming the investment of $ 100 , on december 31 , 2012 , and the reinvestment of dividends thereafter",
+          "S&P 500",
+          "$144",
+          "[not disclosed]",
+          "$187"
+        ],
+        "rationale": "表中可确定S&P 500在2014年的累计投资价值为$144，但2016年数值未披露。缺少该期末价值，既不能精确计算，也没有足够叙述信息支持近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "62cd292d26ee70277fdb93d3823d84fecd7c8c2eac6c36268649e9a6e6c62353"
+    },
+    {
+      "source_id": "AAPL/2010/page_42.pdf-2",
+      "case_number": 124,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "减少额（百万美元）= 2008年Total other income and expense − 2009年Total other income and expense；若采用带符号变动，则为2009年数值 − 2008年数值。",
+        "missing_inputs_or_ambiguities": [
+          "2008年和2009年的Total other income and expense金额均为“[not disclosed]”，因此无法计算两年之差。",
+          "各年的加权平均利率不足以推导该指标，因为现金、现金等价物及有价证券的相关余额未披露，而且Other income (expense), net也未披露。"
+        ],
+        "evidence_quotes": [
+          "total other income and expense for the three years ended september 25 , 2010 , are as follows ( in millions ) : total other income and expense decreased $ [not disclosed] million or [not disclosed]% to $ [not disclosed] million during 2010 compared to $ [not disclosed] million and $ [not disclosed] million in 2009 and 2008 , respectively .",
+          "the weighted average interest rate earned by the company on its cash , cash equivalents and marketable securities was 0.75% ( 0.75 % ) , 1.43% ( 1.43 % ) and 3.44% ( 3.44 % ) during 2010 , 2009 and 2008 , respectively ."
+        ],
+        "rationale": "证据未给出2008年或2009年的总其他收入及费用金额，也未提供可恢复这些金额的完整组成数据。利率变化本身不能确定收入金额，故既无法得到精确减少额，也不支持合理的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "fc99a69bacf40c557ac4489f094c1c904cb1201af4359af94d00bf38ce06c978"
+    },
+    {
+      "source_id": "BKNG/2017/page_35.pdf-1",
+      "case_number": 125,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若以2012年末为基期，则五年百分比变化 =（Booking Holdings Inc. 2017年末指数 ÷ 2012年末指数 − 1）× 100% =（2017年末指数 ÷ 100.00 − 1）× 100%。",
+        "missing_inputs_or_ambiguities": [
+          "Booking Holdings Inc.的2017年末指数为“[not disclosed]”，因此无法确定截至2017年的五年百分比变化。NASDAQ、S&P 500和RDG Internet Composite的2017年指数属于不同实体，不能替代该缺失值。"
+        ],
+        "evidence_quotes": [
+          "Booking Holdings Inc.",
+          "2012",
+          "100.00",
+          "2017",
+          "[not disclosed]"
+        ],
+        "rationale": "表格给出了Booking Holdings Inc.在2012年的基准值100.00，但未披露2017年终值。缺少终值既无法精确计算，也没有叙述性信息支持合理的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "825ff0e3f761c3abe6ed485a624b9783ec8bdd908d081855dc832282539d4549"
+    },
+    {
+      "source_id": "C/2017/page_119.pdf-2",
+      "case_number": 126,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "设 X 为 2016年12月31日的“HQLA in excess of net outflows”，则百分比增幅为 (($82.1 billion − X) / X) × 100%；但 X 未披露。",
+        "missing_inputs_or_ambiguities": [
+          "2016年12月31日的“HQLA in excess of net outflows”数值未披露。",
+          "虽然文字说明LCR同比上升，但未提供该指标2016年的数值或足以推导它的2016年HQLA/LCR数据，因此无法计算百分比增幅。"
+        ],
+        "evidence_quotes": [
+          "HQLA in excess of net outflows",
+          "$82.1",
+          "[not disclosed]",
+          "as set forth in the table above , citi's lcr increased year- over-year , as the increase in the hqla ( as discussed above ) more than offset an increase in modeled net outflows ."
+        ],
+        "rationale": "2017年目标值为82.1十亿美元，但2016年对应基数未披露。仅有2016年净流出332.5十亿美元不足以推导超额HQLA，且LCR和HQLA也均未披露，因此既不能精确计算，也没有可支持的近似百分比。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "b9fcc4b92fff754099125f06c96defb5275d4a1ea237cf8422bc82ae8234b4ff"
+    },
+    {
+      "source_id": "BLK/2016/page_79.pdf-1",
+      "case_number": 127,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "(2016 total liquidity resources − 2015 total liquidity resources) / 2015 total liquidity resources × 100%",
+        "missing_inputs_or_ambiguities": [
+          "The total liquidity resources amounts for both 2016 and 2015 are not disclosed.",
+          "The stated dollar increase during 2016 is also not disclosed; even if it were known, the 2015 total would still be required as the percentage-change denominator.",
+          "The unchanged $4,000 million undrawn credit facility and disclosed VRE cash adjustments do not recover the totals because the underlying cash and cash equivalents amounts are not disclosed."
+        ],
+        "evidence_quotes": [
+          "liquidity resources at december 31 , 2016 and 2015 were as follows : ( in millions ) december 31 , december 31 , cash and cash equivalents ( 1 ) $ [not disclosed] $ [not disclosed] cash and cash equivalents held by consolidated vres ( 2 ) ( 53 ) ( 100 ) .",
+          "total liquidity resources ( 3 ) $ [not disclosed] $ [not disclosed] ( 1 ) the percentage of cash and cash equivalents held by the company's u.s .",
+          "total liquidity resources increased $ [not disclosed] million during 2016 , primarily reflecting cash flows from operating activities , partially offset by cash payments of 2015 year-end incentive awards , share repurchases of $ 1.4 billion and cash dividend payments of $ 1.5 billion ."
+        ],
+        "rationale": "无法计算该百分比变化：两个年度的总流动性资源均被隐去，年度增加额也未披露。已知未提取信贷额度两年均为4,000百万美元，且VRE现金调整分别为53和100百万美元，但基础现金及现金等价物缺失，因此既不能得到精确值，也无法形成有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "8e8f46a68fc4fb3f7b836843b76b3792c8a51b5b5c296bab633fe10f8b69062f"
+    },
+    {
+      "source_id": "UPS/2013/page_34.pdf-1",
+      "case_number": 128,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "((United Parcel Service, Inc. value on 12/31/2013 ÷ $100.00) − 1) × 100%",
+        "missing_inputs_or_ambiguities": [
+          "United Parcel Service, Inc.’s investment value on 12/31/2013 is not disclosed. The other companies’ values and UPS’s values through 12/31/2012 cannot determine UPS’s five-year cumulative return."
+        ],
+        "evidence_quotes": [
+          "the comparison of the total cumulative return on investment , which is the change in the quarterly stock price plus reinvested dividends for each of the quarterly periods , assumes that $ 100 was invested on december 31 , 2008 in the standard & poor's 500 index , the dow jones transportation average , and our class b common stock. .",
+          "$100.00",
+          "[not disclosed]"
+        ],
+        "rationale": "五年累计回报率需要UPS在12/31/2008的初始值和12/31/2013的期末值。初始值为$100.00，但期末值明确标为“[not disclosed]”；现有资料既不能确定精确结果，也不支持合理的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "742c7ab524ca8341bef1add0f802626dfc55eb82f465445b8046bcc105d37a82"
+    },
+    {
+      "source_id": "GPN/2009/page_85.pdf-1",
+      "case_number": 129,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "总价值（百万美元）= 762（千股）× May 31, 2009 的加权平均授予日公允价值（美元/股）÷ 1,000；即 0.762 × 该每股公允价值。",
+        "missing_inputs_or_ambiguities": [
+          "May 31, 2009 非既得股份的加权平均授予日公允价值未披露，因此无法计算总授予日公允价值。",
+          "$23.5 million 是未确认薪酬成本，并非非既得股份的总公允价值，不能替代缺失的每股公允价值。",
+          "2009 年授予股份的加权平均授予日公允价值同样未披露，故也无法通过股份变动表反推期末加权平均值。"
+        ],
+        "evidence_quotes": [
+          "Non-vested at May 31, 2009",
+          "762",
+          "[not disclosed]",
+          "as of may 31 , 2009 , there was $ 23.5 million of total unrecognized compensation cost related to unvested restricted stock awards that is expected to be recognized over a weighted average period of 2.9 years ."
+        ],
+        "rationale": "表中仅确定期末有76.2万股非既得股份，但对应的加权平均授予日公允价值明确缺失。未确认薪酬成本与股份总公允价值不是同一指标，因此既不能得到精确值，也没有依据形成可靠的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "7bf95f558e87892363e2dfecd48d008391f9aa433032b2a5c5334bc8750d90c2"
+    },
+    {
+      "source_id": "EXPD/2018/page_27.pdf-2",
+      "case_number": 130,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "设 NASDAQ Industrial Transportation 在 12/18 的期末指数化价值为 X（12/13 基准为 100）。Expeditors 的五年累计总回报为 53.88%；若按“Expeditors 减 NASDAQ”计算，差额为 53.88% - (X - 100)% = (153.88 - X) 个百分点；若“difference”指绝对差额，则为 |153.88 - X| 个百分点。",
+        "missing_inputs_or_ambiguities": [
+          "NASDAQ Industrial Transportation (NQUSB2770T) 的 12/18 期末价值未披露，因此其五年累计总回报及两者差额均无法确定。",
+          "“difference”未明确要求有方向的差额还是绝对差额；即使选择一种惯例，仍缺少 NASDAQ 的 12/18 数值。",
+          "12/17 的数值不能替代 12/18，也不足以形成有依据的近似值。"
+        ],
+        "evidence_quotes": [
+          "the graph assumes that the value of the investment in our common stock and in each of the indexes ( including reinvestment of dividends ) was $ 100 on 12/31/2013 and tracks it through 12/31/2018 .",
+          "$153.88",
+          "[not disclosed]"
+        ],
+        "rationale": "基准投资为100，Expeditors在12/18为153.88，故其累计回报可确定为53.88%。但NASDAQ对应的12/18终值明确未披露，其他年份数据不能推导该终值，所以不能计算精确差额，也没有足够信息支持四舍五入近似。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "04be6bd70556d1fc8149e0dc58b13f8ae1b1809bd615e8d2a05ff84e087187bd"
+    },
+    {
+      "source_id": "RSG/2008/page_131.pdf-2",
+      "case_number": 131,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "100% ×（截至2008年12月31日与Allied合并前税务立场相关的未确认税收利益）÷（截至2008年12月31日未确认税收利益总额）",
+        "missing_inputs_or_ambiguities": [
+          "所需分子——与Allied合并前税务立场相关的未确认税收利益——被明确标为“[not disclosed]”。",
+          "所需分母——2008年末未确认税收利益总额——也被标为“[not disclosed]”，且表中的2008年初余额及收购Allied导致的增加额同样缺失，无法据变动表恢复。",
+          "$461.0 million仅是若确认将影响实际税率的未确认税收利益子集，不等于全部未确认税收利益；$449.6 million也只是收购所得未确认利益中会影响实际税率的部分。因此二者之比不能回答所问比例。"
+        ],
+        "evidence_quotes": [
+          "as of december 31 , 2008 , $ [not disclosed] million of the $ [not disclosed] million of unrecognized tax benefits related to tax positions allied had taken prior to the merger .",
+          "included in the balance at december 31 , 2008 and 2007 are approximately $ 461.0 million and $ 7.7 million , respectively , of unrecognized tax benefits ( net of the federal benefit on state issues ) that , if recognized , would affect the effective income tax rate in future periods .",
+          "of the $ [not disclosed] million of acquired unrecognized benefits , $ 449.6 million , if recognized in the income tax provision , would affect our effective tax rate ."
+        ],
+        "rationale": "问题需要用Allied合并前相关金额除以2008年末未确认税收利益总额，但两个金额均未披露。现有的461.0和449.6仅对应“若确认会影响实际税率”的不同子集，不能替代所需总额，因此既无法精确计算，也不支持可靠的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "c2e058e486b71a9c8082def9d96966528aab09e1f495d3694f982603984f526d"
+    },
+    {
+      "source_id": "CDNS/2012/page_41.pdf-2",
+      "case_number": 132,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "2010年Custom IC Design占比 = 100%-24%-23%-9%-7%-11% = 26%。设2012年Digital IC Design占比为D，则2012年Custom IC Design占比 = 100%-30%-9%-6%-9%-D = 46%-D；若差异定义为2012减2010，则为(46%-D)-26% = 20%-D个百分点。",
+        "missing_inputs_or_ambiguities": [
+          "2012年Digital IC Design占比未披露，因此无法从总计100%中单独确定2012年Custom IC Design占比；两者只能确定合计为46%。",
+          "“2010 versus 2012”的减法方向可能影响正负号，但即使指定方向，仍因2012年Digital IC Design占比缺失而无法求值。"
+        ],
+        "evidence_quotes": [
+          "the following table shows the percentage of product and related maintenance revenue contributed by each of our five product groups , and services and other during fiscal 2012 , 2011 and 2010: .",
+          "Custom IC Design",
+          "[not disclosed]",
+          "Digital IC Design",
+          "23%",
+          "Total",
+          "100%"
+        ],
+        "rationale": "可利用2010年其他各组占比和总计准确推得Custom IC Design为26%。但2012年Custom IC Design与Digital IC Design均未披露，现有数据仅能推得二者合计46%，正文也未提供可恢复其中任一项的信息，故目标差异既不能精确识别，也没有受支持的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "27985f12596504088fbd540ca140848914e43404ba05bcd4b3d914249e72c55c"
+    },
+    {
+      "source_id": "VNO/2003/page_97.pdf-2",
+      "case_number": 133,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若“2006 versus 2007”表示2006年相对2007年的差额，则为 P_2006 − P_2007（千美元）；若表示从2006年到2007年的变化，则为 P_2007 − P_2006（千美元）。",
+        "missing_inputs_or_ambiguities": [
+          "2006年的到期本金付款金额未披露。",
+          "2007年的到期本金付款金额未披露。",
+          "“2006 versus 2007”的相减方向存在措辞歧义，但任一方向均因两个金额缺失而无法计算。",
+          "现有其他年份金额及文本未提供合计数或可用于恢复2006年、2007年金额的关系。"
+        ],
+        "evidence_quotes": [
+          "as at december 31 , 2003 , the principal repayments required for the next five years and thereafter are as follows : ( amounts in thousands ) .",
+          "2006",
+          "2007",
+          "[not disclosed]"
+        ],
+        "rationale": "表格确认计量单位为千美元，但2006年和2007年的金额均标为未披露；也没有总额或其他约束可推导这两个数，因此既无法确定精确变化，也不支持合理的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "1ff905fdda1f0dbdea176c84a8a95c74ed11cee7d5f9694c37787d89392f42b5"
+    },
+    {
+      "source_id": "ADI/2015/page_78.pdf-2",
+      "case_number": 134,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Later Years operating lease payments ÷ Total future minimum operating lease payments × 100%",
+        "missing_inputs_or_ambiguities": [
+          "The operating lease payment for \"Later Years\" is not disclosed.",
+          "The total future minimum operating lease payments are not disclosed, so the denominator cannot be reconstructed; the 2016 payment is also missing.",
+          "“Portion” could mean the dollar amount due after five years or its percentage of total payments; neither is identifiable from the supplied evidence."
+        ],
+        "evidence_quotes": [
+          "the following is a schedule of future minimum rental payments required under long-term operating leases at october 31 , operating fiscal years leases .",
+          "Later Years",
+          "Total",
+          "[not disclosed]"
+        ],
+        "rationale": "五年后到期部分对应“Later Years”。其金额与总额均未披露，且2016年金额也缺失，因此既无法直接给出金额，也无法计算其占未来最低租金付款总额的比例；现有年度数据不足以提供可靠近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "d8f4f5a4ac4e0e8a559a34efdcb84e7b315c929ff828b3e13db5babe88b42f4e"
+    },
+    {
+      "source_id": "WRK/2019/page_38.pdf-3",
+      "case_number": 135,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "平均净销售额 =（2018年净销售额 + 2019年净销售额）/ 2",
+        "missing_inputs_or_ambiguities": [
+          "2018年净销售额未披露。",
+          "2019年净销售额未披露。",
+          "2019年相对2018年的净销售额增加额和增长率也均未披露，因此无法通过变动关系反推两个年度的净销售额。"
+        ],
+        "evidence_quotes": [
+          "Net sales",
+          "[not disclosed]",
+          "net sales of $ [not disclosed] million for fiscal 2019 increased $ [not disclosed] million , or [not disclosed]% , compared to fiscal 2018 ."
+        ],
+        "rationale": "计算两年平均值需要2018年和2019年净销售额。证据将两项金额以及同比增加额、增长率全部标为未披露；分部利润不能替代或推导净销售额，因此既无法确定精确值，也不支持有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "ea91045163e07fbb7bd16c1424606e82543bbf5ed4eefc1cf9240796b75dc2f9"
+    },
+    {
+      "source_id": "NCLH/2016/page_84.pdf-1",
+      "case_number": 136,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "((2016年应计利息负债 - 34.2百万美元) / 34.2百万美元) × 100%",
+        "missing_inputs_or_ambiguities": [
+          "2016年12月31日的应计利息负债金额未披露。所提供的利息费用、债务本金及利率信息不足以推导该时点负债，因为缺少各项债务的具体计息期间、付息时点及组成明细。"
+        ],
+        "evidence_quotes": [
+          "we had an accrued interest liability of $ [not disclosed] million and $ 34.2 million as of december 31 , 2016 and 2015 , respectively. ."
+        ],
+        "rationale": "证据仅给出2015年应计利息负债为3420万美元，2016年金额明确标为未披露。因此只能列出百分比变化公式，无法计算精确值或有依据的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "342259e742e6dbd4cf16a2afb790fca42026da5b0f4617936def342fbd27ee91"
+    },
+    {
+      "source_id": "OKE/2007/page_51.pdf-1",
+      "case_number": 137,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "ONEOK Partners goodwill at December 31, 2007 ÷ Total goodwill at December 31, 2007 × 100%",
+        "missing_inputs_or_ambiguities": [
+          "The ONEOK Partners goodwill amount is not disclosed.",
+          "The total goodwill amount is not disclosed, and the goodwill amounts for the other segments are also unavailable, so the total cannot be reconstructed.",
+          "The $443.0 million disclosure concerns intangible assets, not goodwill, and therefore cannot substitute for the numerator."
+        ],
+        "evidence_quotes": [
+          "at december 31 , 2007 , we had $ [not disclosed] million of goodwill recorded on our consolidated balance sheet as shown below. .",
+          "ONEOK Partners",
+          "Total goodwill",
+          "our oneok partners segment had $ 443.0 million of intangible assets recorded on our consolidated balance sheet as of december 31 , 2007 , of which $ 287.5 million is being amortized over an aggregate weighted-average period of 40 years , while the remaining balance has an indefinite life ."
+        ],
+        "rationale": "所需比例应以ONEOK Partners商誉除以总商誉，但表中分子和分母均未披露；其他分部金额也缺失，无法重建总额。443.0百万美元是无形资产而非商誉，不能替代。因此既不能确定精确值，也不支持合理的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "9fedd0cb2ce6345dc3e796eb7d2cd4a7dcddbab0737aa53387e00ec6dd123ed3"
+    },
+    {
+      "source_id": "GPN/2017/page_76.pdf-1",
+      "case_number": 138,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Goodwill percentage = Goodwill / Total purchase consideration × 100%. From the reconciliation, Total purchase consideration = 59,351 + Goodwill - 7,280 = Goodwill + 52,071 (in thousands), so the percentage is Goodwill / (Goodwill + 52,071) × 100%.",
+        "missing_inputs_or_ambiguities": [
+          "The amount of goodwill is not disclosed.",
+          "The total purchase consideration is not disclosed. The reconciliation provides only one equation linking goodwill and total purchase consideration, so neither amount nor their ratio is uniquely determined.",
+          "The $7.5 million payment relates to acquiring the remaining shares on October 5, 2015 and is not identified as the total purchase consideration in the acquisition-date reconciliation."
+        ],
+        "evidence_quotes": [
+          "Total identifiable net assets",
+          "59,351",
+          "Goodwill",
+          "[not disclosed]",
+          "Noncontrolling interest",
+          "(7,280)",
+          "Total purchase consideration",
+          "on october 5 , 2015 , we paid €6.7 million ( $ 7.5 million equivalent as of october 5 , 2015 ) to acquire the remaining shares of realex , after which we own 100% ( 100 % ) of the outstanding shares ."
+        ],
+        "rationale": "表中仅能建立“总购买对价 = 59,351 + 商誉 − 7,280”的关系，但商誉和总购买对价均未披露，因此一个方程含两个未知数，无法唯一确定所求百分比，也没有足够信息支持近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "95892a4cec4ef3adaf4360b4b73c9a30d2aa87929d3d2d1c61c936bea42778fa"
+    },
+    {
+      "source_id": "RSG/2017/page_14.pdf-2",
+      "case_number": 139,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若将“converted to compressed natural gas”理解为当前使用天然气的车队车辆，则约为 15,900 × p/100，其中 p 为未披露的天然气车辆占车队比例。",
+        "missing_inputs_or_ambiguities": [
+          "天然气车辆占整个车队的百分比被标记为“[not disclosed]”，因此无法计算车辆数量。",
+          "2017 年替换车辆采购中约 30% 为 CNG 车辆，但未披露当年替换车辆采购总数，且该比例不等于整个车队已转换为 CNG 的比例。",
+          "“operates on natural gas”与“were converted to compressed natural gas”是否指完全相同的车辆口径存在轻微表述差异。"
+        ],
+        "evidence_quotes": [
+          "fleet conversion to compressed natural gas ( cng ) approximately [not disclosed]% of our fleet operates on natural gas .",
+          "approximately 30% ( 30 % ) of our replacement vehicle purchases during 2017 were cng vehicles .",
+          "Total",
+          "15,900"
+        ],
+        "rationale": "表格仅给出约 15,900 辆的总车队规模，而计算 CNG 车辆数所需的全车队 CNG 占比未披露。30% 仅适用于 2017 年替换车辆采购，不能据此推得全车队已转换数量，因此连合理的近似数也无法确定。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "08728b00a35997e9388549353379860c640c6e7a20bd18f32393638d93830cd9"
+    },
+    {
+      "source_id": "AOS/2016/page_19.pdf-1",
+      "case_number": 140,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "令 x 为 S&P Mid Cap 400 Index 在 12/31/16 的期末指数值，则五年总回报之差 = (501.4−100.0)−(x−100.0) = 501.4−x 个百分点。",
+        "missing_inputs_or_ambiguities": [
+          "S&P Mid Cap 400 Index 在 12/31/16 的指数值未披露，且其他年份数值不能推导该期末值。",
+          "文本仅说明比较口径和股息再投资假设，未提供可支持近似计算的 2016 年 S&P Mid Cap 400 Index 回报。"
+        ],
+        "evidence_quotes": [
+          "comparison of five-year cumulative total return from december 31 , 2011 to december 31 , 2016 assumes $ 100 invested with reinvestment of dividends period indexed returns .",
+          "A. O. Smith Corporation",
+          "501.4",
+          "S&P Mid Cap 400 Index",
+          "[not disclosed]"
+        ],
+        "rationale": "A. O. Smith 的 12/31/16 期末指数值为 501.4，但同日 S&P Mid Cap 400 Index 的值明确为未披露。两者均以 100.0 为基期，因此差额可表示为 501.4−x 个百分点，但无法从现有证据确定 x，也无法得到可靠的四舍五入近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "d4906f81b108973ec6f354c1f847d5967c34b575c696d2fdbc967bae766e24ee"
+    },
+    {
+      "source_id": "MRO/2015/page_22.pdf-1",
+      "case_number": 141,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Total for 2015–2013 = 2015 cost + $3,149 million + $2,536 million = 2015 cost + $5,685 million.",
+        "missing_inputs_or_ambiguities": [
+          "The 2015 cost is explicitly marked \"[not disclosed]\"; no other supplied disclosure determines or approximates it."
+        ],
+        "evidence_quotes": [
+          "costs incurred in 2015 , 2014 and 2013 relating to the development of proved undeveloped reserves were $ [not disclosed] million , $ 3149 million and $ 2536 million ."
+        ],
+        "rationale": "证据仅给出2014年和2013年成本，合计为5,685百万美元；2015年金额未披露，且无法由储量变动等其他信息推导，因此三年总额既不能精确确定，也没有受支持的近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "c6253d317181542754195c1e5300151dd8410dbd67091946dd845dfda17c2272"
+    },
+    {
+      "source_id": "HUM/2012/page_109.pdf-2",
+      "case_number": 142,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "Metropolitan working capital = (Cash and cash equivalents + Receivables, net + Other current assets) − $22 million. Equivalently, using total assets, it equals $686 million − Property and equipment − Goodwill.",
+        "missing_inputs_or_ambiguities": [
+          "The values of Cash and cash equivalents, Receivables, net, and Other current assets are not disclosed, so total current assets cannot be calculated.",
+          "Total assets do not recover current assets because Property and equipment and Goodwill are also not disclosed. No rounded narrative estimate is provided."
+        ],
+        "evidence_quotes": [
+          "the preliminary fair values of metropolitan's assets acquired and liabilities assumed at the date of the acquisition are summarized as follows : metropolitan ( in millions ) .",
+          "Cash and cash equivalents",
+          "Receivables, net",
+          "Other current assets",
+          "Property and equipment",
+          "Goodwill",
+          "Other intangible assets",
+          "263",
+          "Other long-term assets",
+          "1",
+          "Total assets acquired",
+          "972",
+          "Current liabilities",
+          "(22)"
+        ],
+        "rationale": "营运资本等于流动资产减流动负债。证据给出了流动负债为2200万美元，但三项流动资产均未披露。虽然总资产为9.72亿美元，固定资产和商誉同样缺失，因此也无法通过总资产倒推出流动资产；既不能确定精确值，也没有依据给出近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "12cd638f82ae25f6eb7a0a1b3caef243d96f521d0b03fa2627b951bc06d6c944"
+    },
+    {
+      "source_id": "ADBE/2003/page_126.pdf-3",
+      "case_number": 143,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "2005 net cash outflow = 2005 future minimum lease payments − 2005 future minimum sublease income",
+        "missing_inputs_or_ambiguities": [
+          "The 2005 future minimum lease payments amount is not disclosed.",
+          "The 2005 future minimum sublease income amount is not disclosed.",
+          "The total amounts are also not disclosed, so the missing 2005 values cannot be derived by subtracting the other fiscal-year amounts."
+        ],
+        "evidence_quotes": [
+          "as of november 28 , 2003 , future minimum lease payments under noncancelable operating leases and future minimum sublease income under noncancelable subleases are as follows : fiscal year future minimum lease payments future minimum sublease income .",
+          "Future Minimum Lease Payments",
+          "Future Minimum Sublease Income",
+          "[not disclosed]"
+        ],
+        "rationale": "净现金流出应以2005年最低租赁付款减去同年最低转租收入，但这两个数值均未披露，合计数也缺失，因此无法精确计算，也没有足够信息支持合理近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "d90a5622c8d5b9a4bfc812a6895bd2178466ce5f8af12f51c43483e37b1e2544"
+    },
+    {
+      "source_id": "JPM/2004/page_31.pdf-1",
+      "case_number": 144,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "设投资银行与零售金融服务2004年营业收益分别为 IB 和 RFS（百万美元），则 IB + RFS = 8,211 - (1,274 + 608 + 440 + 681 + 61) = 5,147；所求比率为 IB / RFS，但无法由该合计约束唯一确定。",
+        "missing_inputs_or_ambiguities": [
+          "Investment Bank 的2004年 operating earnings 未披露。",
+          "Retail Financial Services 的2004年 operating earnings 未披露。",
+          "已披露的总额及其他分部数据只能确定两者合计为5,147百万美元，不能确定两者各自金额或比率。",
+          "各分部的 return on common equity 不能替代缺失的营业收益，因为证据未提供相应权益基数。"
+        ],
+        "evidence_quotes": [
+          "Investment Bank",
+          "[not disclosed]",
+          "Retail Financial Services",
+          "1,274",
+          "608",
+          "440",
+          "681",
+          "61",
+          "$8,211",
+          "24"
+        ],
+        "rationale": "证据可通过总营业收益减去其余已披露分部，得到投资银行与零售金融服务的2004年营业收益合计为5,147百万美元，但两个目标分部的2004年金额均缺失。单一合计不足以识别二者之比，且没有叙述性近似值或权益基数可用于替代推导，因此精确值和有依据的近似值都不可确定。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "a79249b10c7c78d7ea80c1e79098f9e4aa45a69c38e4403d35ce1b69265ced02"
+    },
+    {
+      "source_id": "EW/2004/page_94.pdf-2",
+      "case_number": 145,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "（无限期非美国净经营亏损对应的税收优惠金额 ÷ 29.3百万美元）× 100%；现有证据未披露该税收优惠金额。",
+        "missing_inputs_or_ambiguities": [
+          "无限期非美国净经营亏损对应的税收优惠金额为“[not disclosed]”。总税收优惠23.1百万美元涵盖不同结转期，无法仅凭总额分离出无限期部分。",
+          "虽然可由总亏损64.6百万美元减去无限期亏损29.3百万美元，得到有期限部分的总亏损35.3百万美元，但这不能确定两个期间类别各自的税收优惠。",
+          "6.8百万美元估值备抵仅说明对总递延所得税资产的调整，未披露其在各结转期类别之间的分配，因此不能恢复所需分子。"
+        ],
+        "evidence_quotes": [
+          "29.3",
+          "[not disclosed]",
+          "Indefinite",
+          "$64.6",
+          "$23.1",
+          "a valuation allowance of $ 6.8 million has been provided for certain of the above carryforwards .",
+          "this valuation allowance reduces the deferred tax asset of $ 23.1 million to an amount that is more likely than not to be realized ."
+        ],
+        "rationale": "目标百分比需要用无限期项目的税收优惠除以其29.3百万美元的总净经营亏损。证据只给出全部项目合计税收优惠23.1百万美元，且无限期项目的税收优惠明确缺失；总额及估值备抵均不能确定该项目的分配额，因此连可靠的近似值也无法支持。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "f9b6c6207d462cb013b9ca446ec6e98e9e3a1a96fc798da66447ec65720d16ca"
+    },
+    {
+      "source_id": "MAS/2018/page_73.pdf-2",
+      "case_number": 146,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若指养老金计划资产配置中的债务证券与权益证券之比，则 2018 年比率 = 49% ÷ 2018 年 Equity securities 占比；由总计只能推出 Equity securities + Other = 51%。",
+        "missing_inputs_or_ambiguities": [
+          "2018 年 Equity securities 占比未披露，且 2018 年 Other 占比也未披露，因此无法由总计 100% 单独求出权益证券占比。",
+          "“debt to equity ratio”也可能指公司的负债权益比；所给证据仅涉及合格设定受益养老金计划的资产配置，未提供公司负债和股东权益。"
+        ],
+        "evidence_quotes": [
+          "our qualified defined-benefit pension plan weighted average asset allocation , which is based upon fair value , was as follows: .",
+          "Equity securities",
+          "[not disclosed]",
+          "Debt securities",
+          "49%",
+          "Other",
+          "Total",
+          "100%"
+        ],
+        "rationale": "证据明确给出2018年债务证券占比为49%，但权益证券和其他资产占比均缺失。总计100%仅能确定二者合计为51%，不能识别债务证券对权益证券的比率，也不支持可靠近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "b7bdc3a90d94f8fb44aa216502f71612a3aa938db585634ebd9b4a5152c291ed"
+    },
+    {
+      "source_id": "AMT/2004/page_76.pdf-2",
+      "case_number": 147,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "(2003年401(k)缴款额 - $979,000) / $979,000 × 100%",
+        "missing_inputs_or_ambiguities": [
+          "2003年的401(k)公司缴款额未披露。匹配比例不能替代该金额，因为没有提供2003年参与者缴款基数。"
+        ],
+        "evidence_quotes": [
+          "the company contributed approximately $ 533000 , $ [not disclosed] and $ 979000 to the plan for the years ended december 31 , 2004 , 2003 and 2002 , respectively .",
+          "under the plan , the company matching contribution for periods prior to june 30 , 2004 was 35% ( 35 % ) up to a maximum 5% ( 5 % ) of a participant's contributions ."
+        ],
+        "rationale": "2002年缴款额约为$979,000，但计算从2002年至2003年的百分比变化还需要2003年缴款额；该金额明确标为未披露，且无法由匹配比例推导，因此连合理的数值近似也不受支持。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "88afa91e39d2ec20c7c0d0104cfa29c732586b7b44907598febc86e9bcbed45f"
+    },
+    {
+      "source_id": "TROW/2011/page_13.pdf-3",
+      "case_number": 148,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "2015-16 other purchase commitments = $67 million - $57 million = $10 million. Let x be 2013-14 other purchase commitments; percent change = (($10 million - x) / x) × 100%.",
+        "missing_inputs_or_ambiguities": [
+          "The 2013-14 amount for Other purchase commitments is \"[not disclosed]\" and cannot be derived because the corresponding 2013-14 Total is also \"[not disclosed]\".",
+          "No rounded narrative amount or other independent disclosure determines the missing 2013-14 value."
+        ],
+        "evidence_quotes": [
+          "Other purchase commitments",
+          "2013-14",
+          "2015-16",
+          "[not disclosed]",
+          "$67",
+          "$57"
+        ],
+        "rationale": "2015-16年其他采购承诺可由同列总额6700万美元减去不可取消经营租赁5700万美元，得到1000万美元。但2013-14年该项目及该列总额均未披露，其他数据也无法补足，因此不能计算百分比变化，亦无依据给出近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "15f2bc477fc10c08894c989f83d4f60f5fec6680fbdd2dd5f710a89f47e9e641"
+    },
+    {
+      "source_id": "HWM/2016/page_79.pdf-2",
+      "case_number": 149,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "若“difference”指 Firth Rixson 减 RTI，则差额 = G_Firth Rixson − $298（沿用原文货币单位）。",
+        "missing_inputs_or_ambiguities": [
+          "Firth Rixson 收购所确认的商誉金额未披露，因此无法计算数值差额。",
+          "AFSR 的 $2200 是报告单位的总商誉，且包含公司商誉分配；同时，Firth Rixson 商誉分配至 AFSR 和 AFE，未提供各自金额，故不能由 $2200 反推。",
+          "“difference”未明确要求有符号差额还是绝对差额；即使约定方向，仍缺少 Firth Rixson 商誉金额。"
+        ],
+        "evidence_quotes": [
+          "in november 2014 , arconic acquired firth rixson ( see note f ) , and , as a result recognized $ [not disclosed] in goodwill .",
+          "this amount was allocated between the afsr and arconic forgings and extrusions ( afe ) reporting units , which is part of the engineered products and solutions segment .",
+          "in march and july 2015 , arconic acquired tital and rti , respectively , ( see note f ) and recognized $ 117 and $ 298 , respectively , in goodwill .",
+          "more than 70% ( 70 % ) of arconic's total goodwill is allocated to two reporting units as follows : arconic fastening systems and rings ( afsr ) ( $ 2200 ) and arconic power and propulsion ( app ) ( $ 1647 ) businesses , both of which are included in the engineered products and solutions segment .",
+          "these amounts include an allocation of corporate's goodwill ."
+        ],
+        "rationale": "证据仅确定 RTI 商誉为 $298，而 Firth Rixson 商誉被明确标为未披露。其他报告单位商誉包含不同来源及公司分配，无法唯一恢复该缺失金额，因此既不能得到精确差额，也没有足够信息支持近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "896250295bebb4f35154f61db60acafd1141c6dfaa77527985239144739f6ebc"
+    },
+    {
+      "source_id": "MSI/2013/page_87.pdf-1",
+      "case_number": 150,
+      "annotation": {
+        "answerability": "insufficient",
+        "exact_value_identifiable": false,
+        "approximation_supported": false,
+        "supported_target_expression": "(28.8% + Expected volatility for 2012 + 22.1%) / 3",
+        "missing_inputs_or_ambiguities": [
+          "The expected volatility for 2012 is not disclosed, so the three-year arithmetic average cannot be determined.",
+          "The other 2012 assumptions, such as the risk-free interest rate, dividend yield, and expected life, do not determine expected volatility."
+        ],
+        "evidence_quotes": [
+          "Expected volatility",
+          "22.1%",
+          "[not disclosed]",
+          "28.8%",
+          "the company uses the implied volatility for traded options on the company's stock as the expected volatility assumption required in the black-scholes model ."
+        ],
+        "rationale": "表中仅给出2011年的28.8%和2013年的22.1%，2012年明确为未披露。三年平均值需要2012年的预期波动率，且无法由其他假设推导，因此既不能精确识别，也没有依据给出近似值。",
+        "confidence": "high"
+      },
+      "status": "completed",
+      "attempt_id": "e3c6fe908da64c1134700eefd16f56cbb80695de51f2893b09dd6880b6b04a57"
+    }
+  ],
+  "human_certified": false,
+  "input_scope": "question and edited evidence only; no candidate responses or original gold",
+  "unresolved_case_numbers": []
+}

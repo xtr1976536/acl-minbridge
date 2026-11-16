@@ -1,0 +1,10 @@
+{
+  "report_pdf_sha256": "90f326b3072660273e7082bd8eb6e5f5e407ebb7b3e6390b2e9f28fe1964164c",
+  "outputs": 2700,
+  "sources": 150,
+  "conditions": 18,
+  "numeric_independent": 227,
+  "relation_independent": 379,
+  "mixed_independent": 22,
+  "machine_review_unresolved": 46
+}

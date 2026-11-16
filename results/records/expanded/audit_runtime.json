@@ -1,0 +1,5 @@
+{
+  "engine_sha256": "2ec31218d024e8cabf8e346d5f27c2d25337e6ea08a02f4dbac4350095fdf0c6",
+  "audit_script_sha256": "215d9de6c15829ffd787e68e8e67bab8b77ad9b7eaef5426fe3aa5253b8fc7d3",
+  "note": "API policy/content rejections are retained as unknown, not retried to bypass controls."
+}

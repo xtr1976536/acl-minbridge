@@ -1,0 +1,8 @@
+{
+  "complete_ans_None_not_automatically_hallucination": true,
+  "arithmetic_error_proxy_distinguished_from_independent_relation": true,
+  "valid_conditional_not_numeric_hallucination": true,
+  "mixed_errors_and_exclusive_proxy_separate": true,
+  "missing_annotation_retained_as_unknown": true,
+  "cutoff_not_scored_as_complete_answer": true
+}

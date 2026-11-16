@@ -1,0 +1,466 @@
+{
+  "files": [
+    {
+      "source": "data/final_150_review.json.gz",
+      "target": "reproductions/relational-pilot/v2/final_150_review.json",
+      "gzip": true,
+      "sha256": "c8a87f102a1733bcdd30675c68714c981d28556659789f2fb56de4c85b921c11"
+    },
+    {
+      "source": "data/manual_review.json",
+      "target": "reproductions/relational-pilot/v2/manual_review.json",
+      "gzip": false,
+      "sha256": "632e90280494c98a07ebbba10c560576df8e8111ec05f48cb9a8f6380950053a"
+    },
+    {
+      "source": "data/audit_summary.json",
+      "target": "reproductions/relational-pilot/v2/audit_summary.json",
+      "gzip": false,
+      "sha256": "233a5e6ee256c1fc596535b627f3f52aebb09dcac4c43e23513c5628dd303166"
+    },
+    {
+      "source": "data/round2_program_checks.json",
+      "target": "reproductions/relational-pilot/v2/round2_program_checks.json",
+      "gzip": false,
+      "sha256": "73dc2490ed78d0f80f5ebfc2ca396d44bbc47624e70e24eb6a965f88583cb937"
+    },
+    {
+      "source": "data/round2_numeric_hints.json",
+      "target": "reproductions/relational-pilot/v2/round2_numeric_hints.json",
+      "gzip": false,
+      "sha256": "7b9f843577c725626859e32d124a098bf46a4cd7155e080c18bdd7b5f99ff2c4"
+    },
+    {
+      "source": "data/exclude_from_future_training.json",
+      "target": "reproductions/relational-pilot/v2/exclude_from_future_training.json",
+      "gzip": false,
+      "sha256": "eb2cf6e56408253e5c86d21866cc42c14e8adc8ec7f81cbe6c017ef31c4c0899"
+    },
+    {
+      "source": "data/fact_count_erratum.json",
+      "target": "reproductions/relational-pilot/v3_cn/data_count_errata.json",
+      "gzip": false,
+      "sha256": "fc0bbc1ca64787e160457e6e836345f61511cf16a51411203aca66f48a7c80ee"
+    },
+    {
+      "source": "data/model_inputs_150.json",
+      "target": "output/data/MinBridge_150_MODEL_INPUTS_仅英文删后材料.json",
+      "gzip": false,
+      "sha256": "3681625b826d699d2f9547565c1bb2265d8e01c9b11f3bd66c19df0f65b39b93"
+    },
+    {
+      "source": "data/construction_seed_150.json.gz",
+      "target": "reproductions/relational-pilot/local/test_disjoint_review_batch_150_scanned.json",
+      "gzip": true,
+      "sha256": "fca8380a59b48929b9530671d7fe533138a2ed83545f32473761242cf9cf5dfb"
+    },
+    {
+      "source": "results/records/expanded/analysis_results.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/analysis_results.json",
+      "gzip": false,
+      "sha256": "ea45493543816d56dd0c19e9e8c2bda0162fbd204af5db1cd22ada08176a96a5"
+    },
+    {
+      "source": "results/records/expanded/all_phase_costs.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/all_phase_costs.json",
+      "gzip": false,
+      "sha256": "4e76d1a59641c40bb75ccdb14fbe36a54a6f223a598e06d57f270f553900b28c"
+    },
+    {
+      "source": "results/records/expanded/effective_outputs_2700.jsonl.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/effective_outputs_2700.jsonl",
+      "gzip": true,
+      "sha256": "482b31bf8a4a6db8263c31b854a698e44ab11fa730f876be0a38ecb959a9ce1e"
+    },
+    {
+      "source": "results/records/expanded/effective_outputs_manifest.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/effective_outputs_manifest.json",
+      "gzip": false,
+      "sha256": "2fd75d88f8d641cfd418f634e95786e60b1b62c8e29c0cf42794e08697093779"
+    },
+    {
+      "source": "results/records/expanded/effective_outputs_stable_2692.jsonl.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/effective_outputs_stable_2692.jsonl",
+      "gzip": true,
+      "sha256": "012ebcf11af500ec7562cda2eff739309fe1b627cca4bb193de627d3a9837b14"
+    },
+    {
+      "source": "results/records/expanded/updated_outputs_24576.jsonl.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/updated_outputs_24576.jsonl",
+      "gzip": true,
+      "sha256": "29961d2bf058f42cd75fe8a8283ef80e1b457444131977fa3bec85fc5049e972"
+    },
+    {
+      "source": "results/records/expanded/updated_outputs.jsonl.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/updated_outputs.jsonl",
+      "gzip": true,
+      "sha256": "29961d2bf058f42cd75fe8a8283ef80e1b457444131977fa3bec85fc5049e972"
+    },
+    {
+      "source": "results/records/expanded/machine_annotations_final.jsonl.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/machine_annotations_final.jsonl",
+      "gzip": true,
+      "sha256": "b8ad1993819b246154676d8f5e8ed34d8f62486fef2acb910d386a358b408f99"
+    },
+    {
+      "source": "results/records/expanded/machine_annotations_initial.jsonl.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/machine_annotations_initial.jsonl",
+      "gzip": true,
+      "sha256": "934f283c866f9500ca43628b1d607e1a356a2c33517fc769f0d58bcdb258d979"
+    },
+    {
+      "source": "results/records/expanded/machine_annotations_initial.checker_v1.jsonl.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/machine_annotations_initial.checker_v1.jsonl",
+      "gzip": true,
+      "sha256": "b15dd5dfe2d33bbc3a3c8fdd9528bff61d0d4dc06452673a0c933d53312b6b6f"
+    },
+    {
+      "source": "results/records/expanded/judge_attempts.jsonl.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/judge_attempts.jsonl",
+      "gzip": true,
+      "sha256": "d26917f6a1a246ef5eb4e00488375154b7e85edf76697061b4d9baba0a0bd248"
+    },
+    {
+      "source": "results/records/expanded/judge_jobs.json.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/judge_jobs.json",
+      "gzip": true,
+      "sha256": "30b13b0f360c7164b83ae952cfb10005ad28a4a69f32b2f9e1df1c413f6b7e7d"
+    },
+    {
+      "source": "results/records/expanded/judge_jobs_stage1.json.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/judge_jobs_stage1.json",
+      "gzip": true,
+      "sha256": "ccbd4bf63d6b371b8c78b26800ee83d2641f1ed3c2195a46a787ec789b41e1fa"
+    },
+    {
+      "source": "results/records/expanded/judge_protocol.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/judge_protocol.json",
+      "gzip": false,
+      "sha256": "5567b998da37610dc655e772304a1cd71a4e98067472a4832b02143b888e8824"
+    },
+    {
+      "source": "results/records/expanded/judge_protocol_stage1.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/judge_protocol_stage1.json",
+      "gzip": false,
+      "sha256": "394e3a0432fa79ed72b9ff95566520e9bcf29c9c187ea803c176f9b3c4657071"
+    },
+    {
+      "source": "results/records/expanded/judge_progress.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/judge_progress.json",
+      "gzip": false,
+      "sha256": "2717af27ea88769e85cd732b18aaf372a9b660f557b0e4b48899677168fcf4bc"
+    },
+    {
+      "source": "results/records/expanded/judge_extraction_summary.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/judge_extraction_summary.json",
+      "gzip": false,
+      "sha256": "1780f9d6e3099222f37456a88b4d35bfd26ceae3d072ba18115662359027a477"
+    },
+    {
+      "source": "results/records/expanded/audit_attempts.jsonl.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/audit_attempts.jsonl",
+      "gzip": true,
+      "sha256": "db3fc7927cc1b8a2dab80e748b47380b3ba8422c28c18965fe49fa90fbd9a457"
+    },
+    {
+      "source": "results/records/expanded/audit_jobs.json.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/audit_jobs.json",
+      "gzip": true,
+      "sha256": "9a43a7710ec7711dba190503393c106172f1b688235320aa7358daad2ec63cfc"
+    },
+    {
+      "source": "results/records/expanded/audit_progress.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/audit_progress.json",
+      "gzip": false,
+      "sha256": "638467cd73aeeaf274570d2d6670989f108f2643dc8fd260fc7f828b5e534847"
+    },
+    {
+      "source": "results/records/expanded/audit_runtime.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/audit_runtime.json",
+      "gzip": false,
+      "sha256": "87e2ccdcb9bfe6fea97694e681de5dddd43ff885be7b0403eff8be28aca5924c"
+    },
+    {
+      "source": "results/records/expanded/audit_expanded_runtime_source.py",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/audit_expanded_runtime_source.py",
+      "gzip": false,
+      "sha256": "215d9de6c15829ffd787e68e8e67bab8b77ad9b7eaef5426fe3aa5253b8fc7d3"
+    },
+    {
+      "source": "results/records/expanded/internal_recheck_summary.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/internal_recheck_summary.json",
+      "gzip": false,
+      "sha256": "2016e4c89ebe74deef6cd85619dfd8eef9c717a3693f837a26b46cf44119e733"
+    },
+    {
+      "source": "results/records/expanded/answerability_attempts.jsonl.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/answerability_attempts.jsonl",
+      "gzip": true,
+      "sha256": "11407d85c5f160f0b32d29a9eba0b0067ef6ecc3ddb2a27e8c3bfeea8c35c0bf"
+    },
+    {
+      "source": "results/records/expanded/answerability_jobs.json.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/answerability_jobs.json",
+      "gzip": true,
+      "sha256": "16b64e9389a2aa147f414b049e8edf6c0758d7236cf0e477dc7864ac3946ac9d"
+    },
+    {
+      "source": "results/records/expanded/answerability_progress.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/answerability_progress.json",
+      "gzip": false,
+      "sha256": "eea2a15bb29ddc31e8c88b3fb919cabedd45e12ab89ad8a4eeb6ac4986de1e28"
+    },
+    {
+      "source": "results/records/expanded/source_review_attempts.jsonl.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/source_review_attempts.jsonl",
+      "gzip": true,
+      "sha256": "87f04462d807a27faa83fcfd723b6800bfeb189b5a5aabb9b1a88bd7d37aa502"
+    },
+    {
+      "source": "results/records/expanded/source_review_jobs.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/source_review_jobs.json",
+      "gzip": false,
+      "sha256": "b74b7c28a8a4e5fd2d9cd24ee4d5511450e450c9170350e1af825fb7119b9e5b"
+    },
+    {
+      "source": "results/records/expanded/source_review_progress.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/source_review_progress.json",
+      "gzip": false,
+      "sha256": "939ce2953a0c44c380caa68d6ed648fae0702286d1a33ba02eeef4c49bdd53e0"
+    },
+    {
+      "source": "results/records/expanded/source_answerability.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/source_answerability.json",
+      "gzip": false,
+      "sha256": "4c16bf8bd1b1a1463fd9fd0ff6ec5627f1976df64dce9f660c25276ac2e4c640"
+    },
+    {
+      "source": "results/records/expanded/source_answerability_initial.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/source_answerability_initial.json",
+      "gzip": false,
+      "sha256": "e4d096dcdf9058c431ea04d828465dc1ebe28f9e21c951feb7262bfd13a598a2"
+    },
+    {
+      "source": "results/records/expanded/repair_attempts.jsonl.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/repair_attempts.jsonl",
+      "gzip": true,
+      "sha256": "e1b53f7b65923480cf3efa0e8a881719fc10f9b0f31ab0266637366573f5fb07"
+    },
+    {
+      "source": "results/records/expanded/repair_jobs.json.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/repair_jobs.json",
+      "gzip": true,
+      "sha256": "971f7ab0925ae0934fb64c4541ef26ef36ff7381fdb8946866e2380fbff6f3ad"
+    },
+    {
+      "source": "results/records/expanded/repair_progress.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/repair_progress.json",
+      "gzip": false,
+      "sha256": "f8a4343002c1e5d3bf791dee130a9bf1d0e51ad35e0615e72f949fc37ef4fcea"
+    },
+    {
+      "source": "results/records/expanded/repair_merge_summary.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/repair_merge_summary.json",
+      "gzip": false,
+      "sha256": "450e540fc4683141b1f402540c3a4d2ac08335ae644ba621f219e856e77fc57a"
+    },
+    {
+      "source": "results/records/expanded/repair_execution_sessions.jsonl.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/repair_execution_sessions.jsonl",
+      "gzip": true,
+      "sha256": "87f7f531f251edb47b19e7e9fb4952ff80314ee30a06ca6e7f09da95b6fa27da"
+    },
+    {
+      "source": "results/records/expanded/repair64_attempts.jsonl.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/repair64_attempts.jsonl",
+      "gzip": true,
+      "sha256": "20de977435509c73a6b35b4c8c5905a70c07f02fd1161c0ca5bd7e9b150a39a6"
+    },
+    {
+      "source": "results/records/expanded/repair64_jobs.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/repair64_jobs.json",
+      "gzip": false,
+      "sha256": "dd711626b1632850e097c7b9976d0f3e94cfe667dd0e084be789141c0e12ab9f"
+    },
+    {
+      "source": "results/records/expanded/repair64_progress.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/repair64_progress.json",
+      "gzip": false,
+      "sha256": "d375943c196c56088d7e2c86c58b64b882977ac914955e72a9c5237e19a5b65a"
+    },
+    {
+      "source": "results/records/expanded/final_quality_checks.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/final_quality_checks.json",
+      "gzip": false,
+      "sha256": "28c38396f0a10e0455faf9248e2f4fa17dd4c5044c0da63f797a67864cb2d2d0"
+    },
+    {
+      "source": "results/records/expanded/metric_sanity_checks.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/metric_sanity_checks.json",
+      "gzip": false,
+      "sha256": "ada496d999be9f2bb9f1f5ea2820148096ceb449c33c5a674e920a5528543fba"
+    },
+    {
+      "source": "results/records/expanded/quote_checker_revision.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-expanded/quote_checker_revision.json",
+      "gzip": false,
+      "sha256": "056bfbd6b50df6755a929a2fd125a45b0134b93a5a828ff335dcdc1b1d70a573"
+    },
+    {
+      "source": "results/records/english150-20261116-v2/calibration_migration.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-v2/calibration_migration.json",
+      "gzip": false,
+      "sha256": "9b4178ba3266ea2fd91c33af32be4ba90b3cd3b783a28a267c459872c8069a49"
+    },
+    {
+      "source": "results/records/english150-20261116-v2/config.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-v2/config.json",
+      "gzip": false,
+      "sha256": "5570a26d0346d24f74937084c871feaf9b249ee3d7e14b71e96806dd3d2766c8"
+    },
+    {
+      "source": "results/records/english150-20261116-v2/final_qa.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-v2/final_qa.json",
+      "gzip": false,
+      "sha256": "ec24822073e26e44e90ffad2b9951213392b31daf1a7d18316b4988a2afc45f1"
+    },
+    {
+      "source": "results/records/english150-20261116-v2/identity.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-v2/identity.json",
+      "gzip": false,
+      "sha256": "90c1fe7caa10829ace937e85f9d7e2b112fa7d8927fa4158f10c8a54492419b4"
+    },
+    {
+      "source": "results/records/english150-20261116-v2/outputs.jsonl.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-v2/outputs.jsonl",
+      "gzip": true,
+      "sha256": "6e31130b6a21028081fee68abb2a3dab8ddd171bfb3fb7e3021dac0a7d19a942"
+    },
+    {
+      "source": "results/records/english150-20261116-v2/progress.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-v2/progress.json",
+      "gzip": false,
+      "sha256": "ccb44f52ebf5277be92ed25a993b1f9b6fb7240d3fbacbec12d2453cde31ddb7"
+    },
+    {
+      "source": "results/records/english150-20261116-v2/resume_sessions.jsonl.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-v2/resume_sessions.jsonl",
+      "gzip": true,
+      "sha256": "c34323e27703758d95c48158bcd55998eca53aa47597e2690191e07bab80d1ad"
+    },
+    {
+      "source": "results/records/english150-20261116-v2/runtime_provenance.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-v2/runtime_provenance.json",
+      "gzip": false,
+      "sha256": "b61058e6627c4c0ec15710da16a3bd72605018d4b674b9e79686dd95d676c135"
+    },
+    {
+      "source": "results/records/english150-20261116-v2/tasks.json.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116-v2/tasks.json",
+      "gzip": true,
+      "sha256": "f4f20d8aea1a71fc2707f5939e590d6af9a2a5eab341f812dff5fd8441522321"
+    },
+    {
+      "source": "results/records/english150-20261116/config.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116/config.json",
+      "gzip": false,
+      "sha256": "94a56923dd757bbf3ee32525d2d7179533e3b2027e11dfae01ed8d8fa7652c61"
+    },
+    {
+      "source": "results/records/english150-20261116/identity.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116/identity.json",
+      "gzip": false,
+      "sha256": "dbd04a36557436f7348702bb68260f33e052b7ce198f3d22617e75213dd201b6"
+    },
+    {
+      "source": "results/records/english150-20261116/outputs.jsonl.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116/outputs.jsonl",
+      "gzip": true,
+      "sha256": "d7e4dd76713602c0c70ed4ce43b178fabcac2fd7e234864bc41db73cc6358b35"
+    },
+    {
+      "source": "results/records/english150-20261116/progress.json",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116/progress.json",
+      "gzip": false,
+      "sha256": "de8bc91f8189d179360faa2b6dca61ea831ff9b29c1614f8a8158b09bb0c4b9b"
+    },
+    {
+      "source": "results/records/english150-20261116/tasks.json.gz",
+      "target": "reproductions/relational-pilot/local/runs/english150-20261116/tasks.json",
+      "gzip": true,
+      "sha256": "bb434b5f29caae69e55e5d97883d2a0bccc209621f04758f7bc55ba430181b44"
+    },
+    {
+      "source": "results/tables/150题可答性诊断.csv",
+      "target": "output/experiments/english150-20261116-expanded/150题可答性诊断.csv",
+      "gzip": false,
+      "sha256": "0223cc6371baa9496348fa91bd374fcf811c591d4ef7cdffed4464f969419a44"
+    },
+    {
+      "source": "results/tables/2700条更新模型输出.csv.gz",
+      "target": "output/experiments/english150-20261116-expanded/2700条更新模型输出.csv",
+      "gzip": true,
+      "sha256": "5efc9201e25916243fec62cc2193552f5021f13a5a067d8f817eb48474f6fd84"
+    },
+    {
+      "source": "results/tables/2700条逐项评审.csv.gz",
+      "target": "output/experiments/english150-20261116-expanded/2700条逐项评审.csv",
+      "gzip": true,
+      "sha256": "2c13524261e89387a038435a2b83eba8eb955fe2db266842441de34a8ad2342a"
+    },
+    {
+      "source": "reports/figures/两种口径_模型汇总.pdf",
+      "target": "output/experiments/english150-20261116-expanded/两种口径_模型汇总.pdf",
+      "gzip": false,
+      "sha256": "164391c896d66acfc44214f9bb106fdfdb47d4852a9286aad2b294794721f857"
+    },
+    {
+      "source": "reports/figures/两种口径_模型汇总.png",
+      "target": "output/experiments/english150-20261116-expanded/两种口径_模型汇总.png",
+      "gzip": false,
+      "sha256": "82deec4c676067a88655099eeb84fdcdb47b63d8344bc52f74cd01b867ccf877"
+    },
+    {
+      "source": "results/tables/关系幻觉预研_更新结果分析.md",
+      "target": "output/experiments/english150-20261116-expanded/关系幻觉预研_更新结果分析.md",
+      "gzip": false,
+      "sha256": "5fcc1cade9a1264af1d010f759c75bda7bce44ffc5864f11213e653ea906f2b6"
+    },
+    {
+      "source": "results/tables/分条件幻觉比例.csv",
+      "target": "output/experiments/english150-20261116-expanded/分条件幻觉比例.csv",
+      "gzip": false,
+      "sha256": "3d27915cde78c5aa720130cf26ca1ba67deae71abe482ca13b8f94eff425daa0"
+    },
+    {
+      "source": "results/tables/最终完整性校验.json",
+      "target": "output/experiments/english150-20261116-expanded/最终完整性校验.json",
+      "gzip": false,
+      "sha256": "28c38396f0a10e0455faf9248e2f4fa17dd4c5044c0da63f797a67864cb2d2d0"
+    },
+    {
+      "source": "reports/figures/独立标签_18条件对照.pdf",
+      "target": "output/experiments/english150-20261116-expanded/独立标签_18条件对照.pdf",
+      "gzip": false,
+      "sha256": "f37711da7845c810aff16e885b9fda8bdf950eb69674d70f073e73f8395a6dd6"
+    },
+    {
+      "source": "reports/figures/独立标签_18条件对照.png",
+      "target": "output/experiments/english150-20261116-expanded/独立标签_18条件对照.png",
+      "gzip": false,
+      "sha256": "44b3814dd39d56b046a90d0d34063f22ffc4bac617442b4c3806eb02a0e8ab40"
+    },
+    {
+      "source": "results/tables/结果统计.json",
+      "target": "output/experiments/english150-20261116-expanded/结果统计.json",
+      "gzip": false,
+      "sha256": "ea45493543816d56dd0c19e9e8c2bda0162fbd204af5db1cd22ada08176a96a5"
+    },
+    {
+      "source": "results/tables/调用费用估计.json",
+      "target": "output/experiments/english150-20261116-expanded/调用费用估计.json",
+      "gzip": false,
+      "sha256": "4e76d1a59641c40bb75ccdb14fbe36a54a6f223a598e06d57f270f553900b28c"
+    }
+  ]
+}

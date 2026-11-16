@@ -1,0 +1,19 @@
+{
+  "pages": 17,
+  "tables": 24,
+  "figures": 5,
+  "deleted_requested_content": true,
+  "new_research_questions": true,
+  "section2_has_three_numbered_parts": true,
+  "seven_labeled_relation_examples": true,
+  "pot_footnote": true,
+  "all_five_charts_pixel_identical": true,
+  "experimental_data_and_statistics_unchanged": true,
+  "bounds_violations": 0,
+  "pdf_sha256": "90f326b3072660273e7082bd8eb6e5f5e407ebb7b3e6390b2e9f28fe1964164c",
+  "strict_definitions_checked": true,
+  "units_checked": true,
+  "final_pages": 17,
+  "unchanged_figures": 5,
+  "unchanged_data_and_statistics": true
+}

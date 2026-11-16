@@ -1,0 +1,29 @@
+{
+  "round": 1,
+  "status": "passed",
+  "scope": "Explicit allowlist source assembly, tracked tree secret/privacy scans and offline reproducibility",
+  "tracked_files": 153,
+  "gitleaks_version": "8.30.1",
+  "gitleaks_findings": 0,
+  "custom_content_findings": 0,
+  "gzip_files_decoded": 28,
+  "approved_pdfs_text_checked": 3,
+  "phase1_records": 2700,
+  "sources": 150,
+  "conditions": 18,
+  "unit_tests_passed": 25,
+  "statistics_recomputed_identically": true,
+  "prompt_templates_match_all_generation_requests": true,
+  "exact_source_hash_false_positives": {
+    "verified_sha256_values": 2,
+    "notes": "Only exact SHA-256 values adjacent to API filenames excepted; no directories or secret rules disabled."
+  },
+  "excluded_materials": [
+    "credentials and full research plans",
+    "proposal extracts",
+    "private chats and authorization metadata",
+    "old unsafe ZIP files",
+    "unrelated baseline results",
+    "virtual environments and local machine caches"
+  ]
+}

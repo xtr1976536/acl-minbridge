@@ -1,0 +1,14 @@
+{
+  "phase": "source_review",
+  "state": "complete",
+  "jobs_with_records": 22,
+  "planned_jobs": 22,
+  "attempts": 22,
+  "status_counts": {
+    "completed": 22
+  },
+  "cumulative_cost_upper_usd": 108.029041,
+  "inflight_reserved_usd": -0.0,
+  "halted": {},
+  "updated_utc": "2026-11-16T06:56:35.940466+00:00"
+}

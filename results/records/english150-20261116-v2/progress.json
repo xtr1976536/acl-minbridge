@@ -1,0 +1,90 @@
+{
+  "state": "complete",
+  "updated_at_utc": "2026-11-15T18:22:55.404085+00:00",
+  "completed_requests": 2700,
+  "planned_requests": 2700,
+  "status_counts": {
+    "completed": 2189,
+    "execution_failed": 321,
+    "truncated": 182,
+    "transport_or_parse_error": 6,
+    "incomplete_stream": 2
+  },
+  "cost_upper_estimate_usd": 35.535844,
+  "inflight_reserved_usd": -0.0,
+  "budget_usd": 100.0,
+  "halted_providers": {},
+  "conditions": {
+    "openai/low/cot_existing_abstention": {
+      "completed": 150
+    },
+    "openai/high/cot_existing_abstention": {
+      "completed": 149,
+      "transport_or_parse_error": 1
+    },
+    "deepseek/low/pot": {
+      "completed": 70,
+      "execution_failed": 80
+    },
+    "deepseek/low/cot_paired_4shot": {
+      "completed": 150
+    },
+    "openai/low/cot_paired_4shot": {
+      "completed": 149,
+      "incomplete_stream": 1
+    },
+    "deepseek/low/cot_existing_abstention": {
+      "completed": 150
+    },
+    "openai/low/pot": {
+      "completed": 111,
+      "execution_failed": 38,
+      "incomplete_stream": 1
+    },
+    "openai/high/cot_paired_4shot": {
+      "completed": 149,
+      "transport_or_parse_error": 1
+    },
+    "deepseek/high/cot_existing_abstention": {
+      "completed": 141,
+      "truncated": 9
+    },
+    "openai/high/pot": {
+      "execution_failed": 43,
+      "completed": 103,
+      "transport_or_parse_error": 4
+    },
+    "deepseek/high/cot_paired_4shot": {
+      "completed": 128,
+      "truncated": 22
+    },
+    "deepseek/high/pot": {
+      "truncated": 47,
+      "execution_failed": 79,
+      "completed": 24
+    },
+    "qwen/low/cot_paired_4shot": {
+      "completed": 150
+    },
+    "qwen/low/pot": {
+      "completed": 97,
+      "execution_failed": 53
+    },
+    "qwen/low/cot_existing_abstention": {
+      "completed": 150
+    },
+    "qwen/high/cot_existing_abstention": {
+      "completed": 141,
+      "truncated": 9
+    },
+    "qwen/high/cot_paired_4shot": {
+      "completed": 126,
+      "truncated": 24
+    },
+    "qwen/high/pot": {
+      "truncated": 71,
+      "completed": 51,
+      "execution_failed": 28
+    }
+  }
+}

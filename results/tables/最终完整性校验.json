@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "generation_records": 2700,
+  "conditions": 18,
+  "records_per_condition": 150,
+  "complete_generations": 2700,
+  "generation_cutoffs": 0,
+  "generation_connection_errors": 0,
+  "duplicate_ids": 0,
+  "missing_ids": 0,
+  "changed_visible_prompts": 0,
+  "model_mismatches": 0,
+  "source_dataset_unchanged": true,
+  "final_generation_sha256": "482b31bf8a4a6db8263c31b854a698e44ab11fa730f876be0a38ecb959a9ce1e",
+  "machine_annotations": 2700,
+  "annotation_mechanical_or_internal_review_unresolved": 46,
+  "provider_rejected_main_assessments": 2,
+  "human_adjudication_performed": false,
+  "metrics_recomputed_and_verified": true,
+  "annotation_refinement_complete": false,
+  "external_blocker": "OpenAI credit_balance_exhausted; 26 internal rechecks and mechanical annotation repair remain."
+}
