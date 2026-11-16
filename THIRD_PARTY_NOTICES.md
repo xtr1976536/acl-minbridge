@@ -10,7 +10,7 @@ The upstream repository publishes an MIT license (Copyright 2021 Zhiyu Chen), re
 
 Chen, Ma, Wang, and Cohen, *Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks*, TMLR 2023. Source: https://github.com/TIGER-AI-Lab/Program-of-Thoughts at commit `850399c3eff8c37458a9d642c4a98df287f50f3a`.
 
-The minimal FinQA prompt/builder, test-format file and execution utility are retained under the upstream MIT license in `reproductions/pot/vendor/LICENSE` and `third_party/PoT_LICENSE`. The local guarded worker is an execution compatibility layer, not a hostile-code sandbox.
+Only the two used FinQA prompt/builder definitions (extracted as `finqa_prompt.py`) and the execution utility are retained under the upstream MIT license in `reproductions/pot/vendor/LICENSE` and `third_party/PoT_LICENSE`. The local guarded worker is an execution compatibility layer, not a hostile-code sandbox.
 
 ## Chain of Thought and VeriFin
 

@@ -13,7 +13,11 @@
 
 `scripts/materialize.py`依据`publication/materialization.json`校验哈希后解压到历史代码所用的相对目录。已存在且内容不同的本地文件不会被覆盖。该过程只读本仓库，不联网。
 
-`reproductions/relational-pilot/`中保留了本次所有阶段的代码；旧`run.py`是早期固定型号的形式化门槛入口，当前三模型重放使用`run_models.py`。`analyze.py`是尚未进行的独立人工裁决流程；当前机器统计使用`analyze_expanded.py`，两者没有冒充彼此。
+`reproductions/relational-pilot/`保留本次实际使用的生成、补跑、机审、源材料诊断、统计和报告代码。`run.py`仅保留实际PoT执行器调用函数；当前API重放入口是`run_models.py`。没有执行过的旧型号运行器、人工裁决/正式分析占位流程及其配置与测试已删除。API校准和原版8,192-token记录确实属于本次实验，仅作为追溯材料保留。
+
+`reproductions/pot/`只含FinQA四示例及输入构造函数、受限执行器与其依赖工具。未发布或运行FinQA官方测试集评测，也没有包含其他数据集的PoT分支。可选的数据构造下载官方test仅用于核对源报告隔离，不会作为本次150题的评测输入。
+
+运行本阶段测试前先执行`python scripts/materialize.py`，使压缩发布的数据出现在测试所需的本地兼容路径。随后运行`python -m unittest discover -s reproductions/relational-pilot/tests -q`和`python -m unittest discover -s reproductions/relational-pilot/v2 -p test_review_set.py -q`。共23项检查只覆盖本次实际输入构造、提示、程序执行和统计语义，不包含未执行的人工裁决占位流程。
 
 ## 图表与中文报告
 

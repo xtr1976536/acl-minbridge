@@ -265,7 +265,7 @@ def build():
     old=json.loads((PILOT/'local/test_disjoint_review_batch_150_scanned.json').read_text())
     raw={r['id']:r for r in json.loads((PILOT/'local/raw/train.json').read_text())}
     manual=json.loads((HERE/'manual_review.json').read_text())
-    test=json.loads((PILOT.parent/'gbfr/data/raw/official/FinQA.json').read_text())
+    test=json.loads((PILOT/'local/raw/test.json').read_text())
     protected={'/'.join(r['filename'].split('/')[:2]) for r in test}
     special_overrides={'35':508,'111':265.06,'129':42,'132':23,'133':551539,'141':1415,'150':24.0}
     entries=[]

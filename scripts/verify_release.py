@@ -10,6 +10,11 @@ def load(path):
 def jsonl(path):return [json.loads(line) for line in load(path).decode().splitlines()]
 def digest(obj):return hashlib.sha256(json.dumps(obj,ensure_ascii=False,sort_keys=True).encode()).hexdigest()
 def main():
+    excluded=['reproductions/relational-pilot/analyze.py','reproductions/relational-pilot/annotations.py',
+       'reproductions/relational-pilot/providers.example.json','reproductions/relational-pilot/repair_labels_expanded.py',
+       'reproductions/relational-pilot/resume_credit_expanded.py','reproductions/pot/vendor/run_finqa.py',
+       'reproductions/pot/vendor/data/finqa_test.json']
+    assert all(not (ROOT/name).exists() for name in excluded),'Unused scope material reintroduced'
     final=jsonl('results/records/expanded/effective_outputs_2700.jsonl.gz')
     initial=jsonl('results/records/english150-20261116-v2/outputs.jsonl.gz')
     labels=jsonl('results/records/expanded/machine_annotations_final.jsonl.gz')
@@ -76,6 +81,8 @@ def main():
        'complete_generations':2700,'model_output_duplicates_or_missing':0,'judge_records':2700,'valid_main_responses':2698,
        'internal_review_completed':656,'internal_review_selected':682,
        'unresolved_annotation_markers':sum(bool(r['validation_issues'] or r.get('review_unresolved')) for r in labels),
-       'independent_counts':dict(sums['independent_overlapping']),'report_pages':17,'network_requests':0}
+       'independent_counts':dict(sums['independent_overlapping']),'report_pages':17,'network_requests':0,
+       'scope':'Only the actual three-API first-stage FinQA study, plus replay and integrity utilities',
+       'unused_pipelines_and_test_dataset_absent':True}
     print(json.dumps(result,ensure_ascii=False,indent=2));return result
 if __name__=='__main__':main()

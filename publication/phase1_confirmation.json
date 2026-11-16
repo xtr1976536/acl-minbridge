@@ -1,0 +1,28 @@
+{
+  "confirmed_latest_local_run": true,
+  "final_generation_exact_bytes_match": true,
+  "final_machine_labels_exact_bytes_match": true,
+  "latest_revised_pdf_exact_bytes_match": true,
+  "providers": [
+    {
+      "provider": "deepseek",
+      "returned_model": "deepseek-v4-pro",
+      "outputs": 900
+    },
+    {
+      "provider": "openai",
+      "returned_model": "gpt-5.6-sol",
+      "outputs": 900
+    },
+    {
+      "provider": "qwen",
+      "returned_model": "qwen3.8-27b",
+      "outputs": 900
+    }
+  ],
+  "complete_generation_records": 2700,
+  "network_requests_for_confirmation": 0,
+  "generation_sha256": "482b31bf8a4a6db8263c31b854a698e44ab11fa730f876be0a38ecb959a9ce1e",
+  "pdf_sha256": "90f326b3072660273e7082bd8eb6e5f5e407ebb7b3e6390b2e9f28fe1964164c",
+  "note": "Actual historical calibration and repair records belong to this run; unfinished machine review is not described as complete."
+}

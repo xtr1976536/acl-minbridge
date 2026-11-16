@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]
 COMMIT='0f16e2867befa6840783e58be38c9efb9229d742'
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--download',action='store_true');args=parser.parse_args()
-    paths={'train':ROOT/'reproductions/relational-pilot/local/raw/train.json','test':ROOT/'reproductions/gbfr/data/raw/official/FinQA.json'}
+    paths={'train':ROOT/'reproductions/relational-pilot/local/raw/train.json','test':ROOT/'reproductions/relational-pilot/local/raw/test.json'}
     for split,path in paths.items():
         url=f'https://raw.githubusercontent.com/czyssrs/FinQA/{COMMIT}/dataset/{split}.json'
         if not args.download:print(json.dumps({'split':split,'url':url,'action':'not downloaded; pass --download'}));continue

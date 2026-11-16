@@ -17,7 +17,7 @@ def main():
     assert Counter(r['severity'] for r in records)=={'low':90,'medium':30,'high':30}
     raw=json.loads((HERE.parent/'local/raw/train.json').read_text())
     lookup={r['id']:r for r in raw}
-    test=json.loads((HERE.parents[1]/'gbfr/data/raw/official/FinQA.json').read_text())
+    test=json.loads((HERE.parent/'local/raw/test.json').read_text())
     protected={'/'.join(r['filename'].split('/')[:2]) for r in test}
     scans=[];checks=[]
     for r in records:

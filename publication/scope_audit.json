@@ -1,0 +1,47 @@
+{
+  "scope": "Latest executed first-stage FinQA study using the three supplied provider endpoints",
+  "round1": {
+    "actual_source_and_dependency_review": true,
+    "removed_files": 8,
+    "trimmed_implementation_modules": 4,
+    "unused_test_dataset_removed": true,
+    "privacy_scan_passed": true,
+    "gitleaks_findings": 0
+  },
+  "round2": {
+    "fresh_git_index_export_verified": true,
+    "offline_statistics_identical": true,
+    "tests_passed": 23,
+    "all_generation_requests_match_current_prompts": true,
+    "latest_output_annotation_pdf_bytes_match_local_experiment": true
+  },
+  "preserved_experiment": {
+    "confirmed_latest_local_run": true,
+    "final_generation_exact_bytes_match": true,
+    "final_machine_labels_exact_bytes_match": true,
+    "latest_revised_pdf_exact_bytes_match": true,
+    "providers": [
+      {
+        "provider": "deepseek",
+        "returned_model": "deepseek-v4-pro",
+        "outputs": 900
+      },
+      {
+        "provider": "openai",
+        "returned_model": "gpt-5.6-sol",
+        "outputs": 900
+      },
+      {
+        "provider": "qwen",
+        "returned_model": "qwen3.8-27b",
+        "outputs": 900
+      }
+    ],
+    "complete_generation_records": 2700,
+    "network_requests_for_confirmation": 0,
+    "generation_sha256": "482b31bf8a4a6db8263c31b854a698e44ab11fa730f876be0a38ecb959a9ce1e",
+    "pdf_sha256": "90f326b3072660273e7082bd8eb6e5f5e407ebb7b3e6390b2e9f28fe1964164c",
+    "note": "Actual historical calibration and repair records belong to this run; unfinished machine review is not described as complete."
+  },
+  "note": "Public replay, integrity and analysis utilities are directly for this experiment. Historical actual calibration/repair runs retained, not counted as extra observations. Earlier audit files describe the initial release."
+}

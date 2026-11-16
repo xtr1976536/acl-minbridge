@@ -1,0 +1,59 @@
+{
+  "scope": "Latest 150-source/2700-output FinQA experiment using the three supplied APIs",
+  "removed": [
+    {
+      "path": "reproductions/relational-pilot/analyze.py",
+      "sha256": "b09c43146a15904d8d2e2481e92aea0a43e8ebfe3efe4fab98acdce22d4a70b8",
+      "reason": "Unexecuted formal-human-review/fixed-old-model scaffolding or unexecuted followup repair."
+    },
+    {
+      "path": "reproductions/relational-pilot/annotations.py",
+      "sha256": "a4f7a765359c5a4a3f4432e1faf3fccd240261e3396b4ea07a4421b25f943cb9",
+      "reason": "Unexecuted formal-human-review/fixed-old-model scaffolding or unexecuted followup repair."
+    },
+    {
+      "path": "reproductions/relational-pilot/providers.example.json",
+      "sha256": "44bc1634a58e7f716a2df6fb18f3c85737286e994bc74a842395f087642add0d",
+      "reason": "Unexecuted formal-human-review/fixed-old-model scaffolding or unexecuted followup repair."
+    },
+    {
+      "path": "reproductions/relational-pilot/repair_labels_expanded.py",
+      "sha256": "6e2f4b6bfbbc0144fca4da9306ee93f2fe9140397582c13f0832c71496943b5f",
+      "reason": "Unexecuted formal-human-review/fixed-old-model scaffolding or unexecuted followup repair."
+    },
+    {
+      "path": "reproductions/relational-pilot/resume_credit_expanded.py",
+      "sha256": "adc68803cd3072e24df4cb9d9d454aef322a0e2995882071f612e79ca82d2771",
+      "reason": "Unexecuted formal-human-review/fixed-old-model scaffolding or unexecuted followup repair."
+    },
+    {
+      "path": "reproductions/relational-pilot/tests/test_pilot.py",
+      "sha256": "7ac4461d068cd666a0809d5904efacc73adcdd15187b65ec06abd8bf1f4a07cc",
+      "reason": "Unexecuted formal-human-review/fixed-old-model scaffolding or unexecuted followup repair."
+    },
+    {
+      "path": "reproductions/pot/vendor/run_finqa.py",
+      "sha256": "f52431a082eea50bd433195bec5025184208cf5cfcb1b70a08bc4d74260cb086",
+      "reason": "Unneeded upstream API main loop/test dataset; only prompt and builder were used."
+    },
+    {
+      "path": "reproductions/pot/vendor/data/finqa_test.json",
+      "sha256": "980067b831651f8b4e7607f1fb2dc83a057e4d96fbc1e655387cc6fab4d8f52f",
+      "reason": "Unneeded upstream API main loop/test dataset; only prompt and builder were used."
+    }
+  ],
+  "trimmed_helpers": {
+    "run.py": "execute_pot only, function unchanged",
+    "prepare.py": "Retained actual source-index and span-edit primitives; removed unused formal freeze/reviewer gates and multi-baseline inventory",
+    "protocol.py": "FinQA prompt/builder only; no test data loading",
+    "execute_worker.py": "FinQA branch only",
+    "v2/build_set.py / validate_set.py": "Official test is a construction-isolation input under local/raw, not an unrelated baseline folder"
+  },
+  "preserved": [
+    "all final model rows and annotations",
+    "all actual generation/calibration/repair/judge attempts",
+    "all statistical values and five report figures",
+    "latest PDF"
+  ],
+  "historical_calibration_note": "Original 18-condition calibration and API checks were actually performed for this experiment, retained as provenance, not counted in 2700."
+}

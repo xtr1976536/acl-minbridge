@@ -3,17 +3,13 @@ import ast,hashlib,json,sys
 from pathlib import Path
 sys.dont_write_bytecode=True
 ROOT=Path(__file__).resolve().parents[1];VENDOR=ROOT/'vendor'
-TASKS={'finqa':('run_finqa.py','finqa_test.json','prompt_4shot',512), 'convfinqa':('run_convfinqa.py','convfinqa_dev.json','prompt_4shot',512), 'tatqa':('run_tatqa.py','tatqa_dev.json','prompt_8shot',256)}
 def official(task):
- script,data,prompt_name,budget=TASKS[task];source=(VENDOR/script).read_text();tree=ast.parse(source)
- selected=[]
- for node in tree.body:
-  if isinstance(node,ast.FunctionDef) and node.name=='create_reader_request_processed':selected.append(node)
-  if isinstance(node,ast.Assign) and any(isinstance(t,ast.Name) and t.id==prompt_name for t in node.targets):selected.append(node)
+ if task!='finqa':raise ValueError('This release contains only the FinQA first-stage experiment')
+ source=(VENDOR/'finqa_prompt.py').read_text();tree=ast.parse(source)
+ selected=[n for n in tree.body if isinstance(n,(ast.FunctionDef,ast.Assign))]
  namespace={'Dict':dict,'Any':object}
- exec(compile(ast.Module(body=selected,type_ignores=[]),script,'exec'),namespace)
- data_path=VENDOR/'data'/data;rows=json.loads(data_path.read_text())
- return namespace[prompt_name],namespace['create_reader_request_processed'],rows,{'script':script,'script_sha256':hashlib.sha256(source.encode()).hexdigest(),'data':data,'data_sha256':hashlib.sha256(data_path.read_bytes()).hexdigest(),'count':len(rows),'max_tokens':budget,'temperature':0.0,'top_p':1,'stop':['\n\n'],'n':1}
+ exec(compile(ast.Module(body=selected,type_ignores=[]),'finqa_prompt.py','exec'),namespace)
+ return namespace['prompt_4shot'],namespace['create_reader_request_processed'],[],{'source':'PoT FinQA prompt-only excerpt','script_sha256':hashlib.sha256(source.encode()).hexdigest(),'count':0,'max_tokens':512,'temperature':0.0,'top_p':1,'stop':['\n\n'],'n':1}
 def guard(code):
  """Reject obvious filesystem/network/dynamic-code access before official execution.
  This is a compatibility guard, not a hostile-code security boundary.
