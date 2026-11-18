@@ -3,6 +3,7 @@ import copy,json,sys,tempfile,unittest,importlib.util
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 import prepare,prompts,expanded_engine,analyze_expanded,judge_expanded,judging_validation
+from v2.build_n_control import SOURCE as K_SOURCE
 
 class PhaseOneTests(unittest.TestCase):
     def view(self):return {'question':'What is A?','pre_text':['A is 50.'],'post_text':[],'table':[['item','value'],['A','50']]}
@@ -43,5 +44,15 @@ class PhaseOneTests(unittest.TestCase):
     def test_missing_annotation_not_negative(self):self.assertEqual(analyze_expanded.flags(self.output(),None,'independent_overlapping')['judge_unusable'],1)
     def test_undefined_ratio_not_silently_dropped(self):self.assertIsNone(analyze_expanded.ci([1,float('nan')])['ci95'])
     def test_paired_ratio_values(self):self.assertEqual(analyze_expanded.division([1,2],[1,2]).tolist(),[1,1])
+    def test_n_control_pairs_all_150_k_source_ids(self):
+        from v2.build_n_control import OUT as N_PATH
+        import json
+        bundle=json.loads(K_SOURCE.read_text());n=json.loads(N_PATH.read_text())
+        self.assertEqual({r['source_id'] for r in bundle['records']},{r['source_id'] for r in n['records']})
+        self.assertEqual(len(n['records']),150)
+        for k,v in zip(bundle['records'],n['records']):
+            self.assertLessEqual(v['deleted_fact_count'],k['deleted_fact_count'])
+            self.assertTrue(set(v['n_deleted_fact_ids']).isdisjoint(k['deleted_fact_ids']))
+            self.assertEqual(k['modified_sha256'],v['paired_k_variant_sha256'])
 
 if __name__=='__main__':unittest.main()

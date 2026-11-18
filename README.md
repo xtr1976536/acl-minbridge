@@ -29,6 +29,12 @@ MinBridge 第一阶段：FinQA不可答题上的数值幻觉与关系幻觉预�
 
 2条主评审受到提供方内容校验拒绝，26条内部复核未完成；全部保留未知/未决状态。**生成已经完成，不代表独立人工审核和标注已经完成。** 382条PoT程序没有得到有效数值，其中包含拒答，不能直接当作幻觉。后续需要人工检查源题可答性、机器标注及程序无数值的原因。
 
+### E3 的N组进度
+
+已为同一150道FinQA源题构造N组候选：O为完整原题、K为必要事实删除题、N为非必要事实删除题。N优先与配对K删除相同数量的事实，并保留K删去的事实及原标准程序数值输入。148题删除数与K相同；第20、103题在上述保留条件下没有其他可量化事实可删，因此N与O相同并明确标记。当前完成程序化筛选和两轮本地一致性检查；删除内容的语义无关性仍待人工核验，N组尚未运行模型。
+
+N组文件：`data/n_control_150.json.gz`（完整配对材料及事实记录）、`data/n_control_pair_index.csv`（O/K/N与删除数量索引）、`data/N_CONTROL_README.md`（设计限制）。程序入口为`reproductions/relational-pilot/v2/build_n_control.py`。该组是候选控制集，不是已完成的模型实验结果。
+
 ## 结果快照
 
 下表为当前GPT机审统计，分母均保留全部2,700条输出，不是2,700道独立源题。
@@ -46,6 +52,7 @@ MinBridge 第一阶段：FinQA不可答题上的数值幻觉与关系幻觉预�
 |---|---|
 | [`reports/`](reports/) | 最新修订中文PDF及图表 |
 | [`data/`](data/) | 英文输入150题、原题/修改/事实账本、构造审核记录和已知校勘 |
+| [`reproductions/relational-pilot/v2/final_150_n_control.json`](reproductions/relational-pilot/v2/final_150_n_control.json) | 与O/K同源配对的N组150题候选控制集 |
 | [`results/tables/`](results/tables/) | 逐条输出与评审CSV、分条件比例、统计JSON、可答性诊断 |
 | [`results/records/expanded/`](results/records/expanded/) | 更新输出、所有补跑/机审/内部复核尝试和被冻结的请求 |
 | [`results/records/english150-20261116-v2/`](results/records/english150-20261116-v2/) | 原始统一8,192-token版本及请求记录 |

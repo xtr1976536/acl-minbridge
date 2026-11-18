@@ -17,12 +17,16 @@
       "sha256": "4cf49d0b0606e662b294960b6db8ea112e79b8d0557dfe18989210ed4aca3b8f"
     },
     "README.md": {
-      "bytes": 5619,
-      "sha256": "a862309622fdc79cc767fd5e8eaed65651888f5b53d477a6a84d6b884f7e478f"
+      "bytes": 6659,
+      "sha256": "886755ff1205db901c080a4f7c065c62548ccefbaa7faafd956e2a448142303c"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 2313,
       "sha256": "ba93b6ea98d1188bd1fa0881649fba6a81a8571277e71256c44e1dc93414b435"
+    },
+    "data/N_CONTROL_README.md": {
+      "bytes": 1108,
+      "sha256": "263c66f1e868779ee133c86f7cf96ccc4cf8908ef482c326c1b26389e59fdfb9"
     },
     "data/audit_summary.json": {
       "bytes": 4768,
@@ -56,6 +60,14 @@
       "bytes": 822715,
       "sha256": "3681625b826d699d2f9547565c1bb2265d8e01c9b11f3bd66c19df0f65b39b93"
     },
+    "data/n_control_150.json.gz": {
+      "bytes": 272278,
+      "sha256": "28557d1df2aba892cce9833b9ebc1b7c2850b2d4fa21751a37f8882671d64771"
+    },
+    "data/n_control_pair_index.csv": {
+      "bytes": 20695,
+      "sha256": "d1cce11acb32f32dc39aef7a6c7811f783d2d9f0cc03c56268b47575ce096f17"
+    },
     "data/prompt_snapshot.json": {
       "bytes": 8476,
       "sha256": "abe9d6afffa543de803c3298ec2f69039ccbeae42513aeee4c707d189677b542"
@@ -69,8 +81,8 @@
       "sha256": "73dc2490ed78d0f80f5ebfc2ca396d44bbc47624e70e24eb6a965f88583cb937"
     },
     "docs/METHODS_AND_DATA.md": {
-      "bytes": 2470,
-      "sha256": "a68bb19537fc14b10a32c6d54fedf209a840515353f12f4ed2aedfe6067e05e2"
+      "bytes": 3603,
+      "sha256": "6a0945a134f2301a6e9bd0a884e8d9b419f485454b5d1d93bc3f2097e2492fb4"
     },
     "docs/REPRODUCIBILITY.md": {
       "bytes": 3977,
@@ -105,8 +117,8 @@
       "sha256": "91eb9046ba7fa59ca66fc74d2eecb1fb572a1d646261903767c011f656609d7a"
     },
     "publication/scope_cleanup.json": {
-      "bytes": 4778,
-      "sha256": "ff7194e5e086a9d12dc1431c1287476250776f0084db91fc9d46b3351edb4a3b"
+      "bytes": 5236,
+      "sha256": "dd4c7587b080200e7a481ba7d630f0c979a29358d1e4d0524b051f8453e57c83"
     },
     "reports/MinBridge_关系幻觉预研_中文汇报.pdf": {
       "bytes": 1101579,
@@ -285,8 +297,12 @@
       "sha256": "2057e2218ddfccb2b474bbe17f2a4282e58d91cab063becf0d208319e01cba40"
     },
     "reproductions/relational-pilot/tests/test_phase1.py": {
-      "bytes": 5391,
-      "sha256": "4ce6331e1b884ab7e6767439bfa213bae1216a231c276368277c6578ea576028"
+      "bytes": 6119,
+      "sha256": "0118e72b4a3ac36af72a39b5fbd4d56d2b5ff78ddd0f20ad1b52404af290d329"
+    },
+    "reproductions/relational-pilot/v2/build_n_control.py": {
+      "bytes": 7886,
+      "sha256": "3d54fb3ff55acfd1e3e3e43e6cdbeddaa44c7e0c18c1fa434aabde5b523afac4"
     },
     "reproductions/relational-pilot/v2/build_set.py": {
       "bytes": 24665,
@@ -597,8 +613,8 @@
       "sha256": "8df9e0eee46398f46204eec7471c1889dc1ea23d4e452d690332cba5be74b0c2"
     },
     "scripts/verify_release.py": {
-      "bytes": 6575,
-      "sha256": "00157920e75fbcaa6e43523eb48bdc3dd5cbf5e8ed714e7a59ca56c76913dbed"
+      "bytes": 8151,
+      "sha256": "c41ff691ccd7efc8d9c25f62bd844abb13b0e83719aafcd5435725032d40b99d"
     },
     "third_party/FinQA_LICENSE": {
       "bytes": 1067,
@@ -610,5 +626,5 @@
     }
   },
   "self_excluded": "publication/files.json",
-  "scope": "Only the executed first-stage three-API study and its actual FinQA source-selection, fact-deletion, validation, generation, repair, judging, analysis and report pipeline, plus direct offline verification and opt-in replay."
+  "scope": "Actual first-stage FinQA study and paired E3 N-control candidate, plus direct replay and verification utilities."
 }

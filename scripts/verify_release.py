@@ -23,6 +23,24 @@ def main():
     assert {r['id'] for r in final}=={r['id'] for r in initial}=={r['id'] for r in labels}
     inputs=json.loads(load('data/model_inputs_150.json'))['drafts']
     assert len(inputs)==150 and len({r['source_id'] for r in inputs})==150
+    kset=json.loads(load('data/final_150_review.json.gz'))['records']
+    nset=json.loads((ROOT/'reproductions/relational-pilot/v2/final_150_n_control.json').read_text())
+    assert len(kset)==len(nset['records'])==150
+    assert {r['source_id'] for r in kset}=={r['source_id'] for r in nset['records']}
+    for k,n in zip(kset,nset['records']):
+        assert k['source_id']==n['source_id'] and k['modified_sha256']==n['paired_k_variant_sha256']
+        assert set(k['deleted_fact_ids']).isdisjoint(n['n_deleted_fact_ids'])
+        assert n['deleted_fact_count']<=k['deleted_fact_count']
+        assert n['round1']['all_standard_program_literal_support_preserved']
+        replay=json.loads(json.dumps(k['original']))
+        for edit in n['edits']:
+            parts=edit['location'].split('/');parent=replay[parts[0]]
+            for part in parts[1:-1]:parent=parent[int(part)]
+            index=int(parts[-1]);assert parent[index]==edit['original'];parent[index]=edit['replacement']
+        assert replay==n['modified']
+    assert nset['unmatched_deletion_dose_cases']==[
+        {'case':20,'target_deletions':1,'available_nonessential_facts':0,'N_equals_O':True},
+        {'case':103,'target_deletions':2,'available_nonessential_facts':0,'N_equals_O':True}]
     evidence={r['source_id']:r for r in inputs};original={r['id']:r for r in initial};annotations={r['id']:r for r in labels}
     groups=collections.defaultdict(list)
     for r in final:
@@ -82,7 +100,10 @@ def main():
        'internal_review_completed':656,'internal_review_selected':682,
        'unresolved_annotation_markers':sum(bool(r['validation_issues'] or r.get('review_unresolved')) for r in labels),
        'independent_counts':dict(sums['independent_overlapping']),'report_pages':17,'network_requests':0,
-       'scope':'Only the actual three-API first-stage FinQA study, plus replay and integrity utilities',
+       'N_control':{'records':150,'paired_sources':150,'same_K_N_deletion_count':148,
+          'N_equals_O_no_other_quantified_facts':[20,103],'K_N_deletion_sets_disjoint':True,
+          'original_program_inputs_preserved':True,'N_model_runs':0,'human_semantic_review_completed':0},
+       'scope':'Actual three-API first-stage FinQA study plus paired E3 N-control candidate and direct replay/integrity utilities',
        'unused_pipelines_and_test_dataset_absent':True}
     print(json.dumps(result,ensure_ascii=False,indent=2));return result
 if __name__=='__main__':main()

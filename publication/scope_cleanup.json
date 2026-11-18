@@ -85,5 +85,19 @@
       "sha256": "2057e2218ddfccb2b474bbe17f2a4282e58d91cab063becf0d208319e01cba40",
       "reason": "Checks formulas and alternative evidence paths during candidate review."
     }
+  ],
+  "added_n_control_artifacts": [
+    {
+      "path": "data/n_control_150.json.gz",
+      "sha256": "28557d1df2aba892cce9833b9ebc1b7c2850b2d4fa21751a37f8882671d64771"
+    },
+    {
+      "path": "data/n_control_pair_index.csv",
+      "sha256": "d1cce11acb32f32dc39aef7a6c7811f783d2d9f0cc03c56268b47575ce096f17"
+    },
+    {
+      "path": "data/N_CONTROL_README.md",
+      "sha256": "263c66f1e868779ee133c86f7cf96ccc4cf8908ef482c326c1b26389e59fdfb9"
+    }
   ]
 }
