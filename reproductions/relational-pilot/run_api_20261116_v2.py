@@ -18,7 +18,7 @@ import urllib.request
 
 from prepare import digest
 from prompts import METHODS, messages
-from run import execute_pot
+from pot_runtime import execute_pot
 
 HERE=Path(__file__).resolve().parent
 OUT=HERE/'local/runs/english150-20261116-v2'

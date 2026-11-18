@@ -88,7 +88,7 @@ python scripts/run_models.py --provider openai --limit 1 --execute --out work/ne
 python scripts/judge_outputs.py --limit 1 --execute --out work/new-judge
 ```
 
-模型和提示设置见[方法与数据说明](docs/METHODS_AND_DATA.md)。本次实际用到的历史脚本保留用于追溯；未执行的旧占位流程已清除。公开入口不会覆盖已发布结果，遇到API或内容校验错误会停下并保存状态。
+模型和提示设置见[方法与数据说明](docs/METHODS_AND_DATA.md)。本次实际用到的三API生成、补跑、PoT执行、机审和统计脚本保留；旧型号运行器与未执行的正式裁决占位流程已清除；保留了150题实际构造用的候选、隔离和证据路径扫描代码。公开入口不会覆盖已发布结果，遇到API或内容校验错误会停下并保存状态。
 
 ## 署名与第三方材料
 

@@ -28,22 +28,22 @@
     {
       "path": "reproductions/relational-pilot/expanded_engine.py",
       "source_sha256": "df31d982a1cc5e5ad6fa1027b9e471a8758b5f771a1a2fb54d0ae8a0976cad6e",
-      "public_content_sha256": "df31d982a1cc5e5ad6fa1027b9e471a8758b5f771a1a2fb54d0ae8a0976cad6e"
+      "public_content_sha256": "f0828ec45845f1741f11f14b6dfffdb37541ceefa204a1c937efbc07f1233c3d"
     },
     {
       "path": "reproductions/relational-pilot/expanded_engine_concurrent.py",
       "source_sha256": "25730c5114b51eca124504bfb3f3b6412ac8f4826c1e16208021086e42ed1e95",
-      "public_content_sha256": "25730c5114b51eca124504bfb3f3b6412ac8f4826c1e16208021086e42ed1e95"
+      "public_content_sha256": "3e61a69e81566e9e8cb95146e864142a89168aef31cad19801e3b86876a6efc8"
     },
     {
       "path": "reproductions/relational-pilot/expanded_engine_evaluation.py",
       "source_sha256": "2ec31218d024e8cabf8e346d5f27c2d25337e6ea08a02f4dbac4350095fdf0c6",
-      "public_content_sha256": "2ec31218d024e8cabf8e346d5f27c2d25337e6ea08a02f4dbac4350095fdf0c6"
+      "public_content_sha256": "2b21a037d8084708f9a16b9fe88b33ff65e5dc805cda2aa8a358f5c8d14a5c74"
     },
     {
       "path": "reproductions/relational-pilot/expanded_engine_long.py",
       "source_sha256": "31dd84c4fc415a1f533b5e5e9ceabaef5bc12db955e1d47215f4978f47e8f8fd",
-      "public_content_sha256": "31dd84c4fc415a1f533b5e5e9ceabaef5bc12db955e1d47215f4978f47e8f8fd"
+      "public_content_sha256": "8dcd0fe47f2b1fbd9002eb8937da320cd71d5dff19daf03c124c3a6b15d3c552"
     },
     {
       "path": "reproductions/relational-pilot/isolation.py",
@@ -121,19 +121,9 @@
       "public_content_sha256": "97cc8aae5ce9e24424cc22e1e2e1163379bb3fd0468b1ddbd30e4fc4df0b8226"
     },
     {
-      "path": "reproductions/relational-pilot/run.py",
-      "source_sha256": "4dd6d611a658ddf105a509ee53d42f2679a284d571a1e33e4d41dad12809dace",
-      "public_content_sha256": "f049b0ed6a8a8181937ce8b6525e9fad3d557c4ce8b3805865f46f03720f3c58"
-    },
-    {
-      "path": "reproductions/relational-pilot/run_api_20261116.py",
-      "source_sha256": "222e13f3104739b1080d01fb6ef4ec8107ccdbaa440474a523cda9643a391310",
-      "public_content_sha256": "607c1c636541c26ce59a84ded347085194233047b7c6d0cd55e910a29f8fe0f9"
-    },
-    {
       "path": "reproductions/relational-pilot/run_api_20261116_v2.py",
       "source_sha256": "3a735e8d40143e69dbfef66c29c6784b54f8dbc98cf0a0107e09dbbb454d9c58",
-      "public_content_sha256": "7120bf4c37ae92321ea753279167b301abce1978ab940c1ed7425498452a7a8f"
+      "public_content_sha256": "ef11b076c56be8c1af4055452bc2f74c092b4881e00a50b1f6733af1eba3adc0"
     },
     {
       "path": "reproductions/relational-pilot/run_audit_expanded.py",
@@ -648,6 +638,7 @@
     "Personal path strings in metadata are normalized; generated text, numerical inputs, labels and statistical values are preserved.",
     "Output roots adjusted from historical parent-workspace layout to standalone repository root; experimental request content and statistical methods unchanged.",
     "Removed unexecuted fixed-old-model/formal-human-review scaffolding and future credit/label repair utilities.",
-    "PoT reduced to FinQA-only prompt/builder and actual execution path; unused 1147-row test dataset and full upstream runner removed."
+    "PoT reduced to FinQA-only prompt/builder and actual execution path; unused 1147-row test dataset and full upstream runner removed.",
+    "Retained actual 150-source candidate selection, source-report isolation and evidence-path scan helpers; excluded unrelated dataset runners and unused official-test fixtures."
   ]
 }

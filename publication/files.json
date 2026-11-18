@@ -17,8 +17,8 @@
       "sha256": "4cf49d0b0606e662b294960b6db8ea112e79b8d0557dfe18989210ed4aca3b8f"
     },
     "README.md": {
-      "bytes": 5478,
-      "sha256": "c36dd820e05c2ee20c5e58a9b3b46c15765e523ff9dd3901c4f559b4e84b642d"
+      "bytes": 5619,
+      "sha256": "a862309622fdc79cc767fd5e8eaed65651888f5b53d477a6a84d6b884f7e478f"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 2313,
@@ -89,8 +89,8 @@
       "sha256": "19c36fbc94e4a87cd1e3b0eee1e712026b97f0c84ceedf3e65dc04c9ce7abef4"
     },
     "publication/export_provenance.json": {
-      "bytes": 34281,
-      "sha256": "5c6dbbd187e7255c0634b364493c941826dec031ad27583d2c7ac77af2b23ea1"
+      "bytes": 33935,
+      "sha256": "d71f5afd411cbb250bf36f8e5a05e68024a6033f94af4496081285cad31c97c1"
     },
     "publication/materialization.json": {
       "bytes": 22331,
@@ -105,8 +105,8 @@
       "sha256": "91eb9046ba7fa59ca66fc74d2eecb1fb572a1d646261903767c011f656609d7a"
     },
     "publication/scope_cleanup.json": {
-      "bytes": 3124,
-      "sha256": "d3bb8a409bcf24e97c5e5084716bc4401b55ed3b4cf8a9f135cab3f27c602b7d"
+      "bytes": 4778,
+      "sha256": "ff7194e5e086a9d12dc1431c1287476250776f0084db91fc9d46b3351edb4a3b"
     },
     "reports/MinBridge_关系幻觉预研_中文汇报.pdf": {
       "bytes": 1101579,
@@ -193,20 +193,20 @@
       "sha256": "eb56b2d0f38ae77eeda88f5f384350cef74bfa9cd15b244aa2a331c6432c7c7d"
     },
     "reproductions/relational-pilot/expanded_engine.py": {
-      "bytes": 9735,
-      "sha256": "df31d982a1cc5e5ad6fa1027b9e471a8758b5f771a1a2fb54d0ae8a0976cad6e"
+      "bytes": 9743,
+      "sha256": "f0828ec45845f1741f11f14b6dfffdb37541ceefa204a1c937efbc07f1233c3d"
     },
     "reproductions/relational-pilot/expanded_engine_concurrent.py": {
-      "bytes": 9841,
-      "sha256": "25730c5114b51eca124504bfb3f3b6412ac8f4826c1e16208021086e42ed1e95"
+      "bytes": 9849,
+      "sha256": "3e61a69e81566e9e8cb95146e864142a89168aef31cad19801e3b86876a6efc8"
     },
     "reproductions/relational-pilot/expanded_engine_evaluation.py": {
-      "bytes": 10206,
-      "sha256": "2ec31218d024e8cabf8e346d5f27c2d25337e6ea08a02f4dbac4350095fdf0c6"
+      "bytes": 10214,
+      "sha256": "2b21a037d8084708f9a16b9fe88b33ff65e5dc805cda2aa8a358f5c8d14a5c74"
     },
     "reproductions/relational-pilot/expanded_engine_long.py": {
-      "bytes": 9773,
-      "sha256": "31dd84c4fc415a1f533b5e5e9ceabaef5bc12db955e1d47215f4978f47e8f8fd"
+      "bytes": 9781,
+      "sha256": "8dcd0fe47f2b1fbd9002eb8937da320cd71d5dff19daf03c124c3a6b15d3c552"
     },
     "reproductions/relational-pilot/isolation.py": {
       "bytes": 3698,
@@ -223,6 +223,10 @@
     "reproductions/relational-pilot/make_chinese_briefing.py": {
       "bytes": 41679,
       "sha256": "fb9c4aa4fb59e7c498ee2cd6c3e8be6df3bcfe0fd7701bed546742a138ab6b31"
+    },
+    "reproductions/relational-pilot/pot_runtime.py": {
+      "bytes": 776,
+      "sha256": "87067a440c95f84ba7dda07aad6ed6eb524c03476cc5b8a657fb6f42ddb2d316"
     },
     "reproductions/relational-pilot/prepare.py": {
       "bytes": 6454,
@@ -268,17 +272,9 @@
       "bytes": 4256,
       "sha256": "97cc8aae5ce9e24424cc22e1e2e1163379bb3fd0468b1ddbd30e4fc4df0b8226"
     },
-    "reproductions/relational-pilot/run.py": {
-      "bytes": 1090,
-      "sha256": "f049b0ed6a8a8181937ce8b6525e9fad3d557c4ce8b3805865f46f03720f3c58"
-    },
-    "reproductions/relational-pilot/run_api_20261116.py": {
-      "bytes": 14715,
-      "sha256": "607c1c636541c26ce59a84ded347085194233047b7c6d0cd55e910a29f8fe0f9"
-    },
     "reproductions/relational-pilot/run_api_20261116_v2.py": {
-      "bytes": 15058,
-      "sha256": "7120bf4c37ae92321ea753279167b301abce1978ab940c1ed7425498452a7a8f"
+      "bytes": 15066,
+      "sha256": "ef11b076c56be8c1af4055452bc2f74c092b4881e00a50b1f6733af1eba3adc0"
     },
     "reproductions/relational-pilot/run_audit_expanded.py": {
       "bytes": 1118,
@@ -289,8 +285,8 @@
       "sha256": "2057e2218ddfccb2b474bbe17f2a4282e58d91cab063becf0d208319e01cba40"
     },
     "reproductions/relational-pilot/tests/test_phase1.py": {
-      "bytes": 4983,
-      "sha256": "fb6c880fc2ea3d574bb5a21489aeac34487df4b6d1c667304c515cfb77934df8"
+      "bytes": 5391,
+      "sha256": "4ce6331e1b884ab7e6767439bfa213bae1216a231c276368277c6578ea576028"
     },
     "reproductions/relational-pilot/v2/build_set.py": {
       "bytes": 24665,
@@ -614,5 +610,5 @@
     }
   },
   "self_excluded": "publication/files.json",
-  "scope": "Only actual first-stage three-API study and direct replay/verification utilities."
+  "scope": "Only the executed first-stage three-API study and its actual FinQA source-selection, fact-deletion, validation, generation, repair, judging, analysis and report pipeline, plus direct offline verification and opt-in replay."
 }

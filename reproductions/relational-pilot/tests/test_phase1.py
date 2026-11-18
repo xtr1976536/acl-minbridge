@@ -1,8 +1,8 @@
 """Tests only the actual first-stage FinQA workflow; no hypothetical pipelines."""
-import copy,json,sys,tempfile,unittest
+import copy,json,sys,tempfile,unittest,importlib.util
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-import prepare,prompts,run,analyze_expanded,judge_expanded,judging_validation
+import prepare,prompts,expanded_engine,analyze_expanded,judge_expanded,judging_validation
 
 class PhaseOneTests(unittest.TestCase):
     def view(self):return {'question':'What is A?','pre_text':['A is 50.'],'post_text':[],'table':[['item','value'],['A','50']]}
@@ -20,10 +20,13 @@ class PhaseOneTests(unittest.TestCase):
         v=self.view();p=prompts.messages('pot',v);c=prompts.messages('cot_paired_4shot',v);a=prompts.messages('cot_existing_abstention',v)
         self.assertIn('#Python',p[-1]['content']);self.assertIn('Reasoning:',c[-1]['content']);self.assertIn('If the evidence is insufficient',a[-1]['content']);self.assertNotIn('If the evidence is insufficient',c[-1]['content'])
     def test_only_four_finqa_examples(self):self.assertEqual(len(prompts.demo_questions()),4)
+    @unittest.skipUnless(importlib.util.find_spec('func_timeout'),'install requirements.txt for PoT worker tests')
     def test_worker_success(self):
-        result=run.execute_pot('ans = 12 / 261',20);self.assertEqual(result['status'],'executed');self.assertAlmostEqual(result['value'],12/261)
-    def test_worker_explicit_none(self):self.assertEqual(run.execute_pot('ans = None',20)['status'],'execution_failed')
-    def test_worker_unsafe_import_rejected(self):self.assertEqual(run.execute_pot('import os\nans = 1',20)['status'],'rejected_or_failed')
+        result=expanded_engine.execute_pot('ans = 12 / 261',20);self.assertEqual(result['status'],'executed');self.assertAlmostEqual(result['value'],12/261)
+    @unittest.skipUnless(importlib.util.find_spec('func_timeout'),'install requirements.txt for PoT worker tests')
+    def test_worker_explicit_none(self):self.assertEqual(expanded_engine.execute_pot('ans = None',20)['status'],'execution_failed')
+    @unittest.skipUnless(importlib.util.find_spec('func_timeout'),'install requirements.txt for PoT worker tests')
+    def test_worker_unsafe_import_rejected(self):self.assertEqual(expanded_engine.execute_pot('import os\nans = 1',20)['status'],'rejected_or_failed')
     def test_completed_none_can_be_refusal(self):
         a=self.annotation();a['labels']['correct_refusal']=True;r=analyze_expanded.flags(self.output(),self.item(a),'independent_overlapping');self.assertEqual(r['correct_refusal'],1);self.assertEqual(r['relation'],0)
     def test_conditional_is_separate(self):

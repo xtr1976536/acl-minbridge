@@ -13,7 +13,7 @@ import time
 import urllib.error
 import urllib.request
 from prepare import digest
-from run import execute_pot
+from pot_runtime import execute_pot
 
 HERE=Path(__file__).resolve().parent
 ROOT=HERE/'local/runs/english150-20261116-expanded'

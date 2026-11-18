@@ -55,5 +55,35 @@
     "all statistical values and five report figures",
     "latest PDF"
   ],
-  "historical_calibration_note": "Original 18-condition calibration and API checks were actually performed for this experiment, retained as provenance, not counted in 2700."
+  "historical_calibration_note": "Original 18-condition calibration and API checks were actually performed for this experiment, retained as provenance, not counted in 2700.",
+  "removed_after_final_scope_review": [
+    {
+      "path": "reproductions/relational-pilot/run.py",
+      "sha256": "f049b0ed6a8a8181937ce8b6525e9fad3d557c4ce8b3805865f46f03720f3c58",
+      "reason": "Superseded old/formal runner; latest outputs were generated with run_api_20261116_v2 and expanded engines."
+    },
+    {
+      "path": "reproductions/relational-pilot/run_api_20261116.py",
+      "sha256": "607c1c636541c26ce59a84ded347085194233047b7c6d0cd55e910a29f8fe0f9",
+      "reason": "Superseded old/formal runner; latest outputs were generated with run_api_20261116_v2 and expanded engines."
+    }
+  ],
+  "scope_statement": "Only the executed first-stage three-API study and its actual FinQA source-selection, fact-deletion, validation, generation, repair, judging, analysis and report pipeline, plus direct offline verification and opt-in replay.",
+  "restored_scope_helpers": [
+    {
+      "path": "reproductions/relational-pilot/candidates.py",
+      "sha256": "eb56b2d0f38ae77eeda88f5f384350cef74bfa9cd15b244aa2a331c6432c7c7d",
+      "reason": "Generates the report-isolated candidate queue used to select the pilot source set."
+    },
+    {
+      "path": "reproductions/relational-pilot/isolation.py",
+      "sha256": "85f2892e2edf25c6d9f41403d25a5aa5bd02b2f23823db3159b618e3c72a0134",
+      "reason": "Excludes source-report overlap against official test before final source curation."
+    },
+    {
+      "path": "reproductions/relational-pilot/scan.py",
+      "sha256": "2057e2218ddfccb2b474bbe17f2a4282e58d91cab063becf0d208319e01cba40",
+      "reason": "Checks formulas and alternative evidence paths during candidate review."
+    }
+  ]
 }
