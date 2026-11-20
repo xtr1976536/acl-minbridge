@@ -1,0 +1,16 @@
+{
+  "dataset": "MPB: Missing-Premise Benchmark",
+  "source_repository": "https://huggingface.co/datasets/ant-intl/MPB_Missing-Premise-Benchmark",
+  "revision": "5465d36698e82d980c3886685a944c5976e8348d",
+  "download_date": "2026-11-20",
+  "source_file": "MPB.parquet",
+  "rows": 274,
+  "license_declared_by_upstream": "Apache-2.0",
+  "paper": "https://arxiv.org/abs/2608.16554",
+  "evaluation_use": "E4 held-out evaluation only; no training, prompt, threshold, or reward tuning.",
+  "files": {
+    "MPB.parquet": "d40da56d024a93fbfd8c71e5b5482ec756675105e49cbea71019dc7b00760ce2",
+    "UPSTREAM_README.md": "0878590070c1c0fbc5dabf503da83f68baefa06513489db0b54c02fa08463865",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  }
+}
