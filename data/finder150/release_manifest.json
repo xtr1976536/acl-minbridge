@@ -1,0 +1,121 @@
+{
+  "dataset": "FinDER controlled fact-deletion 150, latest reviewed release",
+  "count": 150,
+  "pdf_pages": 119,
+  "human_reviews_completed": 0,
+  "model_calls": 0,
+  "files": {
+    "data/finder150/model_inputs_150.json": {
+      "bytes": 354383,
+      "sha256": "28fe33d5492ab7b843085fddc6650412a8232f15731786a9b3de72bb498451b1"
+    },
+    "data/finder150/table_terms_zh.json.gz": {
+      "bytes": 58472,
+      "sha256": "6d4f6be58797c7b6cce432f1689b6387de530bf69c1aa5a08a39c4a5058fd44a"
+    },
+    "data/finder150/questions_zh.txt": {
+      "bytes": 12340,
+      "sha256": "a59d901469a4da130c9cce85d3c9d560aca208d31da2bcb05821318fb0417478"
+    },
+    "data/finder150/source.json": {
+      "bytes": 530,
+      "sha256": "19d6c480945ff369efb46a015066184e1ea332cd4def4d7d82700aad34ce5c7c"
+    },
+    "data/finder150/UPSTREAM_README.md": {
+      "bytes": 1778,
+      "sha256": "7282d108022f2a1dc77d95c576663c0d7ced1a31757d436bd3763eb35b40efc1"
+    },
+    "data/finder150/finqa_terminology_zh.json.gz": {
+      "bytes": 16099,
+      "sha256": "55efcf8643a06252e47b422f2f4dd60cf61bab85e52bf75927e38b8d23418c10"
+    },
+    "data/finder150/layout_source_validation.json": {
+      "bytes": 65,
+      "sha256": "a263018880dbb097fe36e8ac6c7fe2dda322480117fa47fe423ec6e31d3b8d41"
+    },
+    "data/finder150/construction_plan.json.gz": {
+      "bytes": 413831,
+      "sha256": "90a1fbf0ca9f4e6908d66c1fdb8caea52d4313aca7fa42410b009715292c0d75"
+    },
+    "data/finder150/README.md": {
+      "bytes": 1696,
+      "sha256": "e0bb5f50461a1ca748ca02e42669525050970a0afd7544744a71fd959ab83549"
+    },
+    "data/finder150/selected_sources.json.gz": {
+      "bytes": 109666,
+      "sha256": "2d80ebfd5341a7ca75050aa9386d917085583fa9f1ff2a12b71c947f58a52395"
+    },
+    "data/finder150/narratives_zh.json": {
+      "bytes": 4335,
+      "sha256": "f10a50fd9fb904c20307f5a8b92105ea6a299edb1f7336206b588cccaf59a96d"
+    },
+    "data/finder150/pdf_validation.json": {
+      "bytes": 362,
+      "sha256": "99dc432bba34dbb950db1ad3a5f006a578996600b38f345f669d56186c07be92"
+    },
+    "data/finder150/final_150_review.json.gz": {
+      "bytes": 634839,
+      "sha256": "b265390c4a4f7eca6441e6a145cb50b43266131b729771ce56b5f145f0ef0fcd"
+    },
+    "data/finder150/audit_summary.json": {
+      "bytes": 1104,
+      "sha256": "d356365e77e32001b8ebf62b61dcbddd38a2445b87497c6eee16be3a1dde0d4c"
+    },
+    "data/finder150/latest_checks.json": {
+      "bytes": 34344,
+      "sha256": "469f693137caa9f8c3ba82165cde5ead6ece2fb8182409d17fa3de48150c7bd8"
+    },
+    "data/finder150/translations_zh.json.gz": {
+      "bytes": 200690,
+      "sha256": "0ab56cd4d89682fe3a8d0dbc1629ef721ce1863198173f3cb95f7af2699ac4d8"
+    },
+    "data/finder150/group_index.csv": {
+      "bytes": 16829,
+      "sha256": "6185dd2ac9be4094f45401b2e3f8e7f756102e5cb6b858af8b6b49538e370712"
+    },
+    "data/finder150/origin_index.json": {
+      "bytes": 30888,
+      "sha256": "1f7ec4fa766bfaef00fcb123073fa85d88e9460de2386fcebc9f7e48c0ffadea"
+    },
+    "data/finder150/history/additional_two_reviews.json": {
+      "bytes": 39890,
+      "sha256": "95744c39894fa0a75ec9d45cc5ff6f80c05bf606726db5fe6bb6a4a43076d68a"
+    },
+    "data/finder150/history/round4_round5_checks.json": {
+      "bytes": 59394,
+      "sha256": "b4ebadd2c0c00e60b03e52b5579873cbe74a101eb032981341057e3673226d5d"
+    },
+    "reproductions/finder150/render_pdf.py": {
+      "bytes": 21300,
+      "sha256": "b5c0e8c15564ff3db05c606b2fbcbf68400af558ad3cd47cb229a6cbac1a4d2d"
+    },
+    "reproductions/finder150/polish_translation.py": {
+      "bytes": 5846,
+      "sha256": "dd8423442db5d3d08c22cfe207d89e732209e97aa691eb1f4185b8f0548b74fe"
+    },
+    "reproductions/finder150/README.md": {
+      "bytes": 1139,
+      "sha256": "89c8635931484fd062e787bed17350b1cb81ff00436551b7cdbe77941fdc19f9"
+    },
+    "reproductions/finder150/replay.py": {
+      "bytes": 4929,
+      "sha256": "2bf010fe81d4ba20df919553fc376fadfbf56a6ba5ef5c41bd08a9709030089c"
+    },
+    "reproductions/finder150/build_finder.py": {
+      "bytes": 19580,
+      "sha256": "6b6fbc7bd02b41645816480a9c52e68917e6d33bd71da2279f988f153dde7b3c"
+    },
+    "reproductions/finder150/test_construction.py": {
+      "bytes": 2480,
+      "sha256": "88712a837558a4fd70e22ad5751b8a6e465da0bf649f3fe32d24ed91b9edccb1"
+    },
+    "reproductions/finder150/source_layout.py": {
+      "bytes": 4768,
+      "sha256": "3074d81a0a79f02335e11d24c40555dd8e099cd5988d9d92d3e40c341f15fcd5"
+    },
+    "reports/FinDER_150题_中文删除标注版.pdf": {
+      "bytes": 857830,
+      "sha256": "6cc46c7b46a676470824548e64295afcb5d0f93b55058f6e7ce31e6da3567117"
+    }
+  }
+}

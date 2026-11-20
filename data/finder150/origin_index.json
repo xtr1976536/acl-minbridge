@@ -1,0 +1,1202 @@
+[
+  {
+    "source_id": "ff2cf386",
+    "source_index": 5010,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.030927835051546393
+  },
+  {
+    "source_id": "6d45f35d",
+    "source_index": 4878,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.010869565217391304
+  },
+  {
+    "source_id": "84dcafd9",
+    "source_index": 2304,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.011494252873563218
+  },
+  {
+    "source_id": "eec88d38",
+    "source_index": 4724,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.01282051282051282
+  },
+  {
+    "source_id": "200b60b0",
+    "source_index": 3107,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.015873015873015872
+  },
+  {
+    "source_id": "a7807f03",
+    "source_index": 2697,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.06666666666666667
+  },
+  {
+    "source_id": "587fb46d",
+    "source_index": 5208,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.017543859649122806
+  },
+  {
+    "source_id": "28379ac6",
+    "source_index": 3976,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.018518518518518517
+  },
+  {
+    "source_id": "52a3d5cf",
+    "source_index": 3437,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.0196078431372549
+  },
+  {
+    "source_id": "2c377698",
+    "source_index": 1830,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.019801980198019802
+  },
+  {
+    "source_id": "a957a253",
+    "source_index": 3624,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.020618556701030927
+  },
+  {
+    "source_id": "eb7190b4",
+    "source_index": 882,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.08333333333333333
+  },
+  {
+    "source_id": "0b9424ce",
+    "source_index": 1344,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.02564102564102564
+  },
+  {
+    "source_id": "08f24d41",
+    "source_index": 2810,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.02564102564102564
+  },
+  {
+    "source_id": "946aec87",
+    "source_index": 2271,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.0273972602739726
+  },
+  {
+    "source_id": "d545fcc5",
+    "source_index": 2084,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.027777777777777776
+  },
+  {
+    "source_id": "ef13377c",
+    "source_index": 3459,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.027777777777777776
+  },
+  {
+    "source_id": "83e054ad",
+    "source_index": 3470,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.028985507246376812
+  },
+  {
+    "source_id": "b9d5a3e0",
+    "source_index": 5164,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.028985507246376812
+  },
+  {
+    "source_id": "f0222474",
+    "source_index": 1330,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.029411764705882353
+  },
+  {
+    "source_id": "24e50a1b",
+    "source_index": 378,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.03125
+  },
+  {
+    "source_id": "2c82c639",
+    "source_index": 1555,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.03333333333333333
+  },
+  {
+    "source_id": "8f7b5b57",
+    "source_index": 1676,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.03333333333333333
+  },
+  {
+    "source_id": "c572a986",
+    "source_index": 4317,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.03333333333333333
+  },
+  {
+    "source_id": "c6ff73ab",
+    "source_index": 3063,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.03389830508474576
+  },
+  {
+    "source_id": "3998bf05",
+    "source_index": 4372,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.03571428571428571
+  },
+  {
+    "source_id": "1248cfe0",
+    "source_index": 784,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.03636363636363636
+  },
+  {
+    "source_id": "04617585",
+    "source_index": 4713,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.036585365853658534
+  },
+  {
+    "source_id": "b62b858e",
+    "source_index": 2260,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.037037037037037035
+  },
+  {
+    "source_id": "834527e3",
+    "source_index": 4944,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.037037037037037035
+  },
+  {
+    "source_id": "504ed7e5",
+    "source_index": 238,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.0375
+  },
+  {
+    "source_id": "adc95a0a",
+    "source_index": 4482,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.03773584905660377
+  },
+  {
+    "source_id": "2916277a",
+    "source_index": 4570,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.038461538461538464
+  },
+  {
+    "source_id": "22ad7156",
+    "source_index": 5021,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.0392156862745098
+  },
+  {
+    "source_id": "cf136aa0",
+    "source_index": 2139,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.04
+  },
+  {
+    "source_id": "7e8bffef",
+    "source_index": 2447,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.04054054054054054
+  },
+  {
+    "source_id": "21b12275",
+    "source_index": 3514,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.0410958904109589
+  },
+  {
+    "source_id": "887841e7",
+    "source_index": 2568,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.04225352112676056
+  },
+  {
+    "source_id": "e4bffb23",
+    "source_index": 742,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.043478260869565216
+  },
+  {
+    "source_id": "b74abbc1",
+    "source_index": 3800,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.043478260869565216
+  },
+  {
+    "source_id": "adb517af",
+    "source_index": 4790,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.043478260869565216
+  },
+  {
+    "source_id": "f579835d",
+    "source_index": 3877,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.044444444444444446
+  },
+  {
+    "source_id": "25ebff63",
+    "source_index": 3690,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.046153846153846156
+  },
+  {
+    "source_id": "9f593dcd",
+    "source_index": 4339,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.046153846153846156
+  },
+  {
+    "source_id": "14d30823",
+    "source_index": 2722,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.046511627906976744
+  },
+  {
+    "source_id": "5f7dafff",
+    "source_index": 588,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.047619047619047616
+  },
+  {
+    "source_id": "4d1d7379",
+    "source_index": 3778,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.04838709677419355
+  },
+  {
+    "source_id": "f18f5024",
+    "source_index": 2216,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.05063291139240506
+  },
+  {
+    "source_id": "88256484",
+    "source_index": 3371,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.05263157894736842
+  },
+  {
+    "source_id": "7ec5e05d",
+    "source_index": 126,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.05454545454545454
+  },
+  {
+    "source_id": "c0dfa491",
+    "source_index": 1036,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.05555555555555555
+  },
+  {
+    "source_id": "4c4b85fd",
+    "source_index": 3921,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.05555555555555555
+  },
+  {
+    "source_id": "7da78459",
+    "source_index": 1522,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.05660377358490566
+  },
+  {
+    "source_id": "c4f5f183",
+    "source_index": 3228,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.05660377358490566
+  },
+  {
+    "source_id": "ec7a0e2a",
+    "source_index": 3723,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.05660377358490566
+  },
+  {
+    "source_id": "962b0b55",
+    "source_index": 5681,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.057971014492753624
+  },
+  {
+    "source_id": "062e1065",
+    "source_index": 4559,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.05970149253731343
+  },
+  {
+    "source_id": "8e7887db",
+    "source_index": 5648,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.06060606060606061
+  },
+  {
+    "source_id": "b4011614",
+    "source_index": 98,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.0625
+  },
+  {
+    "source_id": "0016fe33",
+    "source_index": 5384,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.06315789473684211
+  },
+  {
+    "source_id": "39788990",
+    "source_index": 1204,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.06349206349206349
+  },
+  {
+    "source_id": "e49f0250",
+    "source_index": 2293,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.06349206349206349
+  },
+  {
+    "source_id": "2af21ee3",
+    "source_index": 5505,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.06382978723404255
+  },
+  {
+    "source_id": "95ca56ef",
+    "source_index": 3217,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.06451612903225806
+  },
+  {
+    "source_id": "8768e660",
+    "source_index": 4548,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.06451612903225806
+  },
+  {
+    "source_id": "f73a90f1",
+    "source_index": 70,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.06666666666666667
+  },
+  {
+    "source_id": "d8a9b204",
+    "source_index": 1533,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.06666666666666667
+  },
+  {
+    "source_id": "8623f12f",
+    "source_index": 1952,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.06779661016949153
+  },
+  {
+    "source_id": "080ee40b",
+    "source_index": 5659,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.0684931506849315
+  },
+  {
+    "source_id": "17504a14",
+    "source_index": 2425,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.07142857142857142
+  },
+  {
+    "source_id": "8401b39e",
+    "source_index": 1963,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.07246376811594203
+  },
+  {
+    "source_id": "be52d02a",
+    "source_index": 994,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.07547169811320754
+  },
+  {
+    "source_id": "97bdbf85",
+    "source_index": 1753,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.07692307692307693
+  },
+  {
+    "source_id": "00b622f5",
+    "source_index": 2436,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.0784313725490196
+  },
+  {
+    "source_id": "371d986d",
+    "source_index": 1288,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.07936507936507936
+  },
+  {
+    "source_id": "fb040768",
+    "source_index": 2095,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.07936507936507936
+  },
+  {
+    "source_id": "0f41b58e",
+    "source_index": 4207,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.07936507936507936
+  },
+  {
+    "source_id": "8e20ea79",
+    "source_index": 5560,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.07936507936507936
+  },
+  {
+    "source_id": "bf99563c",
+    "source_index": 3789,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.08333333333333333
+  },
+  {
+    "source_id": "6c58bdfc",
+    "source_index": 5318,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.0847457627118644
+  },
+  {
+    "source_id": "d40a08c2",
+    "source_index": 3569,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.08695652173913043
+  },
+  {
+    "source_id": "ea4e4ebd",
+    "source_index": 4889,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.08771929824561403
+  },
+  {
+    "source_id": "d2c37049",
+    "source_index": 938,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.08888888888888889
+  },
+  {
+    "source_id": "f0b0699e",
+    "source_index": 3811,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.09333333333333334
+  },
+  {
+    "source_id": "7736978e",
+    "source_index": 2415,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.09523809523809523
+  },
+  {
+    "source_id": "8c22c242",
+    "source_index": 3093,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.09615384615384616
+  },
+  {
+    "source_id": "eb0a0ebb",
+    "source_index": 3027,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.09836065573770492
+  },
+  {
+    "source_id": "6fef0940",
+    "source_index": 3140,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.09859154929577464
+  },
+  {
+    "source_id": "5f023cfc",
+    "source_index": 5337,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.1
+  },
+  {
+    "source_id": "e18e0320",
+    "source_index": 154,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "low",
+    "deletion_ratio": 0.10526315789473684
+  },
+  {
+    "source_id": "379644c5",
+    "source_index": 1942,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.16666666666666666
+  },
+  {
+    "source_id": "182f0809",
+    "source_index": 2931,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.1746031746031746
+  },
+  {
+    "source_id": "40b95c16",
+    "source_index": 1841,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.17391304347826086
+  },
+  {
+    "source_id": "03d190de",
+    "source_index": 2953,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.17105263157894737
+  },
+  {
+    "source_id": "b502d1a5",
+    "source_index": 3768,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.25
+  },
+  {
+    "source_id": "729472bf",
+    "source_index": 1372,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.1746031746031746
+  },
+  {
+    "source_id": "28aab825",
+    "source_index": 5142,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.1746031746031746
+  },
+  {
+    "source_id": "fecc9c0c",
+    "source_index": 3635,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.17391304347826086
+  },
+  {
+    "source_id": "a403b09a",
+    "source_index": 1134,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.16666666666666666
+  },
+  {
+    "source_id": "d444c9ad",
+    "source_index": 2587,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.1694915254237288
+  },
+  {
+    "source_id": "779617bb",
+    "source_index": 4999,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.1724137931034483
+  },
+  {
+    "source_id": "c55b5a4d",
+    "source_index": 4614,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.17543859649122806
+  },
+  {
+    "source_id": "6f4fa24b",
+    "source_index": 5131,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.17857142857142858
+  },
+  {
+    "source_id": "0b916241",
+    "source_index": 4691,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.16666666666666666
+  },
+  {
+    "source_id": "db495ea0",
+    "source_index": 1176,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.1724137931034483
+  },
+  {
+    "source_id": "ff029827",
+    "source_index": 714,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.17777777777777778
+  },
+  {
+    "source_id": "54c6f08b",
+    "source_index": 836,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.16666666666666666
+  },
+  {
+    "source_id": "e6ac4fc5",
+    "source_index": 1456,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.18072289156626506
+  },
+  {
+    "source_id": "1a535e15",
+    "source_index": 4655,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.171875
+  },
+  {
+    "source_id": "61b91115",
+    "source_index": 4582,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.18181818181818182
+  },
+  {
+    "source_id": "63b59dff",
+    "source_index": 2535,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.2
+  },
+  {
+    "source_id": "dc4687be",
+    "source_index": 5429,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.2
+  },
+  {
+    "source_id": "89747a6d",
+    "source_index": 1274,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.1896551724137931
+  },
+  {
+    "source_id": "32053df6",
+    "source_index": 1471,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.25
+  },
+  {
+    "source_id": "c93ba789",
+    "source_index": 4911,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.2608695652173913
+  },
+  {
+    "source_id": "35b5bc58",
+    "source_index": 3940,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.2702702702702703
+  },
+  {
+    "source_id": "d08b53d5",
+    "source_index": 1986,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.2857142857142857
+  },
+  {
+    "source_id": "c6c338b7",
+    "source_index": 3548,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.2857142857142857
+  },
+  {
+    "source_id": "187d825c",
+    "source_index": 3591,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.3125
+  },
+  {
+    "source_id": "44c80f9d",
+    "source_index": 812,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "medium",
+    "deletion_ratio": 0.3176470588235294
+  },
+  {
+    "source_id": "0098df3b",
+    "source_index": 3822,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.40425531914893614
+  },
+  {
+    "source_id": "6822b3a9",
+    "source_index": 1654,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.4074074074074074
+  },
+  {
+    "source_id": "931a57ee",
+    "source_index": 4669,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.4
+  },
+  {
+    "source_id": "d2293ae7",
+    "source_index": 2158,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.4117647058823529
+  },
+  {
+    "source_id": "e0029b4e",
+    "source_index": 2378,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.4166666666666667
+  },
+  {
+    "source_id": "2963b062",
+    "source_index": 896,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.4074074074074074
+  },
+  {
+    "source_id": "6fc6d617",
+    "source_index": 5120,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.4024390243902439
+  },
+  {
+    "source_id": "8fc79e38",
+    "source_index": 4823,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.40540540540540543
+  },
+  {
+    "source_id": "0ae7ad85",
+    "source_index": 2503,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.4
+  },
+  {
+    "source_id": "1023e5b0",
+    "source_index": 253,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.4166666666666667
+  },
+  {
+    "source_id": "3073713a",
+    "source_index": 5601,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.4230769230769231
+  },
+  {
+    "source_id": "2bac5828",
+    "source_index": 5473,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.42857142857142855
+  },
+  {
+    "source_id": "7d0f1bd6",
+    "source_index": 3426,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.4482758620689655
+  },
+  {
+    "source_id": "f6fe7643",
+    "source_index": 5098,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.4482758620689655
+  },
+  {
+    "source_id": "329ae404",
+    "source_index": 864,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.47619047619047616
+  },
+  {
+    "source_id": "227a8b74",
+    "source_index": 1545,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.5
+  },
+  {
+    "source_id": "48e99010",
+    "source_index": 2238,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.5
+  },
+  {
+    "source_id": "c0e6e178",
+    "source_index": 3911,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.5
+  },
+  {
+    "source_id": "7520e2d6",
+    "source_index": 4383,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.5373134328358209
+  },
+  {
+    "source_id": "aafae895",
+    "source_index": 84,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.5416666666666666
+  },
+  {
+    "source_id": "cabfd197",
+    "source_index": 1588,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.5531914893617021
+  },
+  {
+    "source_id": "98c53591",
+    "source_index": 5395,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.5555555555555556
+  },
+  {
+    "source_id": "28b97122",
+    "source_index": 2524,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.5588235294117647
+  },
+  {
+    "source_id": "beb3f801",
+    "source_index": 5351,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.5616438356164384
+  },
+  {
+    "source_id": "01d03a27",
+    "source_index": 3041,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.6031746031746031
+  },
+  {
+    "source_id": "51c9848d",
+    "source_index": 2733,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.6195652173913043
+  },
+  {
+    "source_id": "f03482b9",
+    "source_index": 308,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.6451612903225806
+  },
+  {
+    "source_id": "2d1a2d5b",
+    "source_index": 5241,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.6486486486486487
+  },
+  {
+    "source_id": "7978c6df",
+    "source_index": 266,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.6875
+  },
+  {
+    "source_id": "cb79a5d0",
+    "source_index": 1428,
+    "origin_type": "controlled_fact_deletion",
+    "parent_source": "FinDER",
+    "severity": "high",
+    "deletion_ratio": 0.7105263157894737
+  }
+]

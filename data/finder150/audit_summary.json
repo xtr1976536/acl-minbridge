@@ -1,0 +1,49 @@
+{
+  "count": 150,
+  "groups": {
+    "low": 90,
+    "medium": 30,
+    "high": 30
+  },
+  "ratio_ranges": {
+    "low": [
+      0.010869565217391304,
+      0.10526315789473684
+    ],
+    "medium": [
+      0.16666666666666666,
+      0.3176470588235294
+    ],
+    "high": [
+      0.4,
+      0.7105263157894737
+    ]
+  },
+  "source_revision": "c4c1b6454aef7f0bb1c37235c7f52ce644642da0",
+  "human_reviews_completed": 0,
+  "model_calls": 0,
+  "private_answer_fields_in_model_input": false,
+  "status": "FinDER_150_five_machine_review_rounds_human_confirmation_pending",
+  "sha256_final_review": "c76428f00f8bd9b3f21d5b8b85ec9b0b8a04a477d49014485c298118b0ab1802",
+  "round2_independent_replay_passed": 150,
+  "finite_recovery_screen_passed": 150,
+  "source_type_counts": {
+    "Subtract": 44,
+    "Multiplication": 39,
+    "Division": 43,
+    "Addition": 24
+  },
+  "not_a_formal_unanswerability_proof": true,
+  "raw_visible_input_keys": [
+    "question",
+    "pre_text",
+    "table",
+    "post_text"
+  ],
+  "round4_reviewed": 150,
+  "round5_reviewed": 150,
+  "round5_additional_repairs": [
+    5010,
+    882
+  ]
+}

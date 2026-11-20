@@ -1,0 +1,13 @@
+{
+  "dataset": "FinDER",
+  "repository": "https://huggingface.co/datasets/Linq-AI-Research/FinDER",
+  "revision": "c4c1b6454aef7f0bb1c37235c7f52ce644642da0",
+  "upstream_file": "data/train-00000-of-00001.parquet",
+  "upstream_sha256": "213395beb38a075dcc7b23f8e213ccbd2768df0f5c615479c33e10ce8cc267f1",
+  "license": "CC-BY-NC-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "paper": "https://arxiv.org/abs/2504.15800",
+  "selected_sources": 150,
+  "model_calls": 0,
+  "human_confirmation": "pending"
+}

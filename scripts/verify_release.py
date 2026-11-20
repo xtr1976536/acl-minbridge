@@ -1,5 +1,5 @@
 """Offline integrity checks for the complete released first-stage snapshot."""
-import collections,csv,gzip,hashlib,io,json,sys
+import collections,csv,gzip,hashlib,io,json,subprocess,sys
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -94,7 +94,9 @@ def main():
     manifest=ROOT/'publication/files.json'
     if manifest.exists():
         for name,meta in json.loads(manifest.read_text())['files'].items():
-            f=ROOT/name;assert f.is_file() and hashlib.sha256(f.read_bytes()).hexdigest()==meta['sha256'],name
+            f=ROOT/name
+            blob=f.read_bytes() if f.is_file() else subprocess.check_output(['git','-C',str(ROOT),'show',':'+name])
+            assert hashlib.sha256(blob).hexdigest()==meta['sha256'],name
     result={'passed':True,'sources':150,'outputs':2700,'conditions':18,'records_per_condition':150,
        'complete_generations':2700,'model_output_duplicates_or_missing':0,'judge_records':2700,'valid_main_responses':2698,
        'internal_review_completed':656,'internal_review_selected':682,

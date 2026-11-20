@@ -23,3 +23,14 @@ The abstention-enabled CoT uses the short functional prompt recorded in VeriFin'
 ## This repository
 
 Original local implementation code is MIT-licensed in `LICENSE`; this does not replace upstream notices or grant new rights to third-party datasets. Frozen result rows, inputs and prompts retain their recorded provenance. No credentials, full research proposal or private approval conversation is a research artifact in this release.
+# FinDER
+
+FinDER及本仓库中的FinDER派生数据遵循上游声明的CC BY-NC 4.0，要求署名且仅限非商业用途；不适用本仓库的软件许可。
+来源：https://huggingface.co/datasets/Linq-AI-Research/FinDER
+许可：https://creativecommons.org/licenses/by-nc/4.0/
+论文：Chanyeol Choi et al., *FinDER: Financial Dataset for Question Answering and Evaluating Retrieval-Augmented Generation*, 2025，https://arxiv.org/abs/2504.15800。
+固定版本和源文件校验值见`data/finder150/source.json`。本仓库对其中150条源记录制作了事实删除变体和中文审核材料。
+
+# MPB
+
+MPB原始数据保持上游Apache-2.0声明，出处、原始数据卡及许可见`data/external/mpb/`。

@@ -1,0 +1,17 @@
+{
+  "pages": 119,
+  "unique_questions": 150,
+  "question_headings": 150,
+  "out_of_page_characters": 0,
+  "red_characters": 8638,
+  "pdf_sha256": "6cc46c7b46a676470824548e64295afcb5d0f93b55058f6e7ce31e6da3567117",
+  "visual_pages_checked": [
+    1,
+    2,
+    80,
+    81,
+    119
+  ],
+  "source_numeric_layout_checked": 150,
+  "human_gold_confirmation": false
+}
